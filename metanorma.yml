@@ -1,0 +1,8 @@
+---
+metanorma:
+  deploy:
+    email: "ci@metanorma.org"
+relaton:
+  collection:
+    name: Electropedia document generation
+    organization: IEC

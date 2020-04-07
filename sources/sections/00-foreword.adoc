@@ -1,0 +1,33 @@
+[[foreword]]
+.Foreword
+International Standard IEC {docnumber}-{partnumber} has been prepared by IEC technical committee {technical-committee2-number}: {technical-committee2}, of IEC technical committee {technical-committee-number}: {technical-committee}.
+
+// In the case of a new edition replacing a previous edition, complete the following paragraph. In the case of a first edition, delete it, as it does not apply.
+
+This first edition cancels and replaces the first edition of IEC 60050-191:1990, sections 191- 01 to 191-20, IEC 60050-191:1990/AMD1:1999, entries in sections 191-01 to 191-20 and IEC 60050-191:1990/AMD2:2002. It constitutes a technical revision. It has the status of a horizontal standard in accordance with IEC Guide 108.
+
+This part of IEC 60050 includes the following significant technical changes with respect to the IEC 60050-191:
+
+* inclusion of terms more commonly used by practitioners;
+* provision of figures to help explain definitions of time-related concepts.
+
+The text of this standard is based on the following documents:
+
+[%unnumbered]
+|===
+|FDIS	|Report on voting
+
+|1/2254/FDIS |1/2256/RVD
+
+|===
+
+Full information on the voting for the approval of this standard can be found in the report on voting indicated in the above table.
+
+This document has been drafted in accordance with the ISO/IEC Directives, Part 2.
+
+// In the following paragraph, delete the additional languages that do not apply.
+
+In this part of the IEV, the terms and definitions are provided in French and English; in addition the terms are given in Arabic (ar), Czech (cs), German (de), Spanish (es), Finnish (fi), Italian (it), Japanese (ja), Norwegian [Bokmål (nb) and Nynorsk (nn)], Polish (pl), Portuguese (pt), Slovenian (sl), Serbian (sr), Swedish (sv) and Chinese (zh).
+
+A list of all parts of the IEC 60050 series, published under the general title International Electrotechnical Vocabulary, can be found on the IEC website and is available at link:http://www.electropedia.org[www.electropedia.org].
+

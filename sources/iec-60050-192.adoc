@@ -1,0 +1,46 @@
+= IEV Dependability
+:comment: ### Do not edit docnumber
+:docnumber: 60050
+:tc-document-number: 9999
+:partnumber: 192
+:edition: 2
+:revdate: 2015-02-26
+:copyright-year: 2015
+:language: en
+:unchangeddate: 2015
+:comment: ### Do not edit title-main-*
+:title-main-en: International Electrotechnical Vocabulary
+:title-main-fr: Vocabulaire Électrotechnique International
+:title-part-en: Dependability
+:title-part-fr: Sûreté de fonctionnement
+:comment: ### Do not edit
+:doctype: international-standard
+:docstage: 60
+:docsubstage: 60
+:comment: ### Do not edit technical-committee-*
+:technical-committee-type: TC
+:technical-committee-number: 1
+:technical-committee: Terminology
+:comment: ### technical commmitee 2 is the body working "under the responsibility of" TC 1
+:technical-committee2-type: TC
+:technical-committee2-number: 56
+:technical-committee2: Dependability
+:language: en
+:library-ics: 01.040.11, 01.040.29, 11.020.10
+:draft:
+:toc:
+:stem:
+:xrefstyle: short
+:imagesdir: images
+:docfile: document.adoc
+:mn-document-class: iec
+:mn-output-extensions: xml,doc,html,rxl
+:local-cache-only:
+:data-uri-image:
+
+include::sections/00-foreword.adoc[]
+include::sections/00-intro.adoc[]
+include::sections/01-scope.adoc[]
+include::sections/02-norm-refs.adoc[]
+include::sections/03-termsdef.adoc[]
+include::sections/zz-references.adoc[]

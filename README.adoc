@@ -1,0 +1,64 @@
+= IEV Document demo
+
+//image:https://github.com/calconnect/tc-localization/csd-transcription-systems/badges/master/pipeline.svg["Build Status (master)", link="https://github.com/calconnect/tc-localization/csd-transcription-systems/pipelines"]
+
+//This document is available in its rendered forms here:
+
+//* https://calconnect.github.io/tc-localization/csd-transcription-systems/[CC/ISO 24229: Information and documentation -- Codes for transcription systems]
+
+
+== Fetching the document
+
+[source,sh]
+----
+git clone https://github.com/glossarist/iev-document
+----
+
+
+== Installing Build Tools
+
+See https://www.metanorma.com/author/topics/install/
+
+
+== Running via Docker or locally
+
+If you have installed the build tools locally, and wish to run the
+locally-installed compilation tools, there is nothing further to set.
+
+If you don't want to deal with local dependencies, use the docker
+version by:
+
+[source,sh]
+----
+export METANORMA_DOCKER=metanorma/metanorma
+----
+
+The `Makefile` will automatically choose the proper command to
+execute.
+
+
+== Building The Document
+
+[source,sh]
+----
+make all
+----
+
+The Makefile will first populate the sources/data directory.
+
+The following outputs will be built:
+
+* Document index at `documents.html`
+* IEC 60050-192 at `documents/iec-60050-192.html`
+* HTML (`[filename].html`)
+* PDF (`[filename].pdf`)
+* Word DOC (`[filename].doc`)
+
+
+== Iterating the document
+
+[source,sh]
+----
+make
+open documents/document.html
+----

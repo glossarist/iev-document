@@ -1,0 +1,8 @@
+// Since the IEV is managed as a database, cite any informative reference in the terminological entry concerned. UNLIKE the IEV advice, do add any informative reference in the terminological entry concerned; but they will not be rebdered.
+
+
+[bibliography]
+== Bibliography
+
+* [[[ISO639-1,ISO 639-1]]] _Codes for the representation of names of languages — Part 1: Alpha-2 code_
+

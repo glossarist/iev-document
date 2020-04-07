@@ -1,0 +1,12 @@
+
+// The requirements for IEV terminological entries are specified in the IEC Supplement to the ISO/IEC Directives, Annex SK.
+// Further information can be found at www.iec.ch/standardsdev/resources/draftingpublications/writing_editing/directives/terms_definitions.htm
+
+
+[[terms]]
+== Terms and definitions
+
+=== General
+
+include::../data/*.adoc[]
+
