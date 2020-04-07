@@ -53,7 +53,7 @@ DERIVABLE_YAML_SRC := $(wildcard sources/data/concept-192*.yaml)
 DERIVED_ADOC   := $(patsubst %.yaml,%.adoc,$(DERIVABLE_YAML_SRC))
 ADOC_GENERATOR := scripts/split_codes.rb
 
-IEVDATA_DOWNLOAD_PATH := https://github.com/glossarist/iev-data/releases/download/v0.7.20200408/concepts-0.7.20200408.zip
+IEVDATA_DOWNLOAD_PATH := https://github.com/glossarist/iev-data/releases/download/v0.8.20200408/concepts-0.8.20200408.zip
 
 all:
 	$(call print_vars)
