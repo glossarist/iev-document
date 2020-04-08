@@ -21,7 +21,7 @@ class SplitCodes
     def process_codes(yaml)
       english = yaml["eng"]
 
-      puts english.inspect
+      # puts english.inspect
       <<~EOF
 
         ==== #{english["terms"][0]["designation"]}

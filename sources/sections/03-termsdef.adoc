@@ -8,5 +8,53 @@
 
 === General
 
-include::../data/*.adoc[]
+include::../data/concept-19201*.adoc[]
+
+=== States and times
+
+include::../data/concept-19202*.adoc[]
+
+=== Reliability related concepts: failures
+
+include::../data/concept-19203*.adoc[]
+
+=== Reliability related concepts: faults
+
+include::../data/concept-19204*.adoc[]
+
+=== Reliability related concepts: measures
+
+include::../data/concept-19205*.adoc[]
+
+=== Maintenance and maintenance support related concepts
+
+include::../data/concept-19206*.adoc[]
+
+=== Maintainability and maintenance support: measures
+
+include::../data/concept-19207*.adoc[]
+
+=== Availability related measures
+
+include::../data/concept-19208*.adoc[]
+
+=== Concepts related to test, demonstration and improvement
+
+include::../data/concept-19209*.adoc[]
+
+=== Design-related dependability concepts
+
+include::../data/concept-19210*.adoc[]
+
+=== Analysis concepts
+
+include::../data/concept-19211*.adoc[]
+
+=== Dependability improvement related concepts
+
+include::../data/concept-19212*.adoc[]
+
+=== Measurement concepts and modifiers
+
+include::../data/concept-19213*.adoc[]
 
