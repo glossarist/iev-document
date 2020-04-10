@@ -53,7 +53,7 @@ DERIVABLE_YAML_SRC := $(wildcard sources/data/concept-192*.yaml)
 DERIVED_ADOC   := $(patsubst %.yaml,%.adoc,$(DERIVABLE_YAML_SRC))
 ADOC_GENERATOR := scripts/split_codes.rb
 
-IEVDATA_DOWNLOAD_PATH := https://github.com/glossarist/iev-data/releases/download/v0.11.20200408/concepts-0.11.20200408.zip
+IEVDATA_DOWNLOAD_PATH := https://github.com/glossarist/iev-data/releases/download/v0.12.20200410/concepts-0.12.20200410.zip
 
 all:
 	$(call print_vars)
@@ -130,6 +130,9 @@ open: open-html
 
 clean:
 	rm -rf documents documents.{html,rxl} published *_images sources/data $(OUT_FILES)
+
+distclean: clean
+	rm -f concepts.zip
 
 bundle:
 ifndef METANORMA_DOCKER
