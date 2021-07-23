@@ -27,20 +27,20 @@
 :technical-committee2: Dependability
 :language: en
 :library-ics: 01.040.11, 01.040.29, 11.020.10
-:draft:
-:toc:
-:stem:
-:xrefstyle: short
 :imagesdir: images
-:docfile: document.adoc
 :mn-document-class: iec
 :mn-output-extensions: xml,doc,html,rxl
 :local-cache-only:
 :data-uri-image:
 
 include::sections/00-foreword.adoc[]
+
 include::sections/00-intro.adoc[]
+
 include::sections/01-scope.adoc[]
+
 include::sections/02-norm-refs.adoc[]
+
 include::sections/03-termsdef.adoc[]
+
 include::sections/zz-references.adoc[]
