@@ -1,8 +1,8 @@
 ---
 metanorma:
-  deploy:
-    email: "ci@metanorma.org"
-relaton:
+  sources:
+    files: 
+      - sources/iec-60050-192.adoc
   collection:
     name: Electropedia document generation
     organization: IEC
