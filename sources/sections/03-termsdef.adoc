@@ -4,65 +4,12 @@
 
 == Terms and definitions
 
-// [yaml2text,iev-192.yaml,data]
-// ----
-// {% for section in data.sections %}
-// === {{section[1].title}}
+[yaml2text,iev-192.yaml,data]
+----
+{% for section in data.sections %}
+=== {{section[1].title}}
 
-// include::terms/concept-{{ section[0] }}-*.adoc[]
+include::terms/concept-{{ section[0] }}-*.adoc[]
 
-// {% endfor %}
-// ----
-
-=== General
-
-include::terms/concept-192-01*.adoc[]
-
-=== States and times
-
-include::terms/concept-192-02*.adoc[]
-
-=== Reliability related concepts: failures
-
-include::terms/concept-192-03*.adoc[]
-
-=== Reliability related concepts: faults
-
-include::terms/concept-192-04*.adoc[]
-
-=== Reliability related concepts: measures
-
-include::terms/concept-192-05*.adoc[]
-
-=== Maintenance and maintenance support related concepts
-
-include::terms/concept-192-06*.adoc[]
-
-=== Maintainability and maintenance support: measures
-
-include::terms/concept-192-07*.adoc[]
-
-=== Availability related measures
-
-include::terms/concept-192-08*.adoc[]
-
-=== Concepts related to test, demonstration and improvement
-
-include::terms/concept-192-09*.adoc[]
-
-=== Design-related dependability concepts
-
-include::terms/concept-192-10*.adoc[]
-
-=== Analysis concepts
-
-include::terms/concept-192-11*.adoc[]
-
-=== Dependability improvement related concepts
-
-include::terms/concept-192-12*.adoc[]
-
-=== Measurement concepts and modifiers
-
-include::terms/concept-192-13*.adoc[]
-
+{% endfor %}
+----
