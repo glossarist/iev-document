@@ -1,6 +1,4 @@
 
-:sectnums!:
-[[introduction]]
 [heading="Introduction"]
 == INTRODUCTION: Principles and rules followed
 
