@@ -18,10 +18,23 @@ class SplitCodes
       end
     end
 
+    def swap_term_refs(string)
+      string.gsub(/\{\{\s*([^\}]+)\s*,\s*([^\}]+)\s*\}\}/, '{{<<\2>>,\1}}')
+    end
+
+    def fix_image_paths(string)
+      string.
+        gsub("image::/assets/images/", "image::").
+        gsub("/60050-", "/")
+    end
+
+    def fix_github_issues(string)
+      swap_term_refs(fix_image_paths(string))
+    end
     def process_codes(yaml)
       english = yaml["eng"]
 
-      definition = english["definition"].gsub("image::/assets/images/","image::")
+      definition = fix_github_issues(english["definition"])
 
       # puts english.inspect
       <<~EOF
@@ -52,13 +65,13 @@ class SplitCodes
 
         #{
           english["notes"].map do |note|
-            "NOTE: #{note}\n"
+            "NOTE: #{fix_github_issues(note)}\n"
           end.join("\n")
         }
 
         #{
           english["examples"].map do |example|
-            "[example]\n--\n#{example}\n--\n"
+            "[example]\n--\n#{fix_github_issues(example)}\n--\n"
           end.join("\n")
         }
 
