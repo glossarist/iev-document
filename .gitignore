@@ -2,4 +2,4 @@
 .swp
 .tmp.xml
 sources/images/
-sources/data/*.adoc
+sources/terms/*.adoc

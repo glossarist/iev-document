@@ -1,13 +1,18 @@
 
 == Scope
 
-This part of IEC 60050 gives the general terminology used in the field of dependability.
+This part of IEC 60050 gives the general terminology used in the field of
+dependability.
 
-The terms are generic and are applicable to all fields of dependability methodology, including electrotechnical applications.
+The terms are generic and are applicable to all fields of dependability
+methodology, including electrotechnical applications.
 
-The document is not an exhaustive vocabulary for all IEC standards in the dependability field: definitions for some specialized terms may only be found in the relevant standards.
+The document is not an exhaustive vocabulary for all IEC standards in the
+dependability field: definitions for some specialized terms may only be found in
+the relevant standards.
 
-This document is based on IEC 60050-191:1990, which has been subjected to a systematic, in-depth review and revision, in order to:
+This document is based on IEC 60050-191:1990, which has been subjected to a
+systematic, in-depth review and revision, in order to:
 
 * reflect the current usage of the terms in the dependability field;
 
@@ -16,17 +21,29 @@ This document is based on IEC 60050-191:1990, which has been subjected to a syst
 * provide a grammatical form, and presentation to comply with the IEC directives.
 
 
-In producing this document, several sections of IEC 60050-191:1990 (formerly Chapter 191) concerning quality of service, have been omitted:
+In producing this document, several sections of IEC 60050-191:1990 (formerly
+Chapter 191) concerning quality of service, have been omitted:
 
-* sections 19 and 20: Quality of service in telecommunications, has been adopted and developed by the International Telecommunication Union, as publication ITU-T E.800, Definitions of terms related to quality of service; and
+* sections 19 and 20: Quality of service in telecommunications, has been adopted
+and developed by the International Telecommunication Union, as publication ITU-T
+E.800, Definitions of terms related to quality of service; and
 
-* sections 21 to 30, inclusive: Quality of service in electric power systems is to be developed as a new document, IEC 60050-6921.
+* sections 21 to 30, inclusive: Quality of service in electric power systems is
+to be developed as a new document, IEC 60050-6921.
 
-It has the status of a horizontal standard in accordance with IEC Guide 108, Guidelines for ensuring the coherency of IEC publications * Application of horizontal standards.
+It has the status of a horizontal standard in accordance with IEC Guide 108,
+Guidelines for ensuring the coherency of IEC publications * Application of
+horizontal standards.
 
-This terminology is consistent with the terminology developed in the other specialized parts of the IEV.
+This terminology is consistent with the terminology developed in the other
+specialized parts of the IEV.
 
-This horizontal standard is primarily intended for use by technical committees in the preparation of standards in accordance with the principles laid down in IEC Guide 108.
+This horizontal standard is primarily intended for use by technical committees
+in the preparation of standards in accordance with the principles laid down in
+IEC Guide 108.
 
-One of the responsibilities of a technical committee is, wherever applicable, to make use of horizontal standards in the preparation of its publications. The content of this horizontal standard will not apply unless specifically referred to or included in the relevant publications.
+One of the responsibilities of a technical committee is, wherever applicable, to
+make use of horizontal standards in the preparation of its publications. The
+content of this horizontal standard will not apply unless specifically referred
+to or included in the relevant publications.
 

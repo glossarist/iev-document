@@ -1,7 +1,7 @@
 ---
 metanorma:
-  sources:
-    files: 
+  source:
+    files:
       - sources/iec-60050-192.adoc
   collection:
     name: Electropedia document generation

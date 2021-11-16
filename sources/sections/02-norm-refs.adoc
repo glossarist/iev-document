@@ -1,7 +1,11 @@
 
 [bibliography]
-== Normative References
+== Normative references
 
-// It is necessary to include the Normative references clause for conformity with the ISO/IEC Directives, Part 2. However, since the IEV is managed as a database, cite any normative reference in the terminological entry concerned. UNLIKE the IEV advice, do add any normative reference in the terminological entry concerned; but they will not be rebdered.
+// It is necessary to include the Normative references clause for conformity with
+// the ISO/IEC Directives, Part 2. However, since the IEV is managed as a database,
+// cite any normative reference in the terminological entry concerned. UNLIKE the
+// IEV advice, do add any normative reference in the terminological entry
+// concerned; but they will not be rendered.
 
 * [[[ISO5127,ISO 5127]]]

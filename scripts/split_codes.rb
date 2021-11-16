@@ -21,6 +21,8 @@ class SplitCodes
     def process_codes(yaml)
       english = yaml["eng"]
 
+      definition = english["definition"].gsub("image::/assets/images/","image::")
+
       # puts english.inspect
       <<~EOF
 
@@ -46,7 +48,7 @@ class SplitCodes
           end
         }
 
-        #{english["definition"]}
+        #{definition}
 
         #{
           english["notes"].map do |note|
@@ -63,8 +65,8 @@ class SplitCodes
         #{
         if english["authoritative_source"]
           string = "[.source]\n"
-          string = string + english["authoritative_source"]["ref"]
-          string = string + ", " + english["authoritative_source"]["clause"] if english["authoritative_source"]["clause"]
+          string = string + english["authoritative_source"].first["ref"]
+          string = string + ", " + english["authoritative_source"].first["clause"] if english["authoritative_source"].first["clause"]
           string
         end
         }

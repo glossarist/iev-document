@@ -1,7 +1,6 @@
 = IEV Dependability
 :comment: ### Do not edit docnumber
 :docnumber: 60050
-:tc-document-number: 9999
 :partnumber: 192
 :edition: 2
 :revdate: 2015-02-26
@@ -29,9 +28,8 @@
 :library-ics: 01.040.11, 01.040.29, 11.020.10
 :imagesdir: images
 :mn-document-class: iec
-:mn-output-extensions: xml,doc,html,rxl
+:mn-output-extensions: xml,doc,html,pdf,sts,rxl
 :local-cache-only:
-:data-uri-image:
 
 include::sections/00-foreword.adoc[]
 
@@ -43,4 +41,4 @@ include::sections/02-norm-refs.adoc[]
 
 include::sections/03-termsdef.adoc[]
 
-include::sections/zz-references.adoc[]
+include::sections/99-references.adoc[]

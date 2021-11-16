@@ -5,7 +5,12 @@
 == INTRODUCTION: Principles and rules followed
 
 === General
-The IEV (IEC 60050 series) is a general purpose multilingual vocabulary covering the field of electrotechnology, electronics and telecommunication (available at link:http://www.electropedia.org[www.electropedia.org]). It comprises about 20 000 _terminological entries_, each corresponding to a concept. These entries are distributed among about 80 parts, each part corresponding to a given field.
+
+The IEV (IEC 60050 series) is a general purpose multilingual vocabulary covering
+the field of electrotechnology, electronics and telecommunication (available at
+link:http://www.electropedia.org[www.electropedia.org]). It comprises about
+20 000 _terminological entries_, each corresponding to a concept. These entries
+are distributed among about 80 parts, each part corresponding to a given field.
 
 ====
 *Part 161* (IEC 60050-161): Electromagnetic compatibility
@@ -13,33 +18,48 @@ The IEV (IEC 60050 series) is a general purpose multilingual vocabulary covering
 *Part 411* (IEC 60050-411): Rotating machines
 ====
 
-The entries follow a hierarchical classification scheme Part/Section/Concept; within the sections, the concepts are organized in a systematic order.
+The entries follow a hierarchical classification scheme Part/Section/Concept;
+within the sections, the concepts are organized in a systematic order.
 
-The terms and definitions (and possibly non-verbal representations, examples, notes and sources) in the entries are given in two or more of the three IEC languages, that is French, English and Russian (_principal IEV languages_).
+The terms and definitions (and possibly non-verbal representations, examples,
+notes and sources) in the entries are given in two or more of the three IEC
+languages, that is French, English and Russian (_principal IEV languages_).
 
-In each entry, the terms alone are also given in several of the _additional IEV languages_ [Arabic (ar), Czech (cs), German (de), Spanish (es), Finnish (fi), Italian (it), Japanese (ja), Norwegian [Bokmål (nb) and Nynorsk (nn)], Polish (pl), Portuguese (pt), Slovenian (sl), Serbian (sr), Swedish (sv) and Chinese (zh)].
+In each entry, the terms alone are also given in several of the _additional IEV
+languages_ [Arabic (ar), Czech (cs), German (de), Spanish (es), Finnish (fi),
+Italian (it), Japanese (ja), Norwegian [Bokmål (nb) and Nynorsk (nn)], Polish
+(pl), Portuguese (pt), Slovenian (sl), Serbian (sr), Swedish (sv) and Chinese
+(zh)].
 
 === Organization of a terminological entry
 
 Each of the entries corresponds to a concept, and comprises:
 
 *	an _entry number_,
+
 *	possibly a _letter symbol for the quantity or unit_,
 
 then, for the principal IEV languages present in the part:
 
-*	the term designating the concept, called _"preferred term"_, possibly accompanied by _synonyms_ and _abbreviations_,
+*	the term designating the concept, called _"preferred term"_, possibly
+accompanied by _synonyms_ and _abbreviations_,
+
 *	the _definition_ of the concept,
+
 *	possibly _non-verbal representations_, _examples_ and _notes to entry_,
+
 *	possibly the _source_,
 
 and finally, for the additional IEV languages, the terms alone.
 
 === Entry number
+
 The entry number is comprised of three elements, separated by hyphens:
 
 Part number:: 3 digits,
+
 Section number:: 2 digits,
+
 Concept number:: 2 digits (01 to 99).
 
 ====
@@ -47,7 +67,9 @@ Concept number:: 2 digits (01 to 99).
 ====
 
 === Letter symbols for quantities and units
-These symbols, which are language independent, are given on a separate line following the entry number.
+
+These symbols, which are language independent, are given on a separate line
+following the entry number.
 
 ====
 *131-12-04*
@@ -58,22 +80,30 @@ _R_
 ====
 
 === Preferred term and synonyms
-The preferred term is the term that heads a terminological entry in a given language; it may be followed by synonyms. It is printed in boldface.
+
+The preferred term is the term that heads a terminological entry in a given
+language; it may be followed by synonyms. It is printed in boldface.
 
 _Synonyms:_
 
-The synonyms are printed on separate lines under the preferred term: preferred synonyms are printed in boldface, and deprecated synonyms are printed in lightface. Deprecated synonyms are prefixed by the text “DEPRECATED:”.
+The synonyms are printed on separate lines under the preferred term: preferred
+synonyms are printed in boldface, and deprecated synonyms are printed in
+lightface. Deprecated synonyms are prefixed by the text “DEPRECATED:”.
 
 _Absence of an appropriate term:_
 
-When no appropriate term exists in a given language, the preferred term is replaced by five dots, as follows: 
+When no appropriate term exists in a given language, the preferred term is
+replaced by five dots, as follows:
 
 ____
 “ ..... ” (and there are of course no synonyms).
 ____
 
 === Attributes
-Each term (or synonym) may be followed by attributes giving additional information, and printed in lightface on the same line as the corresponding term, following this term.
+
+Each term (or synonym) may be followed by attributes giving additional
+information, and printed in lightface on the same line as the corresponding
+term, following this term.
 
 ====
 _specific use of the term_::
@@ -95,14 +125,21 @@ _grammatical information_::
 ====
 
 === Source
-In some cases, it has been necessary to include in an IEV part a concept taken from another IEV part, or from another authoritative terminology document (ISO/IEC Guide 99, ISO/IEC 2382, etc.), either with or without modification to the definition (and possibly to the term).
 
-This is indicated by the mention of this source, printed in lightface, and placed at the end of the entry in each of the principal IEV languages present.
+In some cases, it has been necessary to include in an IEV part a concept taken
+from another IEV part, or from another authoritative terminology document
+(ISO/IEC Guide 99, ISO/IEC 2382, etc.), either with or without modification to
+the definition (and possibly to the term).
+
+This is indicated by the mention of this source, printed in lightface, and
+placed at the end of the entry in each of the principal IEV languages present.
 
 ====
 SOURCE: IEC 60050-131:2002, 131-03-13, modified
 ====
 
 === Terms in additional IEV languages
-These terms are placed following the entries in the principal IEV languages, on separate lines (a single line for each language), preceded by the alpha-2 code for the language defined in ISO 639-1, and in the alphabetic order of this code.
 
+These terms are placed following the entries in the principal IEV languages, on
+separate lines (a single line for each language), preceded by the alpha-2 code
+for the language defined in ISO 639-1, and in the alphabetic order of this code.

@@ -1,39 +1,69 @@
 name: publish
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    paths-ignore:
+      - .gitlab-ci.yml
+      - .github/workflows/test.yml
+      - .github/workflows/generate.yml
+  repository_dispatch:
+    types: [ metanorma/metanorma-docker ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    container: docker://metanorma/mn
     steps:
-      - name: Setup snaps
-        run: |
-          sudo snap install jq
-          sudo snap install yq
-      - uses: actions/checkout@master
-      - name: Build document in the Metanorma container
-        env:
-          METANORMA_DOCKER: metanorma/metanorma:latest
-        run: |
-          make clean all publish
+      - uses: actions/checkout@v2
+
+      - uses: actions/cache@v2
+        with:
+          path: /config/fonts
+          key: fontist-docker
+          restore-keys: fontist-docker
+
+      - uses: metanorma/metanorma-build-scripts/gh-rubygems-setup-action@master
+        with:
+          token: ${{ secrets.METANORMA_CI_PAT_TOKEN }}
+
+      - run: |
+          curl -L --retry 3 https://raw.githubusercontent.com/metanorma/metanorma-build-scripts/master/gemfile-to-bundle-add.sh | bash
+
+      - uses: actions-mn/cli/site-gen@main
+        with:
+          agree-to-terms: true
+
+      - uses: actions/cache@v2
+        with:
+          path: relaton
+          key: relaton-${{ hashFiles('sources/sections/99*') }}
+
       - uses: actions/upload-artifact@master
         with:
-          name: published
-          path: published
+          name: site
+          path: site
 
   deploy-gh-pages:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/master'
-    needs: build
+    needs: test-docker
     steps:
-    - uses: actions/checkout@master
-    - uses: actions/download-artifact@master
-      with:
-        name: published
-    - name: deploy-to-gh
-      env:
-        GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
-        GH_DEPLOY_KEY: ${{ secrets.GH_DEPLOY_KEY }}
-        GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
-      run: |
-        curl -L https://raw.githubusercontent.com/metanorma/metanorma-build-scripts/master/ghactions-deploy-to-gh-pages.sh | bash
+      - uses: actions/download-artifact@v1
+        with:
+          name: site
+
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ github.token }}
+          publish_dir: ./site
+          force_orphan: true
+          user_name: ${{ github.actor }}
+          user_email: ${{ format('{0}@users.noreply.github.com', github.actor) }}
+          commit_message: "${{ format('Deploy to GitHub Pages: {0}', github.sha) }}"
+
+      - uses: kolpav/purge-artifacts-action@v1
+        with:
+          token: ${{ github.token }}
+          expire-in: 0
