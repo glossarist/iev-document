@@ -35,7 +35,8 @@ class SplitCodes
     def get_source_string(termyaml)
       return unless termyaml
       return unless termyaml.first
-      source_data = termyaml.first
+      #source_data = termyaml.first
+      source_data = termyaml
 
       source_string = "[.source]\n"
 
