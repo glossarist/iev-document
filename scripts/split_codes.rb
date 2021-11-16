@@ -31,10 +31,40 @@ class SplitCodes
     def fix_github_issues(string)
       swap_term_refs(fix_image_paths(string))
     end
+
+    def get_source_string(termyaml)
+      return unless termyaml
+      return unless termyaml.first
+      source_data = termyaml.first
+
+      source_string = "[.source]\n"
+
+      # TODO: Problem here is that the `ref`s cannot be added to the bibliography
+      # e.g. in 192-01-17, the source is ISO 9000.
+      # but we can't add a proper reference here unless we have that in the
+      # bibliography.
+      if source_data["ref"].match(/^IEC 60050/) && !source_data["clause"].nil?
+        source_string += "<<IEV,clause \"#{source_data["clause"]}\">>"
+      else
+        source_string += source_data["ref"]
+        if source_data["clause"]
+          source_string += ", #{source_data["clause"]}"
+        end
+      end
+
+      if source_data["relationship"]
+        if source_data["relationship"]["type"] == "modified"
+          source_string += ", #{source_data["relationship"]["modification"]}"
+        end
+      end
+
+    end
+
     def process_codes(yaml)
       english = yaml["eng"]
 
       definition = fix_github_issues(english["definition"])
+      source = get_source_string(english["authoritative_source"])
 
       # puts english.inspect
       <<~EOF
@@ -75,14 +105,7 @@ class SplitCodes
           end.join("\n")
         }
 
-        #{
-        if english["authoritative_source"]
-          string = "[.source]\n"
-          string = string + english["authoritative_source"].first["ref"]
-          string = string + ", " + english["authoritative_source"].first["clause"] if english["authoritative_source"].first["clause"]
-          string
-        end
-        }
+        #{source}
 
       EOF
     end
