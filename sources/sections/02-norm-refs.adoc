@@ -9,3 +9,6 @@
 // concerned; but they will not be rendered.
 
 * [[[ISO5127,ISO 5127]]]
+* [[[ISO9000,ISO 9000:2005]]]
+* [[[ISOIEC2382-1,ISO/IEC 2382-1:1993]]]
+* [[[ISO24765,ISO/IEC/IEEE 24765:2010]]]
