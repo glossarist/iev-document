@@ -37,6 +37,7 @@ class SplitCodes
       return unless termyaml.first
       #source_data = termyaml.first
       source_data = termyaml
+      source_data["ref"]&.sub!(/IEC\u00A0/, "IEC ")
 
       source_string = "[.source]\n"
 
@@ -58,7 +59,7 @@ class SplitCodes
           source_string += ", #{source_data["relationship"]["modification"]}"
         end
       end
-
+      source_string
     end
 
     def process_codes(yaml)
