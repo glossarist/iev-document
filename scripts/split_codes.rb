@@ -36,8 +36,7 @@ class SplitCodes
       return unless termyaml
       return unless termyaml.first
 
-      # source_data = termyaml.first
-      source_data = termyaml
+      source_data = termyaml.first
       source_data['ref']&.sub!(/IEC\u00A0/, 'IEC ')
       source_data['ref']&.sub!(/ISO\u00A0/, 'ISO ')
       source_data['ref']&.sub!(%r{ISO/IEC/IEEE\u00A0}, 'ISO/IEC/IEEE ')
