@@ -2,4 +2,7 @@
 .swp
 .tmp.xml
 sources/images/
-sources/terms/*.adoc
+sources/sections/terms/
+concepts/
+iev/
+
