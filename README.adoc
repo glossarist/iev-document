@@ -1,10 +1,33 @@
-= IEV Document demo
+= IEC Electropedia IEV Metanorma demo
 
-//image:https://github.com/calconnect/tc-localization/csd-transcription-systems/badges/master/pipeline.svg["Build Status (master)", link="https://github.com/calconnect/tc-localization/csd-transcription-systems/pipelines"]
+image:https://github.com/glossarist/iev-document/actions/workflows/publish.yml/badge.svg["Build Status", link="https://github.com/glossarist/iev-document/actions/workflows/publish.yml"]
 
-//This document is available in its rendered forms here:
+// These documents are available in its rendered forms here:
 
-//* https://calconnect.github.io/tc-localization/csd-transcription-systems/[CC/ISO 24229: Information and documentation -- Codes for transcription systems]
+// * https://glossarist.github.io/iev-document/[IEV documents in Metanorma (HTML)]
+
+
+== General
+
+This repository contains an IEV document template for generating IEC 60050 standards in Metanorma.
+
+Currently only Part 192 is generated.
+
+WARNING: The data source uses
+https://github.com/glossarist/iev-data[open-sourced data] from the IEC
+Electropedia, for the purpose of developing a demonstrator for the IEC DBRG
+group. Please refer to the
+https://www.electropedia.org[Electropedia licensing terms] for reuse
+information.
+
+
+== Structure
+
+`sources/`::
+source of the IEV document template
+
+`site/`::
+(automatically generated, in the `gh-pages` branch) published document.
 
 
 == Fetching the document
@@ -15,50 +38,36 @@ git clone https://github.com/glossarist/iev-document
 ----
 
 
-== Installing Build Tools
+== Installing build tools
 
-See https://www.metanorma.com/author/topics/install/
+See https://www.metanorma.org/install/
 
 
-== Running via Docker or locally
+== Building the document
 
 If you have installed the build tools locally, and wish to run the
 locally-installed compilation tools, there is nothing further to set.
+
+If you use a locally installed Metanorma, run:
+
+[source,sh]
+----
+make
+----
 
 If you don't want to deal with local dependencies, use the docker
 version by:
 
 [source,sh]
 ----
-export METANORMA_DOCKER=metanorma/metanorma
+make concepts/.done
+docker run -v "$(pwd)":/metanorma -w /metanorma -it metanorma/mn metanorma site generate
 ----
 
-The `Makefile` will automatically choose the proper command to
-execute.
 
+== License
 
-== Building The Document
+The copyright of such data and documents (as well as their converted text)
+remain with their original owners.
 
-[source,sh]
-----
-make all
-----
-
-The Makefile will first populate the sources/data directory.
-
-The following outputs will be built:
-
-* Document index at `documents.html`
-* IEC 60050-192 at `documents/iec-60050-192.html`
-* HTML (`[filename].html`)
-* PDF (`[filename].pdf`)
-* Word DOC (`[filename].doc`)
-
-
-== Iterating the document
-
-[source,sh]
-----
-make
-open documents/document.html
-----
+All other code and information, copyright Ribose.

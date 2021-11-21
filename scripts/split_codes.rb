@@ -67,16 +67,27 @@ class SplitCodes
       source_string
     end
 
+    def designation_metadata(term)
+      return '' unless term['usageInfo']
+
+      <<~EOF
+
+        [%metadata]
+        fieldofapplication:: #{term['usageInfo']}
+      EOF
+    end
+
     def process_codes(yaml)
       english = yaml['eng']
 
       definition = fix_github_issues(english['definition'])
       source = get_source_string(english['authoritative_source'])
+      md = designation_metadata(english['terms'][0])
 
       # puts english.inspect
       <<~EOF
 
-        ==== #{english['terms'][0]['designation']}
+        ==== #{english['terms'][0]['designation']}#{md}
 
         #{
           if english['terms'][1]
@@ -87,15 +98,12 @@ class SplitCodes
                 des = "stem:[#{des}]"
               end
 
-              if term['usageInfo']
-                #require "byebug"; byebug
-              end
-
+              md = designation_metadata(term)
               case term['normativeStatus']
               when 'admitted', 'preferred'
-                "alt:[#{term['designation']}] #{term['usageInfo'] ? "<#{term['usageInfo']}>" : ''}"
+                "alt:[#{term['designation']}]#{md}"
               when 'deprecated'
-                "deprecated:[#{term['designation']}] #{term['usageInfo'] ? "<#{term['usageInfo']}>" : ''}"
+                "deprecated:[#{term['designation']}]#{md}"
               end
             end.join("\n")
           end
