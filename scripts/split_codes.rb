@@ -68,12 +68,12 @@ class SplitCodes
     end
 
     def designation_metadata(term)
-      return '' unless term['usageInfo']
+      return '' unless term['usage_info']
 
       <<~EOF
 
         [%metadata]
-        fieldofapplication:: #{term['usageInfo']}
+        fieldofapplication:: #{term['usage_info']}
       EOF
     end
 
