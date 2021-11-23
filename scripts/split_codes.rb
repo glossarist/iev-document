@@ -21,6 +21,7 @@ class SplitCodes
     def swap_term_refs(string)
       # string.gsub(/\{\{\s*([^}]+)\s*,\s*([^}]+)\s*\}\}/, '{{<<\2>>,\1}}')
       string.gsub(/\{\{\s*([^}]+)\s*,\s*([^}]+)\s*\}\}/, '{{<<\2>>}}')
+            .gsub(/\(\{\{([^}]+)\}\}\}/, '{{\1}}')
       # we want this to be {{<<\2>>,term}}, once the term is identified in the source YAML: https://github.com/glossarist/iev-document/issues/10
     end
 
@@ -31,7 +32,11 @@ class SplitCodes
     end
 
     def fix_github_issues(string)
-      swap_term_refs(fix_image_paths(string))
+      refs_patch(swap_term_refs(fix_image_paths(string)))
+    end
+
+    def refs_patch(string)
+      string.gsub(/IEC 60050-191:1990/, '<<IEV191_1990>>')
     end
 
     def get_source_string(termyaml)
