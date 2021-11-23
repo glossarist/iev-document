@@ -19,7 +19,9 @@ class SplitCodes
     end
 
     def swap_term_refs(string)
-      string.gsub(/\{\{\s*([^}]+)\s*,\s*([^}]+)\s*\}\}/, '{{<<\2>>,\1}}')
+      # string.gsub(/\{\{\s*([^}]+)\s*,\s*([^}]+)\s*\}\}/, '{{<<\2>>,\1}}')
+      string.gsub(/\{\{\s*([^}]+)\s*,\s*([^}]+)\s*\}\}/, '{{<<\2>>}}')
+      # we want this to be {{<<\2>>,term}}, once the term is identified in the source YAML: https://github.com/glossarist/iev-document/issues/10
     end
 
     def fix_image_paths(string)
@@ -73,7 +75,7 @@ class SplitCodes
       <<~EOF
 
         [%metadata]
-        fieldofapplication:: #{term['usage_info']}
+        field-of-application:: #{term['usage_info']}
       EOF
     end
 
