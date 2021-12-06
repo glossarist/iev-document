@@ -21,7 +21,7 @@ class SplitCodes
     def swap_term_refs(string)
       # string.gsub(/\{\{\s*([^}]+)\s*,\s*([^}]+)\s*\}\}/, '{{<<\2>>,\1}}')
       string.gsub(/\{\{\s*([^}]+)\s*,\s*([^}]+)\s*\}\}/, '{{<<\2>>}}')
-            .gsub(/\(\{\{([^}]+)\}\}\}/, '{{\1}}')
+            .gsub(/\{\{\{([^}]+)\}\}\}/, '{{\1}}')
       # we want this to be {{<<\2>>,term}}, once the term is identified in the source YAML: https://github.com/glossarist/iev-document/issues/10
     end
 
