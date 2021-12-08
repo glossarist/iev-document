@@ -1,0 +1,3512 @@
+MIME-Version: 1.0
+Content-Type: multipart/related; boundary="----=_NextPart_72b454c4.456d.498b"
+
+------=_NextPart_72b454c4.456d.498b
+Content-ID: <iec-60050-192.htm>
+Content-Disposition: inline; filename="iec-60050-192.htm"
+Content-Type: text/html; charset="utf-8"
+
+<?xml version="1.0"?>
+<html xmlns:epub="http://www.idpf.org/2007/ops" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40" lang="en" xml:lang="en">
+  <head><!--[if gte mso 9]>
+<xml>
+<w:WordDocument>
+<w:View>Print</w:View>
+<w:Zoom>100</w:Zoom>
+<w:DoNotOptimizeForBrowser/>
+</w:WordDocument>
+</xml>
+<![endif]-->
+<meta http-equiv=Content-Type content="text/html; charset=utf-8"/>
+
+  <link rel=File-List href="cid:filelist.xml"/>
+<style>
+  <!--
+@charset "UTF-8";
+/* Font Definitions */
+@font-face {
+  font-family: Wingdings;
+  panose-1: 5 0 0 0 0 0 0 0 0 0;
+  mso-font-charset: 2;
+  mso-generic-font-family: decorative;
+  mso-font-pitch: variable;
+  mso-font-signature: 0 268435456 0 0 -2147483648 0; }
+
+@font-face {
+  font-family: SimSun;
+  panose-1: 2 1 6 0 3 1 1 1 1 1;
+  mso-font-alt: SimSun;
+  mso-font-charset: 134;
+  mso-generic-font-family: auto;
+  mso-font-pitch: variable;
+  mso-font-signature: 3 680460288 22 0 262145 0; }
+
+@font-face {
+  font-family: "MS Gothic";
+  panose-1: 2 11 6 9 7 2 5 8 2 4;
+  mso-font-alt: "MS Gothic";
+  mso-font-charset: 128;
+  mso-generic-font-family: modern;
+  mso-font-pitch: fixed;
+  mso-font-signature: -536870145 1791491579 134217746 0 131231 0; }
+
+@font-face {
+  font-family: "Cambria Math";
+  panose-1: 2 4 5 3 5 4 6 3 2 4;
+  mso-font-charset: 0;
+  mso-generic-font-family: roman;
+  mso-font-pitch: variable;
+  mso-font-signature: -536870145 1107305727 0 0 415 0; }
+
+@font-face {
+  font-family: Calibri;
+  panose-1: 2 15 5 2 2 2 4 3 2 4;
+  mso-font-charset: 0;
+  mso-generic-font-family: swiss;
+  mso-font-pitch: variable;
+  mso-font-signature: -536859905 -1073732485 9 0 511 0; }
+
+@font-face {
+  font-family: Cambria;
+  panose-1: 2 4 5 3 5 4 6 3 2 4;
+  mso-font-charset: 0;
+  mso-generic-font-family: roman;
+  mso-font-pitch: variable;
+  mso-font-signature: -536870145 1073743103 0 0 415 0; }
+
+@font-face {
+  font-family: "Arial Bold";
+  panose-1: 2 11 6 4 2 2 2 2 2 4;
+  mso-font-alt: Arial;
+  mso-font-charset: 0;
+  mso-generic-font-family: roman;
+  mso-font-pitch: auto;
+  mso-font-signature: 0 0 0 0 0 0; }
+
+@font-face {
+  font-family: "\@SimSun";
+  panose-1: 2 1 6 0 3 1 1 1 1 1;
+  mso-font-charset: 134;
+  mso-generic-font-family: auto;
+  mso-font-pitch: variable;
+  mso-font-signature: 3 680460288 22 0 262145 0; }
+
+@font-face {
+  font-family: "\@MS Gothic";
+  panose-1: 2 11 6 9 7 2 5 8 2 4;
+  mso-font-charset: 128;
+  mso-generic-font-family: modern;
+  mso-font-pitch: fixed;
+  mso-font-signature: -536870145 1791491579 134217746 0 131231 0; }
+
+/* Style Definitions */
+/* IEC: PARAGRAPH */
+p.MsoNormal, li.MsoNormal, div.MsoNormal {
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-parent: "";
+  mso-style-link: "PARAGRAPH Char";
+  margin-top: 5.0pt;
+  margin-right: 0cm;
+  margin-bottom: 10.0pt;
+  margin-left: 0cm;
+  text-align: justify;
+  mso-pagination: widow-orphan;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+p.MsoNormalIndent, li.MsoNormalIndent, div.MsoNormalIndent {
+  mso-style-noshow: yes;
+  mso-style-priority: 99;
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 0cm;
+  margin-left: 1.0cm;
+  margin-bottom: .0001pt;
+  text-align: justify;
+  mso-pagination: widow-orphan;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+p.MsoBlockText, li.MsoBlockText, div.MsoBlockText {
+  mso-style-noshow: yes;
+  mso-style-priority: 59;
+  mso-style-unhide: no;
+  margin-top: 0cm;
+  margin-right: 72.0pt;
+  margin-bottom: 6.0pt;
+  margin-left: 72.0pt;
+  text-align: justify;
+  mso-pagination: widow-orphan;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph {
+  mso-style-priority: 34;
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 0cm;
+  /* do not put in margin-left, it is specific to list level */
+  /* margin-left:1.0cm; */
+  margin-bottom: .0001pt;
+  text-align: justify;
+  mso-pagination: widow-orphan;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst {
+  mso-style-priority: 34;
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 0cm;
+  /* do not put in margin-left, it is specific to list level */
+  mso-pagination: widow-orphan;
+  margin-bottom: .0001pt;
+  text-align: justify;
+  mso-pagination: widow-orphan;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle {
+  mso-style-priority: 34;
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 0cm;
+  /* do not put in margin-left, it is specific to list level */
+  margin-bottom: .0001pt;
+  text-align: justify;
+  mso-pagination: widow-orphan;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast {
+  mso-style-priority: 34;
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 0cm;
+  /* do not put in margin-left, it is specific to list level */
+  margin-bottom: .0001pt;
+  text-align: justify;
+  mso-pagination: widow-orphan;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+div.figure, p.figure {
+  text-align: center; }
+
+h1.main {
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-name: "Heading 1";
+  mso-style-parent: Normal;
+  mso-style-next: Normal;
+  margin-top: 10.0pt;
+  margin-right: 0cm;
+  margin-bottom: 10.0pt;
+  margin-left: 19.85pt;
+  text-align: left;
+  text-indent: -19.85pt;
+  mso-pagination: widow-orphan;
+  page-break-after: avoid;
+  mso-outline-level: 1;
+  mso-list: l26 level1 lfo40;
+  mso-hyphenate: none;
+  tab-stops: list 19.85pt;
+  layout-grid-mode: char;
+  font-size: 11.0pt;
+  font-family: "Arial",sans-serif;
+  letter-spacing: .4pt;
+  mso-font-kerning: 0pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  font-weight: bold; }
+
+/* IEC: p.ANNEXtitle */
+h1.Annex {
+  mso-style-name: ANNEX_title;
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  /* mso-style-parent:MAIN-TITLE; */
+  mso-style-next: ANNEX-heading1;
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 10.0pt;
+  margin-left: 0cm;
+  text-align: center;
+  /* text-indent:25.5pt; */
+  page-break-before: always;
+  mso-pagination: widow-orphan;
+  mso-outline-level: 1;
+  mso-list: l4 level1 lfo19;
+  layout-grid-mode: char;
+  font-size: 12.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  /*font-weight:bold;*/
+  font-weight: normal; }
+
+/*
+h1
+	{ mso-list:l26 level1 lfo40;}
+*/
+.h2Annex, h2 {
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-parent: "Heading 1";
+  mso-style-name: "Heading 2";
+  mso-style-next: Normal;
+  margin-top: 5.0pt;
+  margin-right: 0cm;
+  margin-bottom: 5.0pt;
+  margin-left: 31.2pt;
+  text-align: left;
+  text-indent: -31.2pt;
+  mso-pagination: widow-orphan;
+  page-break-after: avoid;
+  mso-hyphenate: none;
+  tab-stops: list 31.2pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  font-weight: bold; }
+
+h2 {
+  mso-list: l26 level2 lfo40;
+  mso-outline-level: 2; }
+
+.h3Annex, h3 {
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-name: "Heading 3";
+  mso-style-parent: "Heading 2";
+  mso-style-next: Normal;
+  margin-top: 5.0pt;
+  margin-right: 0cm;
+  margin-bottom: 5.0pt;
+  margin-left: 42.55pt;
+  text-align: left;
+  text-indent: -42.55pt;
+  mso-pagination: widow-orphan;
+  page-break-after: avoid;
+  mso-hyphenate: none;
+  tab-stops: list 42.55pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  font-weight: bold; }
+
+h3 {
+  mso-list: l26 level3 lfo40;
+  mso-outline-level: 3; }
+
+.h4Annex, h4 {
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-name: "Heading 4";
+  mso-style-parent: "Heading 3";
+  mso-style-next: Normal;
+  margin-top: 5.0pt;
+  margin-right: 0cm;
+  margin-bottom: 5.0pt;
+  margin-left: 53.85pt;
+  text-align: left;
+  text-indent: -53.85pt;
+  mso-pagination: widow-orphan;
+  page-break-after: avoid;
+  mso-hyphenate: none;
+  tab-stops: list 53.85pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  font-weight: bold; }
+
+h4 {
+  mso-list: l26 level2 lfo40;
+  mso-outline-level: 4; }
+
+.h5Annex, h5 {
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-name: "Heading 5";
+  mso-style-parent: "Heading 4";
+  mso-style-next: Normal;
+  margin-top: 5.0pt;
+  margin-right: 0cm;
+  margin-bottom: 5.0pt;
+  margin-left: 65.2pt;
+  text-align: left;
+  text-indent: -65.2pt;
+  mso-pagination: widow-orphan;
+  page-break-after: avoid;
+  mso-hyphenate: none;
+  tab-stops: list 65.2pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  font-weight: bold; }
+
+h5 {
+  mso-list: l26 level5 lfo40;
+  mso-outline-level: 5; }
+
+h6 {
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-name: "Heading 6";
+  mso-style-parent: "Heading 5";
+  mso-style-next: Normal;
+  margin-top: 5.0pt;
+  margin-right: 0cm;
+  margin-bottom: 5.0pt;
+  margin-left: 76.55pt;
+  text-align: left;
+  text-indent: -76.55pt;
+  mso-pagination: widow-orphan;
+  page-break-after: avoid;
+  mso-hyphenate: none;
+  tab-stops: list 76.55pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  font-weight: bold; }
+
+h6 {
+  mso-list: l26 level6 lfo40;
+  mso-outline-level: 6; }
+
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7 {
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-name: "Heading 7";
+  mso-style-parent: "Heading 6";
+  mso-style-next: Normal;
+  margin-top: 5.0pt;
+  margin-right: 0cm;
+  margin-bottom: 5.0pt;
+  margin-left: 87.9pt;
+  text-align: left;
+  text-indent: -87.9pt;
+  mso-pagination: widow-orphan;
+  page-break-after: avoid;
+  mso-outline-level: 7;
+  mso-hyphenate: none;
+  tab-stops: list 87.9pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  font-weight: bold; }
+
+p.MsoHeading7 {
+  mso-list: l26 level7 lfo40; }
+
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8 {
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-name: "Heading 8";
+  mso-style-parent: "Heading 7";
+  mso-style-next: Normal;
+  margin-top: 5.0pt;
+  margin-right: 0cm;
+  margin-bottom: 5.0pt;
+  margin-left: 99.25pt;
+  text-align: left;
+  text-indent: -99.25pt;
+  mso-pagination: widow-orphan;
+  page-break-after: avoid;
+  mso-outline-level: 8;
+  mso-hyphenate: none;
+  tab-stops: list 99.25pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  font-weight: bold; }
+
+p.MsoHeading8 {
+  mso-list: l26 level8 lfo40; }
+
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9 {
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-name: "Heading 9";
+  mso-style-parent: "Heading 8";
+  mso-style-next: Normal;
+  margin-top: 5.0pt;
+  margin-right: 0cm;
+  margin-bottom: 5.0pt;
+  margin-left: 110.55pt;
+  text-align: left;
+  text-indent: -110.55pt;
+  mso-pagination: widow-orphan;
+  page-break-after: avoid;
+  mso-outline-level: 9;
+  mso-hyphenate: none;
+  tab-stops: list 110.55pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  font-weight: bold; }
+
+p.MsoHeading9 {
+  mso-list: l26 level9 lfo40; }
+
+p.MsoToc1, li.MsoToc1, div.MsoToc1 {
+  mso-style-priority: 39;
+  mso-style-unhide: no;
+  mso-style-name: "TOC 1";
+  margin-top: 0cm;
+  margin-right: 34.0pt;
+  margin-bottom: 5.0pt;
+  margin-left: 22.7pt;
+  text-align: left;
+  text-indent: -22.7pt;
+  mso-pagination: widow-orphan;
+  mso-hyphenate: none;
+  tab-stops: 22.7pt right dotted 453.5pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  mso-no-proof: yes; }
+
+p.MsoToc2, li.MsoToc2, div.MsoToc2 {
+  mso-style-priority: 39;
+  mso-style-unhide: no;
+  mso-style-name: "TOC 2";
+  mso-style-parent: "TOC 1";
+  margin-top: 0cm;
+  margin-right: 34.0pt;
+  margin-bottom: 3.0pt;
+  margin-left: 49.65pt;
+  text-align: left;
+  text-indent: -35.45pt;
+  mso-pagination: widow-orphan;
+  mso-hyphenate: none;
+  tab-stops: 49.65pt right dotted 453.5pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  mso-no-proof: yes; }
+
+p.MsoToc3, li.MsoToc3, div.MsoToc3 {
+  mso-style-priority: 39;
+  mso-style-unhide: no;
+  mso-style-name: "TOC 3";
+  mso-style-parent: "TOC 2";
+  margin-top: 0cm;
+  margin-right: 34.0pt;
+  margin-bottom: 3.0pt;
+  margin-left: 72.3pt;
+  text-align: left;
+  text-indent: -49.6pt;
+  mso-pagination: widow-orphan;
+  mso-hyphenate: none;
+  tab-stops: 78.0pt right dotted 453.5pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  mso-no-proof: yes; }
+
+p.MsoToc4, li.MsoToc4, div.MsoToc4 {
+  mso-style-noshow: yes;
+  mso-style-unhide: no;
+  mso-style-name: "TOC 4";
+  mso-style-parent: "TOC 3";
+  margin-top: 0cm;
+  margin-right: 34.0pt;
+  margin-bottom: 3.0pt;
+  margin-left: 130.4pt;
+  text-align: left;
+  text-indent: -45.35pt;
+  mso-pagination: widow-orphan;
+  mso-hyphenate: none;
+  tab-stops: 78.0pt 130.4pt right dotted 453.5pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  mso-no-proof: yes; }
+
+p.MsoToc5, li.MsoToc5, div.MsoToc5 {
+  mso-style-noshow: yes;
+  mso-style-unhide: no;
+  mso-style-name: "TOC 5";
+  mso-style-parent: "TOC 4";
+  margin-top: 0cm;
+  margin-right: 34.0pt;
+  margin-bottom: 3.0pt;
+  margin-left: 184.25pt;
+  text-align: left;
+  text-indent: -53.85pt;
+  mso-pagination: widow-orphan;
+  mso-hyphenate: none;
+  tab-stops: 78.0pt 184.3pt right dotted 453.5pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  mso-no-proof: yes; }
+
+p.MsoToc6, li.MsoToc6, div.MsoToc6 {
+  mso-style-noshow: yes;
+  mso-style-unhide: no;
+  mso-style-name: "TOC 6";
+  mso-style-parent: "TOC 5";
+  margin-top: 0cm;
+  margin-right: 34.0pt;
+  margin-bottom: 3.0pt;
+  margin-left: 246.65pt;
+  text-align: left;
+  text-indent: -62.35pt;
+  mso-pagination: widow-orphan;
+  mso-hyphenate: none;
+  tab-stops: 78.0pt 246.65pt right dotted 453.5pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  mso-no-proof: yes; }
+
+p.MsoToc7, li.MsoToc7, div.MsoToc7 {
+  mso-style-noshow: yes;
+  mso-style-unhide: no;
+  mso-style-name: "TOC 7";
+  mso-style-parent: "TOC 6";
+  margin-top: 0cm;
+  margin-right: 34.0pt;
+  margin-bottom: 5.0pt;
+  margin-left: 22.7pt;
+  text-align: left;
+  text-indent: -22.7pt;
+  mso-pagination: widow-orphan;
+  mso-hyphenate: none;
+  tab-stops: 22.7pt right 453.5pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  mso-no-proof: yes; }
+
+p.MsoToc8, li.MsoToc8, div.MsoToc8 {
+  mso-style-noshow: yes;
+  mso-style-unhide: no;
+  mso-style-name: "TOC 8";
+  mso-style-parent: "TOC 7";
+  margin-top: 0cm;
+  margin-right: 34.0pt;
+  margin-bottom: 5.0pt;
+  margin-left: 36.0pt;
+  text-align: left;
+  text-indent: -36.0pt;
+  mso-pagination: widow-orphan;
+  mso-hyphenate: none;
+  tab-stops: 22.7pt right dotted 453.5pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  mso-no-proof: yes; }
+
+p.MsoToc9, li.MsoToc9, div.MsoToc9 {
+  mso-style-noshow: yes;
+  mso-style-unhide: no;
+  mso-style-name: "TOC 9";
+  mso-style-parent: "TOC 8";
+  margin-top: 0cm;
+  margin-right: 34.0pt;
+  margin-bottom: 5.0pt;
+  margin-left: 36.0pt;
+  text-align: left;
+  text-indent: -36.0pt;
+  mso-pagination: widow-orphan;
+  mso-hyphenate: none;
+  tab-stops: 22.7pt right dotted 453.5pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  mso-no-proof: yes; }
+
+p.MsoHeader, li.MsoHeader, div.MsoHeader {
+  mso-style-unhide: no;
+  mso-style-name: "Header";
+  margin: 0cm;
+  margin-bottom: .0001pt;
+  text-align: justify;
+  mso-pagination: widow-orphan;
+  tab-stops: center 8.0cm right 16.0cm;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+p.MsoHeaderLandscape, li.MsoHeaderLandscape, div.MsoHeaderLandscape {
+  mso-style-unhide: no;
+  margin: 0cm;
+  margin-bottom: .0001pt;
+  text-align: justify;
+  mso-pagination: widow-orphan;
+  tab-stops: center 331.0pt right 662.0pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+p.MsoFooter, li.MsoFooter, div.MsoFooter {
+  mso-style-noshow: yes;
+  mso-style-priority: 29;
+  mso-style-unhide: no;
+  mso-style-parent: Header;
+  margin: 0cm;
+  margin-bottom: .0001pt;
+  text-align: justify;
+  mso-pagination: widow-orphan;
+  tab-stops: center 8.0cm right 16.0cm;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+p.MsoFooterLandscape, li.MsoFooterLandscape, div.MsoFooterLandscape {
+  mso-style-noshow: yes;
+  mso-style-priority: 29;
+  mso-style-unhide: no;
+  mso-style-parent: Header;
+  margin: 0cm;
+  margin-bottom: .0001pt;
+  text-align: justify;
+  mso-pagination: widow-orphan;
+  tab-stops: center 331.0pt right 662.0pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+span.MsoFootnoteReference {
+  mso-style-noshow: yes;
+  mso-style-unhide: no;
+  mso-style-parent: "";
+  mso-style-name: "Footnote Reference";
+  mso-ansi-font-size: 8.0pt;
+  mso-bidi-font-size: 8.0pt;
+  font-family: "Arial",sans-serif;
+  mso-ascii-font-family: Arial;
+  mso-hansi-font-family: Arial;
+  position: relative;
+  top: -2.0pt;
+  mso-text-raise: 2.0pt;
+  vertical-align: baseline; }
+
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText {
+  mso-style-noshow: yes;
+  mso-style-unhide: no;
+  mso-style-name: "MsoFootnoteText";
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 5.0pt;
+  margin-left: 14.2pt;
+  text-align: justify;
+  text-indent: -14.2pt;
+  mso-pagination: widow-orphan;
+  layout-grid-mode: char;
+  font-size: 8.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+a:link, span.MsoHyperlink {
+  mso-style-priority: 99;
+  mso-style-unhide: no;
+  mso-style-parent: "";
+  mso-style-name: "Hyperlink";
+  color: windowtext;
+  text-decoration: none;
+  text-underline: none; }
+
+a:visited, span.MsoHyperlinkFollowed {
+  mso-style-priority: 99;
+  mso-style-unhide: no;
+  mso-style-parent: Hyperlink;
+  color: windowtext;
+  text-decoration: none;
+  text-underline: none; }
+
+span.Heading1Char {
+  mso-style-name: "Heading 1 Char";
+  mso-style-priority: 1;
+  mso-style-unhide: no;
+  mso-style-locked: yes;
+  mso-style-parent: "";
+  mso-style-link: "Heading 1";
+  mso-ansi-font-size: 11.0pt;
+  font-size: 11.0pt;
+  font-family: "Arial",sans-serif;
+  letter-spacing: .4pt;
+  mso-font-kerning: 0pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  font-weight: bold; }
+
+span.Heading2Char {
+  mso-style-name: "Heading 2 Char";
+  mso-style-priority: 2;
+  mso-style-unhide: no;
+  mso-style-locked: yes;
+  mso-style-parent: "";
+  mso-style-link: "Heading 2";
+  mso-ansi-font-size: 10.0pt;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  font-weight: bold; }
+
+span.Heading3Char {
+  mso-style-name: "Heading 3 Char";
+  mso-style-priority: 3;
+  mso-style-unhide: no;
+  mso-style-locked: yes;
+  mso-style-parent: "";
+  mso-style-link: "Heading 3";
+  mso-ansi-font-size: 10.0pt;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: JA;
+  font-weight: bold;
+  mso-bidi-font-weight: normal; }
+
+span.Heading4Char {
+  mso-style-name: "Heading 4 Char";
+  mso-style-priority: 4;
+  mso-style-unhide: no;
+  mso-style-locked: yes;
+  mso-style-parent: "";
+  mso-style-link: "Heading 4";
+  mso-ansi-font-size: 10.0pt;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: JA;
+  font-weight: bold;
+  mso-bidi-font-weight: normal; }
+
+span.Heading5Char {
+  mso-style-name: "Heading 5 Char";
+  mso-style-priority: 5;
+  mso-style-unhide: no;
+  mso-style-locked: yes;
+  mso-style-parent: "";
+  mso-style-link: "Heading 5";
+  mso-ansi-font-size: 10.0pt;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: JA;
+  font-weight: bold;
+  mso-bidi-font-weight: normal; }
+
+span.Heading6Char {
+  mso-style-name: "Heading 6 Char";
+  mso-style-priority: 6;
+  mso-style-unhide: no;
+  mso-style-locked: yes;
+  mso-style-parent: "";
+  mso-style-link: "Heading 6";
+  mso-ansi-font-size: 10.0pt;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: JA;
+  font-weight: bold;
+  mso-bidi-font-weight: normal; }
+
+p.a2, li.a2, div.a2 {
+  mso-style-name: a2;
+  mso-style-priority: 11;
+  mso-style-unhide: no;
+  mso-style-next: Normal;
+  margin-top: 13.5pt;
+  margin-right: 0cm;
+  margin-bottom: 12.0pt;
+  margin-left: 0cm;
+  text-indent: 0cm;
+  line-height: 13.5pt;
+  mso-pagination: widow-orphan;
+  page-break-after: avoid;
+  mso-outline-level: 1;
+  mso-list: l0 level2 lfo12;
+  tab-stops: 1.0cm 36.0pt;
+  font-size: 13.0pt;
+  mso-bidi-font-size: 11.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Arial",sans-serif;
+  mso-bidi-font-family: "Arial",sans-serif;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: JA;
+  font-weight: bold;
+  mso-bidi-font-weight: normal; }
+
+p.a3, li.a3, div.a3 {
+  mso-style-name: a3;
+  mso-style-priority: 12;
+  mso-style-unhide: no;
+  mso-style-next: Normal;
+  margin-top: 3.0pt;
+  margin-right: 0cm;
+  margin-bottom: 12.0pt;
+  margin-left: 0cm;
+  text-indent: 0cm;
+  line-height: 12.5pt;
+  mso-pagination: widow-orphan;
+  page-break-after: avoid;
+  mso-outline-level: 1;
+  mso-list: l0 level3 lfo12;
+  tab-stops: 20.15pt list 36.0pt;
+  font-size: 12.0pt;
+  mso-bidi-font-size: 11.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Arial",sans-serif;
+  mso-bidi-font-family: "Arial",sans-serif;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: JA;
+  font-weight: bold;
+  mso-bidi-font-weight: normal; }
+
+p.a4, li.a4, div.a4 {
+  mso-style-name: a4;
+  mso-style-priority: 13;
+  mso-style-unhide: no;
+  mso-style-next: Normal;
+  margin-top: 3.0pt;
+  margin-right: 0cm;
+  margin-bottom: 12.0pt;
+  margin-left: 0cm;
+  text-indent: 0cm;
+  line-height: 12.0pt;
+  mso-pagination: widow-orphan;
+  page-break-after: avoid;
+  mso-outline-level: 1;
+  mso-list: l0 level4 lfo12;
+  tab-stops: 20.15pt 44.0pt list 54.0pt;
+  font-size: 11.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Arial",sans-serif;
+  mso-bidi-font-family: "Arial",sans-serif;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: JA;
+  font-weight: bold;
+  mso-bidi-font-style: italic; }
+
+p.a5, li.a5, div.a5 {
+  mso-style-name: a5;
+  mso-style-priority: 14;
+  mso-style-unhide: no;
+  mso-style-next: Normal;
+  margin-top: 3.0pt;
+  margin-right: 0cm;
+  margin-bottom: 12.0pt;
+  margin-left: 0cm;
+  text-indent: 0cm;
+  line-height: 12.0pt;
+  mso-pagination: widow-orphan;
+  page-break-after: avoid;
+  mso-outline-level: 1;
+  mso-list: l0 level5 lfo12;
+  tab-stops: 20.15pt list 54.0pt left 62.35pt 68.0pt;
+  font-size: 11.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Arial",sans-serif;
+  mso-bidi-font-family: "Arial",sans-serif;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: JA;
+  font-weight: bold;
+  mso-bidi-font-style: italic; }
+
+p.a6, li.a6, div.a6 {
+  mso-style-name: a6;
+  mso-style-priority: 15;
+  mso-style-unhide: no;
+  mso-style-next: Normal;
+  margin-top: 3.0pt;
+  margin-right: 0cm;
+  margin-bottom: 12.0pt;
+  margin-left: 0cm;
+  text-indent: 0cm;
+  line-height: 12.0pt;
+  mso-pagination: widow-orphan;
+  page-break-after: avoid;
+  mso-outline-level: 1;
+  mso-list: l0 level6 lfo12;
+  tab-stops: 20.15pt 62.35pt 68.0pt list 72.0pt;
+  font-size: 11.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Arial",sans-serif;
+  mso-bidi-font-family: "Arial",sans-serif;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: JA;
+  font-weight: bold; }
+
+span.FooterChar {
+  mso-style-name: "Footer Char";
+  mso-style-noshow: yes;
+  mso-style-priority: 99;
+  mso-style-unhide: no;
+  mso-style-locked: yes;
+  mso-style-parent: "";
+  mso-style-link: Footer;
+  mso-ansi-font-size: 11.0pt;
+  mso-bidi-font-size: 11.0pt;
+  mso-ansi-language: EN-GB; }
+
+span.HeaderChar {
+  mso-style-name: "Header Char";
+  mso-style-noshow: yes;
+  mso-style-priority: 99;
+  mso-style-unhide: no;
+  mso-style-locked: yes;
+  mso-style-parent: "";
+  mso-style-link: Header;
+  mso-ansi-font-size: 11.0pt;
+  mso-bidi-font-size: 11.0pt;
+  mso-ansi-language: EN-GB;
+  font-weight: bold;
+  mso-bidi-font-weight: normal; }
+
+/* IEC:PARAGRAPH Char */
+span.BodyTextChar {
+  mso-style-name: "Body Text Char";
+  mso-style-unhide: no;
+  mso-style-locked: yes;
+  mso-style-parent: "";
+  mso-style-link: "Body Text";
+  font-family: "Arial",sans-serif;
+  mso-ascii-font-family: Arial;
+  mso-hansi-font-family: Arial;
+  mso-bidi-font-family: Arial;
+  letter-spacing: .4pt;
+  mso-fareast-language: ZH-CN; }
+
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText {
+  mso-style-noshow: yes;
+  mso-style-priority: 99;
+  mso-style-name: "Comment Text";
+  mso-style-link: "Comment Text Char";
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 12.0pt;
+  margin-left: 0cm;
+  text-align: justify;
+  line-height: 12.0pt;
+  mso-pagination: widow-orphan;
+  tab-stops: 20.15pt;
+  font-size: 12.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Arial",sans-serif;
+  mso-bidi-font-family: "Arial",sans-serif;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: EN-US; }
+
+span.MsoCommentReference {
+  mso-style-noshow: yes;
+  mso-style-unhide: no;
+  mso-style-parent: "";
+  mso-ansi-font-size: 8.0pt;
+  mso-bidi-font-size: 8.0pt; }
+
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject {
+  mso-style-noshow: yes;
+  mso-style-priority: 99;
+  mso-style-parent: "Comment Text";
+  mso-style-link: "Comment Subject Char";
+  mso-style-next: "Comment Text";
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 12.0pt;
+  margin-left: 0cm;
+  text-align: justify;
+  line-height: 12.0pt;
+  mso-pagination: widow-orphan;
+  tab-stops: 20.15pt;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Arial",sans-serif;
+  mso-bidi-font-family: "Arial",sans-serif;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: EN-US;
+  font-weight: bold; }
+
+p.Tablebody, li.Tablebody, div.Tablebody {
+  mso-style-name: "Table body";
+  mso-style-noshow: yes;
+  mso-style-unhide: no;
+  margin-top: 3.0pt;
+  margin-right: 0cm;
+  margin-bottom: 3.0pt;
+  margin-left: 0cm;
+  line-height: 10.5pt;
+  mso-pagination: widow-orphan;
+  font-size: 10.0pt;
+  mso-bidi-font-size: 11.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Arial",sans-serif;
+  mso-bidi-font-family: "Arial",sans-serif;
+  mso-ansi-language: EN-GB; }
+
+.MsoChpDefault {
+  mso-style-type: export-only;
+  mso-default-props: yes;
+  mso-ascii-font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Arial",sans-serif;
+  mso-hansi-font-family: "Arial",sans-serif; }
+
+p.MsoList, li.MsoList, div.MsoList {
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-name: "List";
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 5.0pt;
+  margin-left: 17.0pt;
+  text-align: justify;
+  text-indent: -17.0pt;
+  mso-pagination: widow-orphan;
+  tab-stops: 17.0pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+p.MsoListBullet, li.MsoListBullet, div.MsoListBullet {
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 5.0pt;
+  margin-left: 17.0pt;
+  text-align: justify;
+  text-indent: -17.0pt;
+  mso-pagination: widow-orphan;
+  mso-list: l22 level1 lfo8;
+  tab-stops: 17.0pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+p.MsoListNumber, li.MsoListNumber, div.MsoListNumber {
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-parent: List;
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 5.0pt;
+  margin-left: 17.0pt;
+  text-align: justify;
+  text-indent: -17.0pt;
+  mso-pagination: widow-orphan;
+  mso-list: l15 level1 lfo1;
+  tab-stops: 17.0pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+p.MsoIndex1, li.MsoIndex1, div.MsoIndex1 {
+  mso-style-update: auto;
+  mso-style-noshow: yes;
+  mso-style-priority: 99;
+  mso-style-next: Normal;
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 0cm;
+  margin-left: 10.0pt;
+  margin-bottom: .0001pt;
+  text-align: justify;
+  text-indent: -10.0pt;
+  mso-pagination: widow-orphan;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+p.MsoIndex2, li.MsoIndex2, div.MsoIndex2 {
+  mso-style-update: auto;
+  mso-style-noshow: yes;
+  mso-style-priority: 99;
+  mso-style-next: Normal;
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 0cm;
+  margin-left: 20.0pt;
+  margin-bottom: .0001pt;
+  text-align: justify;
+  text-indent: -10.0pt;
+  mso-pagination: widow-orphan;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+p.MsoIndex3, li.MsoIndex3, div.MsoIndex3 {
+  mso-style-update: auto;
+  mso-style-noshow: yes;
+  mso-style-priority: 99;
+  mso-style-next: Normal;
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 0cm;
+  margin-left: 30.0pt;
+  margin-bottom: .0001pt;
+  text-align: justify;
+  text-indent: -10.0pt;
+  mso-pagination: widow-orphan;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+p.MsoIndex4, li.MsoIndex4, div.MsoIndex4 {
+  mso-style-update: auto;
+  mso-style-noshow: yes;
+  mso-style-priority: 99;
+  mso-style-next: Normal;
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 0cm;
+  margin-left: 40.0pt;
+  margin-bottom: .0001pt;
+  text-align: justify;
+  text-indent: -10.0pt;
+  mso-pagination: widow-orphan;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+p.MsoIndex5, li.MsoIndex5, div.MsoIndex5 {
+  mso-style-update: auto;
+  mso-style-noshow: yes;
+  mso-style-priority: 99;
+  mso-style-next: Normal;
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 0cm;
+  margin-left: 50.0pt;
+  margin-bottom: .0001pt;
+  text-align: justify;
+  text-indent: -10.0pt;
+  mso-pagination: widow-orphan;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+p.MsoIndex6, li.MsoIndex6, div.MsoIndex6 {
+  mso-style-update: auto;
+  mso-style-noshow: yes;
+  mso-style-priority: 99;
+  mso-style-next: Normal;
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 0cm;
+  margin-left: 60.0pt;
+  margin-bottom: .0001pt;
+  text-align: justify;
+  text-indent: -10.0pt;
+  mso-pagination: widow-orphan;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+p.MsoIndex7, li.MsoIndex7, div.MsoIndex7 {
+  mso-style-update: auto;
+  mso-style-noshow: yes;
+  mso-style-priority: 99;
+  mso-style-next: Normal;
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 0cm;
+  margin-left: 70.0pt;
+  margin-bottom: .0001pt;
+  text-align: justify;
+  text-indent: -10.0pt;
+  mso-pagination: widow-orphan;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+p.MsoIndex8, li.MsoIndex8, div.MsoIndex8 {
+  mso-style-update: auto;
+  mso-style-noshow: yes;
+  mso-style-priority: 99;
+  mso-style-next: Normal;
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 0cm;
+  margin-left: 80.0pt;
+  margin-bottom: .0001pt;
+  text-align: justify;
+  text-indent: -10.0pt;
+  mso-pagination: widow-orphan;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+p.MsoIndex9, li.MsoIndex9, div.MsoIndex9 {
+  mso-style-update: auto;
+  mso-style-noshow: yes;
+  mso-style-priority: 99;
+  mso-style-next: Normal;
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 0cm;
+  margin-left: 90.0pt;
+  margin-bottom: .0001pt;
+  text-align: justify;
+  text-indent: -10.0pt;
+  mso-pagination: widow-orphan;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+p.MsoIndexHeading, li.MsoIndexHeading, div.MsoIndexHeading {
+  mso-style-noshow: yes;
+  mso-style-priority: 99;
+  mso-style-next: "MsoIndex 1";
+  margin: 0cm;
+  margin-bottom: .0001pt;
+  text-align: justify;
+  mso-pagination: widow-orphan;
+  font-size: 10.0pt;
+  font-family: "Cambria",serif;
+  mso-fareast-font-family: "MS Gothic";
+  mso-bidi-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  font-weight: bold; }
+
+/* Page Definitions */
+@page {
+  mso-mirror-margins: yes;
+  mso-footnote-separator: url(cid:header.html) fs;
+  mso-footnote-continuation-separator: url(cid:header.html) fcs;
+  mso-endnote-separator: url(cid:header.html) es;
+  mso-endnote-continuation-separator: url(cid:header.html) ecs;
+  mso-facing-pages: yes;
+           }
+
+@page WordSection1 {
+  size: 595.0pt 842.0pt;
+  margin: 72.0pt 90.0pt 72.0pt 90.0pt;
+  mso-header-margin: 35.4pt;
+  mso-footer-margin: 35.4pt;
+  mso-even-header: url(cid:header.html) eha;
+  mso-header: url(cid:header.html) ha;
+  mso-even-footer: url(cid:header.html) efa;
+  mso-paper-source: 0; }
+
+div.WordSection1 {
+  page: WordSection1; }
+
+@page WordSection2 {
+  size: 595.3pt 841.9pt;
+  margin: 3.0cm 2.5cm 1.5cm 2.5cm;
+  mso-header-margin: 35.45pt;
+  mso-footer-margin: 14.2pt;
+  mso-even-header: url(cid:header.html) eh2;
+  mso-header: url(cid:header.html) h2;
+  mso-even-footer: url(cid:header.html) ef2;
+  mso-footer: url(cid:header.html) f2;
+  mso-first-header: url(cid:header.html) fh2;
+  mso-first-footer: url(cid:header.html) ff2;
+  mso-paper-source: 0; }
+
+@page WordSection2L {
+  size: 841.9pt 595.3pt;
+  margin: 3.0cm 2.5cm 1.5cm 2.5cm;
+  mso-header-margin: 35.45pt;
+  mso-footer-margin: 14.2pt;
+  mso-even-header: url(cid:header.html) eh2l;
+  mso-header: url(cid:header.html) h2l;
+  mso-even-footer: url(cid:header.html) ef2l;
+  mso-footer: url(cid:header.html) f2l;
+  mso-first-header: url(cid:header.html) fh2l;
+  mso-first-footer: url(cid:header.html) ff2l;
+  mso-paper-source: 0; }
+
+@page WordSection2P {
+  size: 595.3pt 841.9pt;
+  margin: 3.0cm 2.5cm 1.5cm 2.5cm;
+  mso-header-margin: 35.45pt;
+  mso-footer-margin: 14.2pt;
+  mso-even-header: url(cid:header.html) eh2;
+  mso-header: url(cid:header.html) h2;
+  mso-even-footer: url(cid:header.html) ef2;
+  mso-footer: url(cid:header.html) f2;
+  mso-first-header: url(cid:header.html) fh2;
+  mso-first-footer: url(cid:header.html) ff2;
+  mso-paper-source: 0; }
+
+div.WordSection2 {
+  page: WordSection2; }
+
+@page WordSection3 {
+  size: 595.3pt 841.9pt;
+  margin: 3.0cm 2.5cm 1.5cm 2.5cm;
+  mso-header-margin: 35.45pt;
+  mso-footer-margin: 14.2pt;
+  mso-even-header: url(cid:header.html) eh2;
+  mso-header: url(cid:header.html) h2;
+  mso-even-footer: url(cid:header.html) ef3;
+  mso-footer: url(cid:header.html) f3;
+  mso-first-header: url(cid:header.html) fh3;
+  mso-first-footer: url(cid:header.html) ff3;
+  mso-paper-source: 0; }
+
+@page WordSection3L {
+  size: 841.9pt 595.3pt;
+  margin: 3.0cm 2.5cm 1.5cm 2.5cm;
+  mso-header-margin: 35.45pt;
+  mso-footer-margin: 14.2pt;
+  mso-even-header: url(cid:header.html) eh2;
+  mso-header: url(cid:header.html) h2;
+  mso-even-footer: url(cid:header.html) ef3;
+  mso-footer: url(cid:header.html) f3;
+  mso-first-header: url(cid:header.html) fh3;
+  mso-first-footer: url(cid:header.html) ff3;
+  mso-paper-source: 0; }
+
+@page WordSection3P {
+  size: 595.3pt 841.9pt;
+  margin: 3.0cm 2.5cm 1.5cm 2.5cm;
+  mso-header-margin: 35.45pt;
+  mso-footer-margin: 14.2pt;
+  mso-even-header: url(cid:header.html) eh2;
+  mso-header: url(cid:header.html) h2;
+  mso-even-footer: url(cid:header.html) ef3;
+  mso-footer: url(cid:header.html) f3;
+  mso-first-header: url(cid:header.html) fh3;
+  mso-first-footer: url(cid:header.html) ff3;
+  mso-paper-source: 0; }
+
+div.WordSection3 {
+  page: WordSection3; }
+
+@page WordSection4 {
+  size: 595.3pt 841.9pt;
+  margin: 3.0cm 2.5cm 1.5cm 2.5cm;
+  mso-header-margin: 35.45pt;
+  mso-footer-margin: 14.2pt;
+  mso-even-header: url(cid:header.html) eh2;
+  mso-header: url(cid:header.html) h2;
+  mso-even-footer: url(cid:header.html) f4;
+  mso-footer: url(cid:header.html) f4;
+  mso-first-header: url(cid:header.html) fh4;
+  mso-first-footer: url(cid:header.html) ff4;
+  mso-paper-source: 0; }
+
+div.colophon {
+  page: WordSection4; }
+
+/* List Definitions */
+@list l0 {
+  mso-list-id: 145051656;
+  mso-list-template-ids: 2112159680; }
+
+@list l0:level1 {
+  mso-level-number-format: alpha-upper;
+  mso-level-style-link: ANNEX;
+  mso-level-suffix: none;
+  mso-level-text: "Annex\00A0%1";
+  mso-level-tab-stop: none;
+  mso-level-number-position: left;
+  margin-left: 0cm;
+  text-indent: 0cm;
+  mso-ansi-font-size: 14.0pt;
+  mso-bidi-font-size: 14.0pt;
+  font-family: "Arial",sans-serif;
+  mso-bidi-font-family: "Arial",sans-serif;
+  mso-ansi-font-weight: bold;
+  mso-ansi-font-style: normal; }
+
+@list l0:level2 {
+  mso-level-style-link: a2;
+  mso-level-text: "%1\.%2";
+  mso-level-tab-stop: 18.0pt;
+  mso-level-number-position: left;
+  margin-left: 0cm;
+  text-indent: 0cm;
+  mso-bidi-font-family: "Arial",sans-serif;
+  mso-ansi-font-weight: bold;
+  mso-ansi-font-style: normal; }
+
+@list l0:level3 {
+  mso-level-style-link: a3;
+  mso-level-text: "%1\.%2\.%3";
+  mso-level-tab-stop: 36.0pt;
+  mso-level-number-position: left;
+  margin-left: 0cm;
+  text-indent: 0cm;
+  mso-bidi-font-family: "Arial",sans-serif;
+  mso-ansi-font-weight: bold;
+  mso-ansi-font-style: normal; }
+
+@list l0:level4 {
+  mso-level-style-link: a4;
+  mso-level-text: "%1\.%2\.%3\.%4";
+  mso-level-tab-stop: 54.0pt;
+  mso-level-number-position: left;
+  margin-left: 0cm;
+  text-indent: 0cm;
+  mso-bidi-font-family: "Arial",sans-serif;
+  mso-ansi-font-weight: bold;
+  mso-ansi-font-style: normal; }
+
+@list l0:level5 {
+  mso-level-style-link: a5;
+  mso-level-text: "%1\.%2\.%3\.%4\.%5";
+  mso-level-tab-stop: 54.0pt;
+  mso-level-number-position: left;
+  margin-left: 0cm;
+  text-indent: 0cm;
+  mso-bidi-font-family: "Arial",sans-serif;
+  mso-ansi-font-weight: bold;
+  mso-ansi-font-style: normal; }
+
+@list l0:level6 {
+  mso-level-style-link: a6;
+  mso-level-text: "%1\.%2\.%3\.%4\.%5\.%6";
+  mso-level-tab-stop: 72.0pt;
+  mso-level-number-position: left;
+  margin-left: 0cm;
+  text-indent: 0cm;
+  mso-bidi-font-family: "Arial",sans-serif;
+  mso-ansi-font-weight: bold;
+  mso-ansi-font-style: normal; }
+
+@list l0:level7 {
+  mso-level-reset-level: level2;
+  mso-level-suffix: space;
+  mso-level-text: "Figure\00A0%1\.%7\00A0—";
+  mso-level-tab-stop: none;
+  mso-level-number-position: left;
+  margin-left: 0cm;
+  text-indent: 0cm;
+  mso-bidi-font-family: "Arial",sans-serif; }
+
+@list l0:level8 {
+  mso-level-reset-level: level2;
+  mso-level-suffix: space;
+  mso-level-text: "Table\00A0%1\.%8\00A0—";
+  mso-level-tab-stop: none;
+  mso-level-number-position: left;
+  margin-left: 0cm;
+  text-indent: 0cm;
+  mso-bidi-font-family: "Arial",sans-serif; }
+
+@list l0:level9 {
+  mso-level-number-format: roman-lower;
+  mso-level-text: "\(%9\)";
+  mso-level-tab-stop: 306.0pt;
+  mso-level-number-position: left;
+  margin-left: 0cm;
+  text-indent: 0cm;
+  mso-bidi-font-family: "Arial",sans-serif; }
+
+@list l1 {
+  mso-list-id: 866942648;
+  mso-list-template-ids: -1756330000; }
+
+@list l1:level1 {
+  mso-level-style-link: "Heading 1";
+  mso-level-text: "%1";
+  mso-level-tab-stop: 21.6pt;
+  mso-level-number-position: left;
+  margin-left: 21.6pt;
+  text-indent: -21.6pt;
+  mso-bidi-font-family: "Arial",sans-serif;
+  mso-ansi-font-weight: bold;
+  mso-ansi-font-style: normal; }
+
+@list l1:level2 {
+  mso-level-style-link: "Heading 2";
+  mso-level-text: "%1\.%2";
+  mso-level-tab-stop: 18.0pt;
+  mso-level-number-position: left;
+  margin-left: 0cm;
+  text-indent: 0cm;
+  mso-bidi-font-family: "Arial",sans-serif;
+  mso-ansi-font-weight: bold;
+  mso-ansi-font-style: normal; }
+
+@list l1:level3 {
+  mso-level-style-link: "Heading 3";
+  mso-level-text: "%1\.%2\.%3";
+  mso-level-tab-stop: 36.0pt;
+  mso-level-number-position: left;
+  margin-left: 0cm;
+  text-indent: 0cm;
+  mso-bidi-font-family: "Arial",sans-serif;
+  mso-ansi-font-weight: bold;
+  mso-ansi-font-style: normal; }
+
+@list l1:level4 {
+  mso-level-style-link: "Heading 4";
+  mso-level-text: "%1\.%2\.%3\.%4";
+  mso-level-tab-stop: 54.0pt;
+  mso-level-number-position: left;
+  margin-left: 0cm;
+  text-indent: 0cm;
+  mso-bidi-font-family: "Arial",sans-serif;
+  mso-ansi-font-weight: bold;
+  mso-ansi-font-style: normal; }
+
+@list l1:level5 {
+  mso-level-style-link: "Heading 5";
+  mso-level-text: "%1\.%2\.%3\.%4\.%5";
+  mso-level-tab-stop: 54.0pt;
+  mso-level-number-position: left;
+  margin-left: 0cm;
+  text-indent: 0cm;
+  mso-bidi-font-family: "Arial",sans-serif;
+  mso-ansi-font-weight: bold;
+  mso-ansi-font-style: normal; }
+
+@list l1:level6 {
+  mso-level-style-link: "Heading 6";
+  mso-level-text: "%1\.%2\.%3\.%4\.%5\.%6";
+  mso-level-tab-stop: 72.0pt;
+  mso-level-number-position: left;
+  margin-left: 0cm;
+  text-indent: 0cm;
+  mso-bidi-font-family: "Arial",sans-serif;
+  mso-ansi-font-weight: bold;
+  mso-ansi-font-style: normal; }
+
+@list l1:level7 {
+  mso-level-text: "%1\.%2\.%3\.%4\.%5\.%6\.%7";
+  mso-level-tab-stop: 72.0pt;
+  mso-level-number-position: left;
+  margin-left: 0cm;
+  text-indent: 0cm;
+  mso-bidi-font-family: "Arial",sans-serif; }
+
+@list l1:level8 {
+  mso-level-text: "%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+  mso-level-tab-stop: 90.0pt;
+  mso-level-number-position: left;
+  margin-left: 0cm;
+  text-indent: 0cm;
+  mso-bidi-font-family: "Arial",sans-serif; }
+
+@list l1:level9 {
+  mso-level-text: "%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+  mso-level-tab-stop: 90.0pt;
+  mso-level-number-position: left;
+  margin-left: 0cm;
+  text-indent: 0cm;
+  mso-bidi-font-family: "Arial",sans-serif; }
+
+/* ordered list */
+@list l2 {
+  mso-list-id: 525294607;
+  mso-list-template-ids: 67633181; }
+
+@list l2:level1 {
+  mso-level-number-format: alpha-lower;
+  mso-level-text: "%1\)";
+  mso-level-tab-stop: none;
+  mso-level-number-position: left;
+  margin-left: 18.0pt;
+  text-indent: -18.0pt; }
+
+@list l2:level2 {
+  mso-level-text: "%2\)";
+  mso-level-tab-stop: none;
+  mso-level-number-position: left;
+  margin-left: 36.0pt;
+  text-indent: -18.0pt; }
+
+@list l2:level3 {
+  mso-level-number-format: roman-lower;
+  mso-level-text: "%3\)";
+  mso-level-tab-stop: none;
+  mso-level-number-position: left;
+  margin-left: 54.0pt;
+  text-indent: -18.0pt; }
+
+@list l2:level4 {
+  mso-level-number-format: alpha-upper;
+  mso-level-text: "%4\)";
+  mso-level-tab-stop: none;
+  mso-level-number-position: left;
+  margin-left: 72.0pt;
+  text-indent: -18.0pt; }
+
+@list l2:level5 {
+  mso-level-number-format: roman-upper;
+  mso-level-text: "%5\)";
+  mso-level-tab-stop: none;
+  mso-level-number-position: left;
+  margin-left: 90.0pt;
+  text-indent: -18.0pt; }
+
+@list l2:level6 {
+  mso-level-number-format: alpha-lower;
+  mso-level-text: "%6\)";
+  mso-level-tab-stop: none;
+  mso-level-number-position: left;
+  margin-left: 108.0pt;
+  text-indent: -18.0pt; }
+
+@list l2:level7 {
+  mso-level-tab-stop: none;
+  mso-level-text: "%7\)";
+  mso-level-number-position: left;
+  margin-left: 126.0pt;
+  text-indent: -18.0pt; }
+
+@list l2:level8 {
+  mso-level-number-format: roman-lower;
+  mso-level-text: "%8\)";
+  mso-level-tab-stop: none;
+  mso-level-number-position: left;
+  margin-left: 144.0pt;
+  text-indent: -18.0pt; }
+
+@list l2:level9 {
+  mso-level-number-format: alpha-upper;
+  mso-level-text: "%9\)";
+  mso-level-tab-stop: none;
+  mso-level-number-position: left;
+  margin-left: 162.0pt;
+  text-indent: -18.0pt; }
+
+/* Unordered list */
+@list l22 {
+  mso-list-id: 1413698929;
+  mso-list-type: hybrid;
+  mso-list-template-ids: 71322752 636230186 134807555 134807557 134807553 134807555 134807557 134807553 134807555 134807557; }
+
+@list l22:level1 {
+  mso-level-number-format: bullet;
+  mso-level-style-link: "\039B\03AF\03C3\03C4\03B1 \03BC\03B5 \03BA\03BF\03C5\03BA\03BA\03AF\03B4\03B5\03C2";
+  mso-level-text: \F0B7;
+  mso-level-tab-stop: 36.0pt;
+  mso-level-number-position: left;
+  text-indent: -18.0pt;
+  font-family: Symbol; }
+
+@list l22:level2 {
+  mso-level-number-format: bullet;
+  mso-level-text: o;
+  mso-level-tab-stop: 72.0pt;
+  mso-level-number-position: left;
+  text-indent: -18.0pt;
+  font-family: "Courier New";
+  mso-bidi-font-family: "Courier New"; }
+
+@list l22:level3 {
+  mso-level-number-format: bullet;
+  mso-level-text: \F0A7;
+  mso-level-tab-stop: 108.0pt;
+  mso-level-number-position: left;
+  text-indent: -18.0pt;
+  font-family: Wingdings; }
+
+@list l22:level4 {
+  mso-level-number-format: bullet;
+  mso-level-text: \F0B7;
+  mso-level-tab-stop: 144.0pt;
+  mso-level-number-position: left;
+  text-indent: -18.0pt;
+  font-family: Symbol; }
+
+@list l22:level5 {
+  mso-level-number-format: bullet;
+  mso-level-text: o;
+  mso-level-tab-stop: 180.0pt;
+  mso-level-number-position: left;
+  text-indent: -18.0pt;
+  font-family: "Courier New";
+  mso-bidi-font-family: "Courier New"; }
+
+@list l22:level6 {
+  mso-level-number-format: bullet;
+  mso-level-text: \F0A7;
+  mso-level-tab-stop: 216.0pt;
+  mso-level-number-position: left;
+  text-indent: -18.0pt;
+  font-family: Wingdings; }
+
+@list l22:level7 {
+  mso-level-number-format: bullet;
+  mso-level-text: \F0B7;
+  mso-level-tab-stop: 252.0pt;
+  mso-level-number-position: left;
+  text-indent: -18.0pt;
+  font-family: Symbol; }
+
+@list l22:level8 {
+  mso-level-number-format: bullet;
+  mso-level-text: o;
+  mso-level-tab-stop: 288.0pt;
+  mso-level-number-position: left;
+  text-indent: -18.0pt;
+  font-family: "Courier New";
+  mso-bidi-font-family: "Courier New"; }
+
+@list l22:level9 {
+  mso-level-number-format: bullet;
+  mso-level-text: \F0A7;
+  mso-level-tab-stop: 324.0pt;
+  mso-level-number-position: left;
+  text-indent: -18.0pt;
+  font-family: Wingdings; }
+
+/* Headings */
+@list l26 {
+  mso-list-id: 1668635903;
+  mso-list-template-ids: -379296966;
+  mso-list-style-id: 901253906; }
+
+@list l26:level1 {
+  mso-level-style-link: "Heading 1";
+  mso-level-text: "%1";
+  mso-level-tab-stop: 19.85pt;
+  mso-level-number-position: left;
+  margin-left: 19.85pt;
+  text-indent: -19.85pt; }
+
+@list l26:level2 {
+  mso-level-style-link: "Heading 2";
+  mso-level-text: "%1\.%2";
+  mso-level-tab-stop: 31.2pt;
+  mso-level-number-position: left;
+  margin-left: 31.2pt;
+  text-indent: -31.2pt; }
+
+@list l26:level3 {
+  mso-level-style-link: "Heading 3";
+  mso-level-text: "%1\.%2\.%3";
+  mso-level-tab-stop: 42.55pt;
+  mso-level-number-position: left;
+  margin-left: 42.55pt;
+  text-indent: -42.55pt; }
+
+@list l26:level4 {
+  mso-level-style-link: "Heading 4";
+  mso-level-text: "%1\.%2\.%3\.%4";
+  mso-level-tab-stop: 53.85pt;
+  mso-level-number-position: left;
+  margin-left: 53.85pt;
+  text-indent: -53.85pt; }
+
+@list l26:level5 {
+  mso-level-style-link: "Heading 5";
+  mso-level-text: "%1\.%2\.%3\.%4\.%5";
+  mso-level-tab-stop: 65.2pt;
+  mso-level-number-position: left;
+  margin-left: 65.2pt;
+  text-indent: -65.2pt; }
+
+@list l26:level6 {
+  mso-level-style-link: "Heading 6";
+  mso-level-text: "%1\.%2\.%3\.%4\.%5\.%6";
+  mso-level-tab-stop: 76.55pt;
+  mso-level-number-position: left;
+  margin-left: 76.55pt;
+  text-indent: -76.55pt; }
+
+@list l26:level7 {
+  mso-level-style-link: "Heading 7";
+  mso-level-text: "%1\.%2\.%3\.%4\.%5\.%6\.%7";
+  mso-level-tab-stop: 87.9pt;
+  mso-level-number-position: left;
+  margin-left: 87.9pt;
+  text-indent: -87.9pt; }
+
+@list l26:level8 {
+  mso-level-style-link: "Heading 8";
+  mso-level-text: "%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+  mso-level-tab-stop: 99.25pt;
+  mso-level-number-position: left;
+  margin-left: 99.25pt;
+  text-indent: -99.25pt; }
+
+@list l26:level9 {
+  mso-level-style-link: "Heading 9";
+  mso-level-text: "%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+  mso-level-tab-stop: 110.55pt;
+  mso-level-number-position: left;
+  margin-left: 110.55pt;
+  text-indent: -110.55pt; }
+
+div.ListContLevel1 {
+  mso-style-priority: 34;
+  margin-left: 18.0pt;
+  margin-right: 0cm; }
+
+div.ListContLevel2 {
+  mso-style-priority: 34;
+  margin-top: 0cm;
+  margin-left: 36.0pt;
+  margin-right: 0cm; }
+
+div.ListContLevel3 {
+  mso-style-priority: 34;
+  margin-left: 54.0pt;
+  margin-right: 0cm; }
+
+div.ListContLevel4 {
+  mso-style-priority: 34;
+  margin-left: 72.0pt;
+  margin-right: 0cm; }
+
+div.ListContLevel5 {
+  mso-style-priority: 34;
+  margin-left: 90.0pt;
+  margin-right: 0cm; }
+
+div.ListContLevel6 {
+  mso-style-priority: 34;
+  margin-left: 108.0pt;
+  margin-right: 0cm; }
+
+div.ListContLevel7 {
+  mso-style-priority: 34;
+  margin-left: 126.0pt;
+  margin-right: 0cm; }
+
+div.ListContLevel8 {
+  mso-style-priority: 34;
+  margin-left: 144.0pt;
+  margin-right: 0cm; }
+
+div.ListContLevel9 {
+  mso-style-priority: 34;
+  margin-left: 162.0pt;
+  margin-right: 0cm; }
+
+table.MsoNormalTable {
+  mso-style-name: "Table Normal";
+  mso-tstyle-rowband-size: 0;
+  mso-tstyle-colband-size: 0;
+  mso-style-noshow: yes;
+  mso-style-priority: 99;
+  mso-style-parent: "";
+  mso-padding-alt: 0cm 5.4pt 0cm 5.4pt;
+  mso-para-margin: 0cm;
+  mso-para-margin-bottom: .0001pt;
+  mso-pagination: widow-orphan;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif; }
+
+ol {
+  margin-bottom: 0cm;
+  margin-left: 18pt; }
+
+ul {
+  margin-bottom: 0cm;
+  margin-left: 18pt; }
+
+-->
+</style><meta http-equiv=Content-Type content="text/html; charset=UTF-8"/>
+    <style>
+      <!--
+div.table_container {
+  margin-bottom: 14pt;
+}
+
+ol
+        {margin-bottom:0cm;}
+ul
+        {margin-bottom:0cm;}
+
+table.MsoISOTable tr
+    {page-break-inside:avoid;}
+
+td { page-break-inside:avoid; }
+tr { page-break-after:avoid; }
+
+table.MsoISOTableBig tr
+    {page-break-inside:auto;}
+
+table.MsoISOTableBig td
+    {page-break-inside:auto;}
+
+span.stem
+    {font-family:"Cambria Math",serif;
+    mso-ascii-font-family:"Cambria Math";
+    font-style:italic;}
+
+dt
+    {page-break-inside:avoid;
+    page-break-after:avoid}
+
+br.section
+    {page-break-before:always;
+    mso-break-type:section-break;}
+br.pagebreak
+    {page-break-before:always;
+    mso-special-character:line-break;}
+
+span.addition {
+        color: blue;
+}
+span.deletion {
+        color: red;
+        text-decoration: line-through;
+}
+
+-->
+    </style>
+    <style>
+      <!--
+/* IEC: CODE */
+p.Sourcecode, li.Sourcecode, div.Sourcecode, pre.Sourcecode {
+  mso-style-unhide: no;
+  mso-style-name: "CODE";
+  mso-style-unhide: no;
+  margin-top: 5.0pt;
+  margin-right: 0cm;
+  margin-bottom: 5.0pt;
+  margin-left: 0cm;
+  mso-add-space: auto;
+  text-align: left;
+  mso-pagination: widow-orphan;
+  layout-grid-mode: char;
+  font-size: 9.0pt;
+  mso-bidi-font-size: 10.0pt;
+  font-family: "Courier New",monospace;
+  mso-fareast-font-family: "Times New Roman";
+  mso-bidi-font-family: Arial;
+  letter-spacing: -.1pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  mso-no-proof: yes; }
+
+p.pseudocode, li.pseudocode, div.pseudocode {
+  mso-style-unhide: no;
+  mso-style-unhide: no;
+  margin-top: 5.0pt;
+  margin-right: 0cm;
+  margin-bottom: 5.0pt;
+  margin-left: 0cm;
+  mso-add-space: auto;
+  text-align: left;
+  mso-pagination: widow-orphan;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  mso-bidi-font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  mso-bidi-font-family: Arial;
+  letter-spacing: -.1pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  mso-no-proof: yes; }
+
+p.CODE-TableCell, li.CODE-TableCell, div.CODE-TableCell, pre.CODE-TableCell {
+  mso-style-name: CODE-TableCell;
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-parent: CODE;
+  margin-top: 5.0pt;
+  margin-right: 0cm;
+  margin-bottom: 5.0pt;
+  margin-left: 0cm;
+  mso-add-space: auto;
+  text-align: left;
+  mso-pagination: widow-orphan;
+  layout-grid-mode: char;
+  font-size: 8.0pt;
+  mso-bidi-font-size: 10.0pt;
+  font-family: 9.0pt;
+  mso-fareast-font-family: "Times New Roman";
+  mso-bidi-font-family: Arial;
+  letter-spacing: -.1pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  mso-no-proof: yes; }
+
+/* IEC: BIBLIOGRAPHY-numbered, restricted to numeric resources */
+p.Biblio, li.Biblio, div.Biblio {
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-parent: Normal;
+  margin-top: 5.0pt;
+  margin-right: 0cm;
+  margin-bottom: 10.0pt;
+  margin-left: 34.0pt;
+  text-align: justify;
+  text-indent: -34.0pt;
+  mso-pagination: widow-orphan;
+  /* No, we autonumber */
+  /* mso-list:l6 level1 lfo20; */
+  tab-stops: list 34.0pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+p.NormRef, li.NormRef, div.NormRef {
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-parent: Normal;
+  margin-top: 5.0pt;
+  margin-right: 0cm;
+  margin-bottom: 10.0pt;
+  margin-left: 0pt;
+  text-align: justify;
+  mso-pagination: widow-orphan;
+  /* No, we autonumber */
+  /* mso-list:l6 level1 lfo20; */
+  tab-stops: list 34.0pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+/* IEC: FIGURE-title */
+p.FigureTitle {
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-next: Normal;
+  margin-top: 5.0pt;
+  margin-right: 0cm;
+  margin-bottom: 10.0pt;
+  margin-left: 0cm;
+  text-align: center;
+  mso-pagination: widow-orphan;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  font-weight: bold; }
+
+p.AdmonitionTitle, p.RecommendationTitle {
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-next: Normal;
+  margin-top: 5.0pt;
+  margin-right: 0cm;
+  margin-bottom: 10.0pt;
+  margin-left: 0cm;
+  text-align: center;
+  mso-pagination: widow-orphan;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  font-weight: bold; }
+
+p.SourceTitle {
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-next: Normal;
+  margin-top: 5.0pt;
+  margin-right: 0cm;
+  margin-bottom: 10.0pt;
+  margin-left: 0cm;
+  text-align: center;
+  mso-pagination: widow-orphan;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  font-weight: bold; }
+
+/* IEC: TABLE-title */
+p.TableTitle {
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-parent: Normal;
+  mso-style-next: Normal;
+  margin-top: 5.0pt;
+  margin-right: 0cm;
+  margin-bottom: 10.0pt;
+  margin-left: 0cm;
+  text-align: center;
+  mso-pagination: widow-orphan;
+  page-break-after: avoid;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  font-weight: bold; }
+
+/* IEC: NOTE */
+p.Note, div.Note, li.Note {
+  mso-style-unhide: no;
+  mso-style-name: "NOTE";
+  mso-style-qformat: yes;
+  mso-style-next: Normal;
+  margin-top: 5.0pt;
+  margin-right: 0cm;
+  margin-bottom: 5.0pt;
+  margin-left: 0cm;
+  text-align: justify;
+  mso-pagination: widow-orphan;
+  layout-grid-mode: char;
+  font-size: 8.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+/* IEC: TABFIGfootnote */
+p.TableFootnote, div.TableFootnote, li.TableFootnote {
+  mso-style-unhide: no;
+  mso-style-parent: "MsoFootnoteText";
+  margin-top: 3.0pt;
+  margin-right: 0cm;
+  margin-bottom: 3.0pt;
+  margin-left: 14.2pt;
+  text-align: justify;
+  text-indent: -14.2pt;
+  mso-pagination: widow-orphan;
+  tab-stops: 14.2pt;
+  layout-grid-mode: char;
+  font-size: 8.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+/* IEC: HEADINGNonumber */
+p.ForewordTitle, li.ForewordTitle, div.ForewordTitle, h1.ForewordTitle {
+  mso-style-name: "Foreword Title";
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-parent: Normal;
+  mso-style-next: Normal;
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 10.0pt;
+  margin-left: 0cm;
+  text-align: center;
+  text-indent: 0pt;
+  mso-pagination: widow-orphan;
+  page-break-after: avoid;
+  mso-outline-level: 1;
+  mso-hyphenate: none;
+  layout-grid-mode: char;
+  font-size: 12.0pt;
+  mso-bidi-font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+/* IEC: HEADINGNonumber */
+p.IntroTitle, li.IntroTitle, div.IntroTitle, h1.IntroTitle {
+  mso-style-name: "Intro Title";
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-parent: Normal;
+  mso-style-next: Normal;
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 10.0pt;
+  margin-left: 0cm;
+  text-align: center;
+  text-indent: 0pt;
+  mso-pagination: widow-orphan;
+  page-break-after: avoid;
+  mso-outline-level: 1;
+  mso-hyphenate: none;
+  layout-grid-mode: char;
+  font-size: 12.0pt;
+  mso-bidi-font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+p.TitlePageSubhead, li.TitlePageSubhead, div.TitlePageSubhead {
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-parent: Normal;
+  mso-style-next: Normal;
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 10.0pt;
+  margin-left: 0cm;
+  text-align: center;
+  text-indent: 0pt;
+  mso-pagination: widow-orphan;
+  page-break-after: avoid;
+  mso-hyphenate: none;
+  layout-grid-mode: char;
+  font-size: 12.0pt;
+  mso-bidi-font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+/* IEC: TERM */
+p.Terms, li.Terms, div.Terms {
+  mso-style-name: "TERM";
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-next: TERM-definition;
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 0cm;
+  margin-left: 17.0pt;
+  margin-bottom: .0001pt;
+  text-align: justify;
+  text-indent: -17.0pt;
+  mso-pagination: widow-orphan;
+  page-break-after: avoid;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+/* IEC: TERM-admitted  */
+p.AltTerms, li.AltTerms, div.AltTerms {
+  mso-style-name: "AltTerm\(s\)";
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-parent: TERM;
+  mso-style-next: TERM-definition;
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 0cm;
+  /* https://github.com/metanorma/metanorma-iec/issues/62 */
+  /* margin-left:17.0pt; */
+  /* suppress to line up math terms */
+  margin-bottom: .0001pt;
+  text-align: justify;
+  /* text-indent:-17.0pt; */
+  /* suppress to line up math terms */
+  mso-pagination: widow-orphan;
+  page-break-after: avoid;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  mso-bidi-font-weight: bold; }
+
+/* TERM-deprecated */
+p.DeprecatedTerms, li.DeprecatedTerms, div.DeprecatedTerms {
+  mso-style-name: "DeprecatedTerm\(s\)";
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-parent: NOTE;
+  mso-style-next: TERM-number;
+  margin-top: 5.0pt;
+  margin-right: 0cm;
+  margin-bottom: 5.0pt;
+  margin-left: 0cm;
+  text-align: justify;
+  mso-pagination: widow-orphan;
+  layout-grid-mode: char;
+  font-size: 8.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+/* IEC: TERM-number */
+p.TermNum, li.TermNum, div.TermNum {
+  mso-style-name: TermNum;
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-parent: "Heading 2";
+  mso-style-next: TERM;
+  margin-top: 5.0pt;
+  margin-right: 0cm;
+  margin-bottom: 0cm;
+  margin-left: 0cm;
+  margin-bottom: .0001pt;
+  text-align: left;
+  text-indent: 0cm;
+  mso-pagination: widow-orphan;
+  page-break-after: avoid;
+  /* No, we autonumber */
+  /*mso-list:l26 level2 lfo40;*/
+  mso-hyphenate: none;
+  tab-stops: list 31.2pt;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  font-weight: bold; }
+
+p.zzContents, li.zzContents, div.zzContents {
+  mso-style-name: zzContents;
+  mso-style-noshow: yes;
+  mso-style-unhide: no;
+  mso-style-next: "TOC 1";
+  margin-top: 48.0pt;
+  margin-right: 0cm;
+  margin-bottom: 15.5pt;
+  margin-left: 0cm;
+  line-height: 15.5pt;
+  mso-line-height-rule: exactly;
+  page-break-before: always;
+  mso-pagination: widow-orphan;
+  page-break-after: avoid;
+  mso-hyphenate: none;
+  tab-stops: 20.15pt;
+  font-size: 12.0pt;
+  text-align: center;
+  mso-bidi-font-size: 11.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Arial",sans-serif;
+  mso-bidi-font-family: "Arial",sans-serif;
+  mso-ansi-language: EN-GB;
+  font-weight: bold;
+  mso-bidi-font-weight: normal; }
+
+p.zzCopyright, li.zzCopyright, div.zzCopyright {
+  mso-style-name: zzCopyright;
+  mso-style-noshow: yes;
+  mso-style-unhide: no;
+  mso-style-next: Normal;
+  margin-top: 0cm;
+  margin-right: 14.2pt;
+  margin-bottom: 12.0pt;
+  margin-left: 14.2pt;
+  text-align: justify;
+  line-height: 12.0pt;
+  mso-pagination: widow-orphan;
+  tab-stops: 20.15pt 25.7pt 481.15pt;
+  border: none;
+  mso-border-alt: solid blue .5pt;
+  padding: 0cm;
+  mso-padding-alt: 1.0pt 4.0pt 1.0pt 4.0pt;
+  font-size: 11.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Arial",sans-serif;
+  mso-bidi-font-family: "Arial",sans-serif;
+  mso-ansi-language: EN-GB; }
+
+/* IEC: MAIN-TITLE */
+p.zzSTDTitle1, li.zzSTDTitle1, div.zzSTDTitle1 {
+  mso-style-name: zzSTDTitle;
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  margin: 0cm;
+  margin-bottom: .0001pt;
+  text-align: center;
+  mso-pagination: widow-orphan;
+  layout-grid-mode: char;
+  font-size: 12.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  text-transform: uppercase;
+  font-weight: normal; }
+
+/* IEC: MAIN-TITLE, not distinct from zzSTDTitle1 */
+p.zzSTDTitle2, li.zzSTDTitle2, div.zzSTDTitle2 {
+  mso-style-name: zzSTDTitle;
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  margin: 0cm;
+  margin-bottom: .0001pt;
+  text-align: center;
+  mso-pagination: widow-orphan;
+  layout-grid-mode: char;
+  font-size: 12.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  font-weight: normal; }
+
+p.TABLE-col-heading, li.TABLE-col-heading, div.TABLE-col-heading {
+  mso-style-name: TABLE-col-heading;
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-parent: Normal;
+  margin-top: 3.0pt;
+  margin-right: 0cm;
+  margin-bottom: 3.0pt;
+  margin-left: 0cm;
+  text-align: center;
+  mso-pagination: widow-orphan;
+  page-break-after: avoid;
+  layout-grid-mode: char;
+  font-size: 8.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  font-weight: bold; }
+
+p.TABLE-cell, li.TABLE-cell, div.TABLE-cell {
+  mso-style-name: TABLE-cell;
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-parent: Normal;
+  margin-top: 3.0pt;
+  margin-right: 0cm;
+  margin-bottom: 3.0pt;
+  margin-left: 0cm;
+  text-align: left;
+  mso-pagination: widow-orphan;
+  layout-grid-mode: char;
+  font-size: 8.0pt;
+  mso-bidi-font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN;
+  mso-bidi-font-weight: bold; }
+
+p.Quote, li.Quote, div.Quote {
+  mso-style-priority: 99;
+  margin-top: 0cm;
+  margin-right: 36.0pt;
+  margin-bottom: 0cm;
+  margin-left: 36.0pt;
+  text-align: justify;
+  line-height: 12.0pt;
+  mso-pagination: widow-orphan;
+  tab-stops: 20.15pt;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Arial",sans-serif;
+  mso-bidi-font-family: "Arial",sans-serif;
+  mso-ansi-language: EN-GB; }
+
+p.QuoteAttribution {
+  text-align: right; }
+
+p.Admonition, li.Admonition, div.Admonition {
+  mso-style-priority: 99;
+  mso-pagination: widow-orphan;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-ascii-font-family: "Arial",sans-serif;
+  mso-ascii-theme-font: minor-latin;
+  mso-fareast-font-family: "Arial",sans-serif;
+  mso-fareast-theme-font: minor-fareast;
+  mso-hansi-font-family: "Arial",sans-serif;
+  mso-hansi-theme-font: minor-latin;
+  mso-bidi-font-family: "Arial",sans-serif;
+  mso-bidi-theme-font: minor-bidi;
+  mso-element: para-border-div;
+  border: solid windowtext 1.0pt;
+  mso-border-alt: solid windowtext .5pt;
+  padding: 1.0pt 4.0pt 1.0pt 4.0pt;
+  font-weight: bold;
+  mso-ansi-language: EN-AU; }
+
+/* IEC:PARAEQUATION */
+p.formula, li.formula, div.formula {
+  mso-style-name: Formula;
+  mso-style-unhide: no;
+  mso-style-qformat: yes;
+  mso-style-next: Normal;
+  margin-top: 10.0pt;
+  margin-right: 0cm;
+  margin-bottom: 10.0pt;
+  margin-left: 0cm;
+  text-align: justify;
+  mso-pagination: widow-orphan;
+  tab-stops: center 8.0cm right 16.0cm;
+  layout-grid-mode: char;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+table.formula_dl {
+  margin-left: 0.0cm; }
+
+p.FOREWORD, li.FOREWORD, div.FOREWORD {
+  mso-style-name: FOREWORD;
+  mso-style-unhide: no;
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 5.0pt;
+  margin-left: 14.2pt;
+  text-align: justify;
+  text-indent: -14.2pt;
+  mso-pagination: widow-orphan;
+  tab-stops: 14.2pt;
+  layout-grid-mode: char;
+  font-size: 8.0pt;
+  font-family: "Arial",sans-serif;
+  mso-fareast-font-family: "Times New Roman";
+  letter-spacing: .4pt;
+  mso-ansi-language: EN-GB;
+  mso-fareast-language: ZH-CN; }
+
+table.dl {
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 11.0pt;
+  margin-left: 0cm; }
+
+div.figdl {
+  text-align: left; }
+
+table.figdl {
+  mso-para-margin: 0cm;
+  mso-para-margin-bottom: .0001pt;
+  mso-pagination: widow-orphan;
+  align: left;
+  text-align: left;
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-left: 0cm;
+  margin-right: 0cm; }
+
+table.MsoISOTable, table.MsoISOTableBig {
+  mso-style-name: "Table ISO";
+  mso-tstyle-rowband-size: 0;
+  mso-tstyle-colband-size: 0;
+  mso-style-noshow: yes;
+  mso-style-priority: 99;
+  mso-style-parent: "";
+  mso-padding-alt: 0cm 2.85pt 0cm 2.85pt;
+  mso-para-margin: 0cm;
+  mso-para-margin-bottom: .0001pt;
+  mso-pagination: widow-orphan;
+  border-collapse: collapse;
+  /*mso-table-layout-alt:fixed;*/
+  border: solid windowtext 2pt;
+  mso-border-alt: solid windowtext 2pt;
+  mso-yfti-tbllook: 480;
+  mso-border-insideh: .75pt solid windowtext;
+  mso-border-insidev: .75pt solid windowtext;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif; }
+
+table.MsoISOTable th, table.MsoISOTableBig th {
+  border: solid windowtext 1pt;
+  mso-border-alt: solid windowtext 1pt;
+  padding: 0cm 2.85pt 0cm 2.85pt; }
+
+table.MsoISOTable td, table.MsoISOTableBig td {
+  border: solid windowtext 1pt;
+  mso-border-alt: solid windowtext 1pt;
+  padding: 0cm 2.85pt 0cm 2.85pt; }
+
+table.MsoISOTable p, table.MsoISOTableBig p {
+  font-size: 10.0pt; }
+
+table.MsoTableGrid {
+  mso-style-name: "Table Grid";
+  mso-tstyle-rowband-size: 0;
+  mso-tstyle-colband-size: 0;
+  mso-style-priority: 39;
+  mso-style-unhide: no;
+  border: solid windowtext 1.0pt;
+  mso-border-alt: solid windowtext .5pt;
+  mso-padding-alt: 0cm 5.4pt 0cm 5.4pt;
+  mso-border-insideh: .5pt solid windowtext;
+  mso-border-insidev: .5pt solid windowtext;
+  mso-para-margin: 0cm;
+  mso-para-margin-bottom: .0001pt;
+  mso-pagination: widow-orphan;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif; }
+
+body {
+  tab-interval: 36.0pt; }
+
+.coverpage_docnumber {
+  text-align: right;
+  font-size: 14.0pt;
+  font-weight: bold; }
+
+.coverpage_techcommittee {
+  text-align: right; }
+
+.coverpage_docstage {
+  text-align: center;
+  font-size: 30.0pt;
+  color: #485094; }
+
+div.doctitle {
+  margin-top: 100.0pt;
+  text-align: left;
+  font-size: 16.0pt; }
+
+div.coverpage_warning {
+  mso-element: para-border-div;
+  border: solid windowtext 1.0pt #485094;
+  mso-border-alt: solid windowtext .5pt;
+  padding: 1.0pt 4.0pt 1.0pt 4.0pt #485094;
+  margin-left: 4.25pt;
+  margin-right: 4.25pt; }
+
+.coverpage_warning {
+  color: #485094;
+  font-size: 10.0pt; }
+
+.coverpage {
+  text-align: center;
+  margin: 2em 0; }
+
+.coverpage-logo {
+  color: #485094; }
+
+.coverpage-tc-name {
+  color: #485094;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin: 0.25em 0; }
+
+.coverpage-doc-identity {
+  background-color: #485094;
+  color: white;
+  font-size: 2em;
+  line-height: 2em;
+  margin: 0.5em 0; }
+
+.coverpage-title {
+  font-weight: 400; }
+
+.coverpage-title .title-second {
+  display: none; }
+
+.coverpage-stage-block {
+  font-style: italic;
+  font-size: 1.25em;
+  font-weight: 600; }
+
+.coverpage-warning {
+  border-top: solid 1px #f36f36;
+  border-bottom: solid 1px #f36f36;
+  margin: 1em 2em;
+  color: #485094;
+  padding: 1em; }
+
+.coverpage-warning .title {
+  color: #f36f36;
+  font-weight: 500; }
+
+.coverpage-warning .content {
+  font-style: italic; }
+
+.copyright {
+  padding: 1em; }
+
+.copyright .name {
+  color: #485094;
+  font-weight: 600; }
+
+.copyright .address {
+  color: #485094; }
+
+div.rule {
+  width: 100%;
+  height: 1px;
+  background-color: #485094;
+  margin: 2em 0; }
+
+#toc-list ul {
+  margin-bottom: 0.25em; }
+
+#toc-list li {
+  list-style-type: none; }
+
+.MsoTocTextSpan {
+  color: windowtext;
+  display: none;
+  mso-hide: screen;
+  mso-ansi-language: EN-GB;
+  text-decoration: none;
+  text-underline: none; }
+
+a.TableFootnoteRef, span.TableFootnoteRef {
+  mso-style-priority: 99;
+  mso-style-parent: "Footnote Reference";
+  vertical-align: super; }
+
+aside {
+  font-size: 8.0pt; }
+
+/*
+div.example {
+	border:solid black .25pt;
+	mso-border-alt:solid black .25pt;
+	padding:10pt;
+	mso-padding-alt:$normalfontsize 10.0pt 10.0pt 10.0pt;
+	margin:10pt;
+	mso-margin-alt:$normalfontsize 10.0pt 10.0pt 10.0pt;
+}
+*/
+/*
+div.example {
+  margin-left:70.9pt;
+  text-indent:-70.9pt;
+}
+*/
+p.example, li.example, div.example, td.example {
+  mso-pagination: none;
+  tab-stops: 70.9pt;
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif; }
+
+td.example p.MsoListParagraph {
+  font-size: 10.0pt; }
+
+div.example p.MsoListParagraph {
+  font-size: 10.0pt; }
+
+div.Note p.MsoListParagraph {
+  font-size: 8.0pt;
+  margin-left: 1.0cm; }
+
+div.Note span.stem {
+  font-size: 8.0pt; }
+
+div.Note p.Sourcecode, div.Note pre.Sourcecode {
+  font-size: 8.0pt;
+  margin-left: 1.0cm; }
+
+div.Note table.dl {
+  font-size: 8.0pt;
+  margin-left: 1.0cm; }
+
+div.example, td.example {
+  margin: 0in;
+  margin-bottom: 12.0pt; }
+
+span.example_label, td.example_label {
+  font-size: 10.0pt;
+  font-family: "Arial",sans-serif; }
+
+span.note_label, td.note_label {
+  font-size: 8.0pt;
+  font-family: "Arial",sans-serif; }
+
+-->
+    </style>
+  </head>
+  <body lang="EN-US" link="blue" vlink="#954F72" xml:lang="EN-US">
+    <div class="WordSection2"><p class="zzContents" style="margin-top:0cm">
+  <span lang="EN-GB" xml:lang="EN-GB">Contents</span>
+</p>
+
+<p class="MsoToc1"><span lang="EN-GB" xml:lang="EN-GB"><span style="mso-element:field-begin"></span><span style="mso-spacerun:yes">&#xA0;</span>TOC
+  \o "1-3" \h \z \u <span style="mso-element:field-separator"></span></span>
+<span class="MsoHyperlink"><span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
+<a href="#_Toc314676123">FOREWORD<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<span style="mso-tab-count:1 dotted">. </span>
+</span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<span style="mso-element:field-begin"></span></span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc314676123 \h </span>
+  <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
+  <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span></span></p>
+
+<p class="MsoToc1">
+  <span class="MsoHyperlink">
+    <span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
+<a href="#_Toc863194267">INTRODUCTION Principles and rules followed<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<span style="mso-tab-count:1 dotted">. </span>
+</span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<span style="mso-element:field-begin"></span></span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc863194267 \h </span>
+  <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
+  <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span>
+  </span>
+</p>
+
+<p class="MsoToc1">
+  <span class="MsoHyperlink">
+    <span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
+<a href="#_Toc236563018">1 Scope<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<span style="mso-tab-count:1 dotted">. </span>
+</span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<span style="mso-element:field-begin"></span></span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc236563018 \h </span>
+  <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
+  <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span>
+  </span>
+</p>
+
+<p class="MsoToc1">
+  <span class="MsoHyperlink">
+    <span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
+<a href="#_Toc823014976">2 Normative references<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<span style="mso-tab-count:1 dotted">. </span>
+</span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<span style="mso-element:field-begin"></span></span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc823014976 \h </span>
+  <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
+  <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span>
+  </span>
+</p>
+
+<p class="MsoToc1">
+  <span class="MsoHyperlink">
+    <span lang="EN-GB" style="mso-no-proof:yes" xml:lang="EN-GB">
+<a href="#_Toc866415350">3 Terms and definitions<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<span style="mso-tab-count:1 dotted">. </span>
+</span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">
+<span style="mso-element:field-begin"></span></span>
+<span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"> PAGEREF _Toc866415350 \h </span>
+  <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-separator"></span></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB">1</span>
+  <span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"></span><span lang="EN-GB" class="MsoTocTextSpan" xml:lang="EN-GB"><span style="mso-element:field-end"></span></span></a></span>
+  </span>
+</p>
+
+<p class="MsoToc1">
+  <span lang="EN-GB" xml:lang="EN-GB">
+    <span style="mso-element:field-end"></span>
+  </span>
+  <span lang="EN-GB" xml:lang="EN-GB">
+    <p class="MsoNormal">&#xA0;</p>
+  </span>
+</p>
+
+
+      <p class="MsoNormal">
+        <br clear="all" style="mso-special-character:line-break;page-break-before:always"/>
+      </p>
+      <p class="zzSTDTitle1">INTERNATIONAL ELECTROTECHNICAL COMMISSION</p>
+      <p class="zzSTDTitle1">____________</p>
+      <p class="zzSTDTitle1">&#xA0;</p>
+      <p class="zzSTDTitle1">
+        <b>International Electrotechnical Vocabulary &#x2014;</b>
+      </p>
+      <p class="zzSTDTitle1">&#xA0;</p>
+      <p class="zzSTDTitle2">
+        <b>Part&#xA0;192: Dependability</b>
+      </p>
+      <p class="zzSTDTitle1">&#xA0;</p>
+      <div><a name="_ee8776b9-c686-d320-d5a0-8204db975430" id="_ee8776b9-c686-d320-d5a0-8204db975430"></a>
+        <h1 class="ForewordTitle">FOREWORD</h1>
+        
+          <div>
+      <ol type="a"><a name="_4ba7e7cf-8b86-0df4-6dfa-755dcb1cb123" id="_4ba7e7cf-8b86-0df4-6dfa-755dcb1cb123"></a>
+        <p class="FOREWORD"><a name="_ad491f01-2526-0f1b-b11d-1f2ffa352917" id="_ad491f01-2526-0f1b-b11d-1f2ffa352917"></a>1)<span style="mso-tab-count:1">&#xA0; </span>The International Electrotechnical Commission (IEC) is a worldwide organization for standardization comprising all national electrotechnical committees (IEC National Committees). The object of IEC is to promote international co-operation on all questions concerning standardization in the electrical and electronic fields. To this end and in addition to other activities, IEC publishes International Standards, Technical Specifications, Technical Reports, Publicly Available Specifications (PAS) and Guides (hereafter referred to as &#x201C;IEC Publication(s)&#x201D;). Their preparation is entrusted to technical committees; any IEC National Committee interested in the subject dealt with may participate in this preparatory work. International, governmental and non-governmental organizations liaising with the IEC also participate in this preparation. IEC collaborates closely with the International Organization for Standardization (ISO) in accordance with conditions determined by agreement between the two organizations.</p>
+        <p class="FOREWORD"><a name="_b16ed204-1b78-1bd2-8b72-60beb8ccb220" id="_b16ed204-1b78-1bd2-8b72-60beb8ccb220"></a>2)<span style="mso-tab-count:1">&#xA0; </span>The formal decisions or agreements of IEC on technical matters express, as nearly as possible, an international consensus of opinion on the relevant subjects since each technical committee has representation from all interested IEC National Committees.</p>
+        <p class="FOREWORD"><a name="_8b994313-fcb6-0f5d-50f3-db94af96dae9" id="_8b994313-fcb6-0f5d-50f3-db94af96dae9"></a>3)<span style="mso-tab-count:1">&#xA0; </span>IEC Publications have the form of recommendations for international use and are accepted by IEC National Committees in that sense. While all reasonable efforts are made to ensure that the technical content of IEC Publications is accurate, IEC cannot be held responsible for the way in which they are used or for any misinterpretation by any end user.</p>
+        <p class="FOREWORD"><a name="_d46eb1d5-8cd5-3c31-6271-7356e3b7dfff" id="_d46eb1d5-8cd5-3c31-6271-7356e3b7dfff"></a>4)<span style="mso-tab-count:1">&#xA0; </span>In order to promote international uniformity, IEC National Committees undertake to apply IEC Publications transparently to the maximum extent possible in their national and regional publications. Any divergence between any IEC Publication and the corresponding national or regional publication shall be clearly indicated in the latter.</p>
+        <p class="FOREWORD"><a name="_d66a677d-2d82-e999-bf54-ee5ceea14964" id="_d66a677d-2d82-e999-bf54-ee5ceea14964"></a>5)<span style="mso-tab-count:1">&#xA0; </span>IEC itself does not provide any attestation of conformity. Independent certification bodies provide conformity assessment services and, in some areas, access to IEC marks of conformity. IEC is not responsible for any services carried out by independent certification bodies.</p>
+        <p class="FOREWORD"><a name="_691724f8-7ee0-0e6f-0e65-19afb61ef7ce" id="_691724f8-7ee0-0e6f-0e65-19afb61ef7ce"></a>6)<span style="mso-tab-count:1">&#xA0; </span>All users should ensure that they have the latest edition of this publication.</p>
+        <p class="FOREWORD"><a name="_cfe6821e-e717-48ec-41b9-8986bbdb68d8" id="_cfe6821e-e717-48ec-41b9-8986bbdb68d8"></a>7)<span style="mso-tab-count:1">&#xA0; </span>No liability shall attach to IEC or its directors, employees, servants or agents including individual experts and members of its technical committees and IEC National Committees for any personal injury, property damage or other damage of any nature whatsoever, whether direct or indirect, or for costs (including legal fees) and expenses arising out of the publication, use of, or reliance upon, this IEC Publication or any other IEC Publications.</p>
+        <p class="FOREWORD"><a name="_8e749e73-7f72-3c20-ea01-a0eb73f916ec" id="_8e749e73-7f72-3c20-ea01-a0eb73f916ec"></a>8)<span style="mso-tab-count:1">&#xA0; </span>Attention is drawn to the Normative references cited in this publication. Use of the referenced publications is indispensable for the correct application of this publication.</p>
+        <p class="FOREWORD"><a name="_a83ab363-ac62-5e7a-65b3-4edb1bc1aed7" id="_a83ab363-ac62-5e7a-65b3-4edb1bc1aed7"></a>9)<span style="mso-tab-count:1">&#xA0; </span>Attention is drawn to the possibility that some of the elements of this IEC Publication may be the subject of patent rights. IEC shall not be held responsible for identifying any or all such patent rights.</p>
+      </ol>
+    </div>
+        
+        <p class="MsoNormal"><a name="_94292e45-2f28-c9a4-d839-6754e704941d" id="_94292e45-2f28-c9a4-d839-6754e704941d"></a>International Standard IEC 60050-192 has been prepared by IEC
+technical committee 56: Dependability, of
+IEC technical committee 1: Terminology.</p>
+        <p class="MsoNormal"><a name="_ff21de6d-60da-c312-ce00-76bd283ccd7f" id="_ff21de6d-60da-c312-ce00-76bd283ccd7f"></a>This first edition cancels and replaces the first edition of IEC 60050-191:1990,
+sections 191-01 to 191-20, IEC 60050-191:1990/AMD1:1999, entries in sections
+191-01 to 191-20 and IEC 60050-191:1990/AMD2:2002. It constitutes a technical
+revision. It has the status of a horizontal standard in accordance with IEC
+Guide 108.</p>
+        <p class="MsoNormal"><a name="_879d1899-340f-1e34-fc1d-1d98cb594528" id="_879d1899-340f-1e34-fc1d-1d98cb594528"></a>This part of IEC 60050 includes the following significant technical changes with
+respect to the IEC 60050-191:</p>
+        
+<p style="mso-list:l22 level1 lfo1;" class="MsoListParagraphCxSpFirst">
+inclusion of terms more commonly used by practitioners;
+</p>
+<p style="mso-list:l22 level1 lfo1;" class="MsoListParagraphCxSpLast">
+provision of figures to help explain definitions of time-related concepts.
+</p>
+
+        <p class="MsoNormal"><a name="_57f96e25-9638-6ee6-baa1-1e4188f0792b" id="_57f96e25-9638-6ee6-baa1-1e4188f0792b"></a>The text of this standard is based on the following documents:</p>
+        <div align="center" class="table_container">
+          <table class="MsoISOTable" style="mso-table-anchor-horizontal:column;mso-table-overlap:never;border-spacing:0;border-width:1px;"><a name="_94c801c4-809c-b4e2-51eb-b0cc236911dd" id="_94c801c4-809c-b4e2-51eb-b0cc236911dd"></a>
+            <thead>
+              <tr>
+                <th valign="middle" align="center" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;" class="TABLE-col-heading"><p class="TABLE-col-heading" style="text-align: center">FDIS</p></th>
+                <th valign="middle" align="center" style="font-weight:bold;border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;" class="TABLE-col-heading"><p class="TABLE-col-heading" style="text-align: center">Report on voting</p></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td valign="top" align="left" style="border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;" class="TABLE-cell"><p class="TABLE-cell" style="text-align: left">1/2254/FDIS</p></td>
+                <td valign="top" align="left" style="border-top:solid windowtext 1.5pt;mso-border-top-alt:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;mso-border-bottom-alt:solid windowtext 1.5pt;" class="TABLE-cell"><p class="TABLE-cell" style="text-align: left">1/2256/RVD</p></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="MsoNormal"><a name="_6555c708-e7b6-27cd-95d8-2efa1a89dfad" id="_6555c708-e7b6-27cd-95d8-2efa1a89dfad"></a>Full information on the voting for the approval of this standard can be found in
+the report on voting indicated in the above table.</p>
+        <p class="MsoNormal"><a name="_06e9e5c0-0ee9-bb0d-3d81-12eb898542b2" id="_06e9e5c0-0ee9-bb0d-3d81-12eb898542b2"></a>This document has been drafted in accordance with the ISO/IEC Directives, Part
+2.</p>
+        <p class="MsoNormal"><a name="_f4d73267-c4ee-d2de-487d-91d5ae490d65" id="_f4d73267-c4ee-d2de-487d-91d5ae490d65"></a>In this part of the IEV, the terms and definitions are provided in French and
+English; in addition the terms are given in Arabic (ar), Czech (cs), German
+(de), Spanish (es), Finnish (fi), Italian (it), Japanese (ja), Norwegian [Bokm&#xE5;l
+(nb) and Nynorsk (nn)], Polish (pl), Portuguese (pt), Slovenian (sl), Serbian
+(sr), Swedish (sv) and Chinese (zh).</p>
+        <p class="MsoNormal"><a name="_e6b6b507-9701-cd8e-7b03-7e9e0025dd3d" id="_e6b6b507-9701-cd8e-7b03-7e9e0025dd3d"></a>A list of all parts of the IEC 60050 series, published under the general title
+International Electrotechnical Vocabulary, can be found on the IEC website and
+is available at <a href="http://www.electropedia.org">www.electropedia.org</a>.</p>
+      </div>
+      <p class="MsoNormal">
+        <br clear="all" style="mso-special-character:line-break;page-break-before:always"/>
+      </p>
+      <div class="Section3"><a name="_introduction_principles_and_rules_followed" id="_introduction_principles_and_rules_followed"></a>
+        <h1 class="IntroTitle">INTRODUCTION<br/>Principles and rules followed</h1>
+        <div><a name="_general" id="_general"></a><p class="h2Annex">General</p><p class="MsoNormal"><a name="_427e10b1-4fc9-2e47-1046-e10b32448f6d" id="_427e10b1-4fc9-2e47-1046-e10b32448f6d"></a>The IEV (IEC 60050 series) is a general purpose multilingual vocabulary covering
+the field of electrotechnology, electronics and telecommunication (available at
+<a href="http://www.electropedia.org">www.electropedia.org</a>). It comprises about
+20 000 <i>terminological entries</i>, each corresponding to a concept. These entries
+are distributed among about 80 parts, each part corresponding to a given field.</p>
+<div class="example"><a name="_26797d91-302f-8b80-5b6d-d78d54ccad63" id="_26797d91-302f-8b80-5b6d-d78d54ccad63"></a><p class="example"><span class="example_label">EXAMPLE</span><span style="mso-tab-count:1">&#xA0; </span><b>Part 161</b> (IEC 60050-161): Electromagnetic compatibility</p><p class="example"><a name="_0d136f9b-f074-5453-4df4-a1302a69d47f" id="_0d136f9b-f074-5453-4df4-a1302a69d47f"></a><b>Part 411</b> (IEC 60050-411): Rotating machines</p></div>
+<p class="MsoNormal"><a name="_bfcbc5d5-a723-8e97-951f-209eb3b8e3f7" id="_bfcbc5d5-a723-8e97-951f-209eb3b8e3f7"></a>The entries follow a hierarchical classification scheme Part/Section/Concept;
+within the sections, the concepts are organized in a systematic order.</p>
+<p class="MsoNormal"><a name="_3d4b3f9e-17cb-84cf-15e6-70cee0f5b97d" id="_3d4b3f9e-17cb-84cf-15e6-70cee0f5b97d"></a>The terms and definitions (and possibly non-verbal representations, examples,
+notes and sources) in the entries are given in two or more of the three IEC
+languages, that is French, English and Russian (<i>principal IEV languages</i>).</p>
+<p class="MsoNormal"><a name="_539b4e89-3020-e2b4-c465-5b33eef5742c" id="_539b4e89-3020-e2b4-c465-5b33eef5742c"></a>In each entry, the terms alone are also given in several of the <i>additional IEV languages</i> [Arabic (ar), Czech (cs), German (de), Spanish (es), Finnish (fi),
+Italian (it), Japanese (ja), Norwegian [Bokm&#xE5;l (nb) and Nynorsk (nn)], Polish
+(pl), Portuguese (pt), Slovenian (sl), Serbian (sr), Swedish (sv) and Chinese
+(zh)].</p></div>
+        <div><a name="_organization_of_a_terminological_entry" id="_organization_of_a_terminological_entry"></a><p class="h2Annex">Organization of a terminological entry</p><p class="MsoNormal"><a name="_6c6a4a9d-d123-7634-bde3-94298727fd8f" id="_6c6a4a9d-d123-7634-bde3-94298727fd8f"></a>Each of the entries corresponds to a concept, and comprises:</p>
+
+<p style="mso-list:l22 level1 lfo2;" class="MsoListParagraphCxSpFirst">
+an <i>entry number</i>,
+</p>
+<p style="mso-list:l22 level1 lfo2;" class="MsoListParagraphCxSpLast">
+possibly a <i>letter symbol for the quantity or unit</i>,
+</p>
+
+<p class="MsoNormal"><a name="_33f5714c-03ae-5fe4-ab0a-c824baa81950" id="_33f5714c-03ae-5fe4-ab0a-c824baa81950"></a>then, for the principal IEV languages present in the part:</p>
+
+<p style="mso-list:l22 level1 lfo3;" class="MsoListParagraphCxSpFirst">
+the term designating the concept, called <i>&#x201C;preferred term&#x201D;</i>, possibly
+accompanied by <i>synonyms</i> and <i>abbreviations</i>,
+</p>
+<p style="mso-list:l22 level1 lfo3;" class="MsoListParagraphCxSpMiddle">
+the <i>definition</i> of the concept,
+</p>
+<p style="mso-list:l22 level1 lfo3;" class="MsoListParagraphCxSpMiddle">
+possibly <i>non-verbal representations</i>, <i>examples</i> and <i>notes to entry</i>,
+</p>
+<p style="mso-list:l22 level1 lfo3;" class="MsoListParagraphCxSpLast">
+possibly the <i>source</i>,
+</p>
+
+<p class="MsoNormal"><a name="_b19fe7c5-3b5a-a51c-ce6f-5957e2ab98a2" id="_b19fe7c5-3b5a-a51c-ce6f-5957e2ab98a2"></a>and finally, for the additional IEV languages, the terms alone.</p></div>
+        <div><a name="_entry_number" id="_entry_number"></a><p class="h2Annex">Entry number</p><p class="MsoNormal"><a name="_85e6ce78-d8fa-c100-1d40-0543e57e5402" id="_85e6ce78-d8fa-c100-1d40-0543e57e5402"></a>The entry number is comprised of three elements, separated by hyphens:</p>
+<table class="dl"><tr><td valign="top" align="left"><p align="left" style="margin-left:0pt;text-align:left;" class="MsoNormal">Part number</p></td><td valign="top">
+<p class="MsoNormal"><a name="_dee8e84a-1a32-7c6d-8321-b91bdeb48cf0" id="_dee8e84a-1a32-7c6d-8321-b91bdeb48cf0"></a>3 digits,</p>
+</td></tr><tr><td valign="top" align="left"><p align="left" style="margin-left:0pt;text-align:left;" class="MsoNormal">Section number</p></td><td valign="top">
+<p class="MsoNormal"><a name="_0220bed0-db6b-dfc6-5e7c-b1760aff7e4e" id="_0220bed0-db6b-dfc6-5e7c-b1760aff7e4e"></a>2 digits,</p>
+</td></tr><tr><td valign="top" align="left"><p align="left" style="margin-left:0pt;text-align:left;" class="MsoNormal">Concept number</p></td><td valign="top">
+<p class="MsoNormal"><a name="_8445087e-4698-ea1c-3d8e-072fb92bd896" id="_8445087e-4698-ea1c-3d8e-072fb92bd896"></a>2 digits (01 to 99).</p>
+</td></tr></table>
+<div class="example"><a name="_b2d9b274-08f9-0ddc-343d-eb48566767e3" id="_b2d9b274-08f9-0ddc-343d-eb48566767e3"></a><p class="example"><span class="example_label">EXAMPLE</span><span style="mso-tab-count:1">&#xA0; </span>
+<b>131-13-22</b>
+</p></div></div>
+        <div><a name="_letter_symbols_for_quantities_and_units" id="_letter_symbols_for_quantities_and_units"></a><p class="h2Annex">Letter symbols for quantities and units</p><p class="MsoNormal"><a name="_e211e55f-9eaa-b97c-a986-79f717d4734b" id="_e211e55f-9eaa-b97c-a986-79f717d4734b"></a>These symbols, which are language independent, are given on a separate line
+following the entry number.</p>
+<div class="example"><a name="_3e3f30fa-49cd-281a-6c22-e177e113f1fd" id="_3e3f30fa-49cd-281a-6c22-e177e113f1fd"></a><p class="example"><span class="example_label">EXAMPLE</span><span style="mso-tab-count:1">&#xA0; </span>
+<b>131-12-04</b>
+</p><p class="example"><a name="_9e1dbdb2-3707-c2e3-c525-86ef87b8b087" id="_9e1dbdb2-3707-c2e3-c525-86ef87b8b087"></a>
+<i>R</i>
+</p><p class="example"><a name="_ccfb9869-0c6e-3239-f35a-6dd9a30a5e88" id="_ccfb9869-0c6e-3239-f35a-6dd9a30a5e88"></a>
+<b>resistance</b>
+</p></div></div>
+        <div><a name="_preferred_term_and_synonyms" id="_preferred_term_and_synonyms"></a><p class="h2Annex">Preferred term and synonyms</p><p class="MsoNormal"><a name="_7bd2dafc-34d3-494b-0541-c12e1c2d1068" id="_7bd2dafc-34d3-494b-0541-c12e1c2d1068"></a>The preferred term is the term that heads a terminological entry in a given
+language; it may be followed by synonyms. It is printed in boldface.</p>
+<p class="MsoNormal"><a name="_a1486379-2dfc-3bbf-4c50-712269f2fe97" id="_a1486379-2dfc-3bbf-4c50-712269f2fe97"></a>
+<i>Synonyms:</i>
+</p>
+<p class="MsoNormal"><a name="_2ce4a301-e402-4a97-caa7-819e8dc7ecf5" id="_2ce4a301-e402-4a97-caa7-819e8dc7ecf5"></a>The synonyms are printed on separate lines under the preferred term: preferred
+synonyms are printed in boldface, and deprecated synonyms are printed in
+lightface. Deprecated synonyms are prefixed by the text &#x201C;DEPRECATED:&#x201D;.</p>
+<p class="MsoNormal"><a name="_0a5c0d48-bce8-070c-78c5-e492ccb7961f" id="_0a5c0d48-bce8-070c-78c5-e492ccb7961f"></a>
+<i>Absence of an appropriate term:</i>
+</p>
+<p class="MsoNormal"><a name="_44c66ddb-855a-1ac1-8ed2-d3ae85f9afc4" id="_44c66ddb-855a-1ac1-8ed2-d3ae85f9afc4"></a>When no appropriate term exists in a given language, the preferred term is
+replaced by five dots, as follows:</p>
+<div class="Quote"><a name="_56899272-784c-79b9-d2f8-f09f7664c1f5" id="_56899272-784c-79b9-d2f8-f09f7664c1f5"></a>
+<p class="MsoNormal"><a name="_c86b2f05-4979-f547-702d-9908b0e7c627" id="_c86b2f05-4979-f547-702d-9908b0e7c627"></a>&#x201C; &#x2026;&#x200B;.. &#x201D; (and there are of course no synonyms).</p>
+</div></div>
+        <div><a name="_attributes" id="_attributes"></a><p class="h2Annex">Attributes</p><p class="MsoNormal"><a name="_44445605-cd95-bb85-539d-3f719a509d76" id="_44445605-cd95-bb85-539d-3f719a509d76"></a>Each term (or synonym) may be followed by attributes giving additional
+information, and printed in lightface on the same line as the corresponding
+term, following this term.</p>
+<div class="example"><a name="_2edea929-ed4a-9f0b-02e1-87bdcc19352f" id="_2edea929-ed4a-9f0b-02e1-87bdcc19352f"></a><p class="example"><span class="example_label">EXAMPLE</span><span style="mso-tab-count:1">&#xA0; </span></p>
+<table class="dl"><tr><td valign="top" align="left"><p align="left" style="margin-left:0pt;text-align:left;" class="example">
+<i>specific use of the term</i>
+</p></td><td valign="top">
+<p class="example"><a name="_61d631f7-2f14-9ab9-c696-97f13c092f12" id="_61d631f7-2f14-9ab9-c696-97f13c092f12"></a><b>transmission line</b>, &lt;in electric power systems&gt;</p>
+</td></tr><tr><td valign="top" align="left"><p align="left" style="margin-left:0pt;text-align:left;" class="example">
+<i>national variant</i>
+</p></td><td valign="top">
+<p class="example"><a name="_5e73466b-bc63-01c6-116a-349a0df60a2f" id="_5e73466b-bc63-01c6-116a-349a0df60a2f"></a>lift, GB</p>
+</td></tr><tr><td valign="top" align="left"><p align="left" style="margin-left:0pt;text-align:left;" class="example">
+<i>grammatical information</i>
+</p></td><td valign="top"><p class="example"><a name="_83376418-95f6-31e5-d961-bbb14f508c2f" id="_83376418-95f6-31e5-d961-bbb14f508c2f"></a><b>quantize</b>, verb</p>
+<p class="example"><a name="_e900b0ba-f560-595e-569f-3bb995d59cd4" id="_e900b0ba-f560-595e-569f-3bb995d59cd4"></a><b>transient</b>, noun</p>
+<p class="example"><a name="_047d447a-3f08-4702-fca5-7b8e62795fce" id="_047d447a-3f08-4702-fca5-7b8e62795fce"></a><b>AC</b>, adj</p></td></tr></table>
+</div></div>
+        <div><a name="_source" id="_source"></a><p class="h2Annex">Source</p><p class="MsoNormal"><a name="_b9c08c2f-7df0-0fd9-2f19-f5e402b74343" id="_b9c08c2f-7df0-0fd9-2f19-f5e402b74343"></a>In some cases, it has been necessary to include in an IEV part a concept taken
+from another IEV part, or from another authoritative terminology document
+(ISO/IEC Guide 99, ISO/IEC 2382, etc.), either with or without modification to
+the definition (and possibly to the term).</p>
+<p class="MsoNormal"><a name="_5b1c4327-d4a0-1fac-d7d6-13f2b7d81167" id="_5b1c4327-d4a0-1fac-d7d6-13f2b7d81167"></a>This is indicated by the mention of this source, printed in lightface, and
+placed at the end of the entry in each of the principal IEV languages present.</p>
+<div class="example"><a name="_2a4f1ae0-a1c6-6af3-c141-c5efc458d5c2" id="_2a4f1ae0-a1c6-6af3-c141-c5efc458d5c2"></a><p class="example"><span class="example_label">EXAMPLE</span><span style="mso-tab-count:1">&#xA0; </span>SOURCE: IEC 60050-131:2002, 131-03-13, modified</p></div></div>
+        <div><a name="_terms_in_additional_iev_languages" id="_terms_in_additional_iev_languages"></a><p class="h2Annex">Terms in additional IEV languages</p>
+
+<p class="MsoNormal"><a name="_be0c05ee-f47a-e445-8072-4328d3ecb1cf" id="_be0c05ee-f47a-e445-8072-4328d3ecb1cf"></a>These terms are placed following the entries in the principal IEV languages, on
+separate lines (a single line for each language), preceded by the alpha-2 code
+for the language defined in ISO 639-1, and in the alphabetic order of this code.</p>
+</div>
+      </div>
+      <p class="MsoNormal">&#xA0;</p>
+    </div>
+    <p class="MsoNormal">
+      <br clear="all" class="section"/>
+    </p>
+    <div class="WordSection3">
+      <p class="zzSTDTitle1">
+        <b>International Electrotechnical Vocabulary &#x2014;</b>
+      </p>
+      <p class="zzSTDTitle1">&#xA0;</p>
+      <p class="zzSTDTitle2">
+        <b>Part&#xA0;192: Dependability</b>
+      </p>
+      <p class="zzSTDTitle1">&#xA0;</p>
+      <div><a name="_scope" id="_scope"></a>
+        <h1 class="main">1<span style="mso-tab-count:1">&#xA0; </span>Scope</h1>
+        <p class="MsoNormal"><a name="_5fa9659d-2975-a0e0-bbfe-e6ce98849cce" id="_5fa9659d-2975-a0e0-bbfe-e6ce98849cce"></a>This part of IEC 60050 gives the general terminology used in the field of
+dependability.</p>
+        <p class="MsoNormal"><a name="_e90f9314-1128-39b0-e5de-64e5b19aaea3" id="_e90f9314-1128-39b0-e5de-64e5b19aaea3"></a>The terms are generic and are applicable to all fields of dependability
+methodology, including electrotechnical applications.</p>
+        <p class="MsoNormal"><a name="_b5e67b57-6706-c6c3-8794-d139ae573d20" id="_b5e67b57-6706-c6c3-8794-d139ae573d20"></a>The document is not an exhaustive vocabulary for all IEC standards in the
+dependability field: definitions for some specialized terms may only be found in
+the relevant standards.</p>
+        <p class="MsoNormal"><a name="_78e54d25-f3a9-879a-00af-b8fa69149f89" id="_78e54d25-f3a9-879a-00af-b8fa69149f89"></a>This document is based on IEC 60050-191:1990, which has been subjected to a
+systematic, in-depth review and revision, in order to:</p>
+        
+<p style="mso-list:l22 level1 lfo4;" class="MsoListParagraphCxSpFirst">
+reflect the current usage of the terms in the dependability field;
+</p>
+<p style="mso-list:l22 level1 lfo4;" class="MsoListParagraphCxSpMiddle">
+introduce new terms from new or revised standards, and other informed sources; and
+</p>
+<p style="mso-list:l22 level1 lfo4;" class="MsoListParagraphCxSpLast">
+provide a grammatical form, and presentation to comply with the IEC directives.
+</p>
+
+        <p class="MsoNormal"><a name="_65bc4763-f29f-c7e6-7419-1fed5bcaa933" id="_65bc4763-f29f-c7e6-7419-1fed5bcaa933"></a>In producing this document, several sections of IEC 60050-191:1990 (formerly
+Chapter 191) concerning quality of service, have been omitted:</p>
+        
+<p style="mso-list:l22 level1 lfo5;" class="MsoListParagraphCxSpFirst">
+sections 19 and 20: Quality of service in telecommunications, has been adopted
+and developed by the International Telecommunication Union, as publication ITU-T
+E.800, Definitions of terms related to quality of service; and
+</p>
+<p style="mso-list:l22 level1 lfo5;" class="MsoListParagraphCxSpLast">
+sections 21 to 30, inclusive: Quality of service in electric power systems is
+to be developed as a new document, IEC 60050-6921.
+</p>
+
+        <p class="MsoNormal"><a name="_f3427298-044c-c927-661f-caa7d403bbdb" id="_f3427298-044c-c927-661f-caa7d403bbdb"></a>It has the status of a horizontal standard in accordance with IEC Guide 108,
+Guidelines for ensuring the coherency of IEC publications * Application of
+horizontal standards.</p>
+        <p class="MsoNormal"><a name="_7150aa7f-9230-8ed6-be84-f8b7a26f8964" id="_7150aa7f-9230-8ed6-be84-f8b7a26f8964"></a>This terminology is consistent with the terminology developed in the other
+specialized parts of the IEV.</p>
+        <p class="MsoNormal"><a name="_9a449938-9d63-0d35-a7ba-45abd7e03ce8" id="_9a449938-9d63-0d35-a7ba-45abd7e03ce8"></a>This horizontal standard is primarily intended for use by technical committees
+in the preparation of standards in accordance with the principles laid down in
+IEC Guide 108.</p>
+        <p class="MsoNormal"><a name="_e3d22707-dd43-3c41-d50d-b403ce9835de" id="_e3d22707-dd43-3c41-d50d-b403ce9835de"></a>One of the responsibilities of a technical committee is, wherever applicable, to
+make use of horizontal standards in the preparation of its publications. The
+content of this horizontal standard will not apply unless specifically referred
+to or included in the relevant publications.</p>
+      </div>
+      <div><h1 class="main">2<span style="mso-tab-count:1">&#xA0; </span>Normative references</h1><p class="MsoNormal"><a name="_90543581-4f8a-6652-0a0f-9aa774abbbe2" id="_90543581-4f8a-6652-0a0f-9aa774abbbe2"></a>There are no normative references in this document.</p>     </div>
+      <div><a name="_terms_and_definitions" id="_terms_and_definitions"></a><h1 class="main">3 Terms and definitions</h1><p class="TermNum"><a name="term-general" id="term-general"></a>3.1</p><p class="Terms" style="text-align:left;"><b>General</b></p>
+
+<p class="TermNum"><a name="term-states-and-times" id="term-states-and-times"></a>3.2</p><p class="Terms" style="text-align:left;"><b>States and times</b></p>
+
+<p class="TermNum"><a name="term-reliability-related-concepts_-failures" id="term-reliability-related-concepts_-failures"></a>3.3</p><p class="Terms" style="text-align:left;"><b>Reliability related concepts: failures</b></p>
+
+<p class="TermNum"><a name="term-reliability-related-concepts_-faults" id="term-reliability-related-concepts_-faults"></a>3.4</p><p class="Terms" style="text-align:left;"><b>Reliability related concepts: faults</b></p>
+
+<p class="TermNum"><a name="term-reliability-related-concepts_-measures" id="term-reliability-related-concepts_-measures"></a>3.5</p><p class="Terms" style="text-align:left;"><b>Reliability related concepts: measures</b></p>
+
+<p class="TermNum"><a name="term-maintenance-and-maintenance-support-related-concepts" id="term-maintenance-and-maintenance-support-related-concepts"></a>3.6</p><p class="Terms" style="text-align:left;"><b>Maintenance and maintenance support related concepts</b></p>
+
+<p class="TermNum"><a name="term-maintainability-and-maintenance-support_-measures" id="term-maintainability-and-maintenance-support_-measures"></a>3.7</p><p class="Terms" style="text-align:left;"><b>Maintainability and maintenance support: measures</b></p>
+
+<p class="TermNum"><a name="term-availability-related-measures" id="term-availability-related-measures"></a>3.8</p><p class="Terms" style="text-align:left;"><b>Availability related measures</b></p>
+
+<p class="TermNum"><a name="term-concepts-related-to-test_-demonstration-and-improvement" id="term-concepts-related-to-test_-demonstration-and-improvement"></a>3.9</p><p class="Terms" style="text-align:left;"><b>Concepts related to test, demonstration and improvement</b></p>
+
+<p class="TermNum"><a name="term-design-related-dependability-concepts" id="term-design-related-dependability-concepts"></a>3.10</p><p class="Terms" style="text-align:left;"><b>Design-related dependability concepts</b></p>
+
+<p class="TermNum"><a name="term-analysis-concepts" id="term-analysis-concepts"></a>3.11</p><p class="Terms" style="text-align:left;"><b>Analysis concepts</b></p>
+
+<p class="TermNum"><a name="term-dependability-improvement-related-concepts" id="term-dependability-improvement-related-concepts"></a>3.12</p><p class="Terms" style="text-align:left;"><b>Dependability improvement related concepts</b></p>
+
+<p class="TermNum"><a name="term-measurement-concepts-and-modifiers" id="term-measurement-concepts-and-modifiers"></a>3.13</p><p class="Terms" style="text-align:left;"><b>Measurement concepts and modifiers</b></p>
+
+</div>
+    </div>
+    <br clear="all" style="page-break-before:left;mso-break-type:section-break"/>
+    <div class="colophon"></div>
+  <div style="mso-element:footnote-list"/></body>
+</html>
+
+
+------=_NextPart_72b454c4.456d.498b
+Content-ID: <filelist.xml>
+Content-Disposition: inline; filename="filelist.xml"
+Content-Transfer-Encoding: base64
+Content-Type: application/xml
+
+PHhtbCB4bWxuczpvPSJ1cm46c2NoZW1hcy1taWNyb3NvZnQtY29tOm9mZmljZTpvZmZpY2UiPgog
+ICAgICAgIDxvOk1haW5GaWxlIEhSZWY9Ii4uLy9fX3cvaWV2LWRvY3VtZW50L2lldi1kb2N1bWVu
+dC9zaXRlL2RvY3VtZW50cy9pZWMtNjAwNTAtMTkyLmh0bSIvPiAgPG86RmlsZSBIUmVmPSJmaWxl
+bGlzdC54bWwiLz4KICA8bzpGaWxlIEhSZWY9ImhlYWRlci5odG1sIi8+CjwveG1sPgo=
+
+------=_NextPart_72b454c4.456d.498b
+Content-ID: <header.html>
+Content-Disposition: inline; filename="header.html"
+Content-Transfer-Encoding: base64
+Content-Type: text/html charset="utf-8"
+
+PGh0bWwgeG1sbnM6dj0idXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTp2bWwiDQp4bWxuczpvPSJ1
+cm46c2NoZW1hcy1taWNyb3NvZnQtY29tOm9mZmljZTpvZmZpY2UiDQp4bWxuczp3PSJ1cm46c2No
+ZW1hcy1taWNyb3NvZnQtY29tOm9mZmljZTp3b3JkIg0KeG1sbnM6bT0iaHR0cDovL3NjaGVtYXMu
+bWljcm9zb2Z0LmNvbS9vZmZpY2UvMjAwNC8xMi9vbW1sIg0KeG1sbnM6bXY9Imh0dHA6Ly9tYWNW
+bWxTY2hlbWFVcmkiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy9UUi9SRUMtaHRtbDQwIj4NCg0K
+PGhlYWQ+DQo8bWV0YSBuYW1lPVRpdGxlIGNvbnRlbnQ9IiI+DQo8bWV0YSBuYW1lPUtleXdvcmRz
+IGNvbnRlbnQ9IiI+DQo8bWV0YSBodHRwLWVxdWl2PUNvbnRlbnQtVHlwZSBjb250ZW50PSJ0ZXh0
+L2h0bWw7IGNoYXJzZXQ9dXRmLTgiPg0KPG1ldGEgbmFtZT1Qcm9nSWQgY29udGVudD1Xb3JkLkRv
+Y3VtZW50Pg0KPG1ldGEgbmFtZT1HZW5lcmF0b3IgY29udGVudD0iTWljcm9zb2Z0IFdvcmQgMTUi
+Pg0KPG1ldGEgbmFtZT1PcmlnaW5hdG9yIGNvbnRlbnQ9Ik1pY3Jvc29mdCBXb3JkIDE1Ij4NCjxs
+aW5rIGlkPU1haW4tRmlsZSByZWw9TWFpbi1GaWxlIGhyZWY9Ii4uLy9fX3cvaWV2LWRvY3VtZW50
+L2lldi1kb2N1bWVudC9zaXRlL2RvY3VtZW50cy9pZWMtNjAwNTAtMTkyLmh0bWwiPg0KPCEtLVtp
+ZiBndGUgbXNvIDldPjx4bWw+DQogPG86c2hhcGVkZWZhdWx0cyB2OmV4dD0iZWRpdCIgc3BpZG1h
+eD0iMjA0OSIvPg0KPC94bWw+PCFbZW5kaWZdLS0+DQo8L2hlYWQ+DQoNCjxib2R5IGxhbmc9RUwg
+bGluaz0iIzAwMDAwMCIgdmxpbms9IiMwMDAwMDAiPg0KDQo8ZGl2IHN0eWxlPSdtc28tZWxlbWVu
+dDpmb290bm90ZS1zZXBhcmF0b3InIGlkPWZzPg0KDQo8cCBjbGFzcz1Ob3RlIHN0eWxlPSdtYXJn
+aW4tYm90dG9tOjBjbTttYXJnaW4tYm90dG9tOi4wMDAxcHQnPjxzcGFuIGxhbmc9RU4tR0I+4oCU
+4oCU4oCU4oCU4oCU4oCU4oCU4oCU4oCUPC9zcGFuPjxzcGFuDQpsYW5nPUVOLUdCIHN0eWxlPSds
+ZXR0ZXItc3BhY2luZzowcHQnPjxvOnA+PC9vOnA+PC9zcGFuPjwvcD4NCg0KPC9kaXY+DQoNCjxk
+aXYgc3R5bGU9J21zby1lbGVtZW50OmZvb3Rub3RlLWNvbnRpbnVhdGlvbi1zZXBhcmF0b3InIGlk
+PWZjcz4NCg0KPHAgY2xhc3M9TXNvTm9ybWFsPjxzcGFuIGxhbmc9RU4tR0I+PHNwYW4gc3R5bGU9
+J21zby1zcGVjaWFsLWNoYXJhY3Rlcjpmb290bm90ZS1jb250aW51YXRpb24tc2VwYXJhdG9yJz48
+IVtpZiAhc3VwcG9ydEZvb3Rub3Rlc10+DQoNCjxociBhbGlnbj1sZWZ0IHNpemU9MT4NCg0KPCFb
+ZW5kaWZdPjwvc3Bhbj48L3NwYW4+PC9wPg0KDQo8L2Rpdj4NCg0KPGRpdiBzdHlsZT0nbXNvLWVs
+ZW1lbnQ6Zm9vdG5vdGUtY29udGludWF0aW9uLW5vdGljZScgaWQ9ZmNuPg0KDQo8cCBjbGFzcz1N
+c29Ob3JtYWw+PHNwYW4gbGFuZz1FTi1HQj48bzpwPiZuYnNwOzwvbzpwPjwvc3Bhbj48L3A+DQoN
+CjwvZGl2Pg0KDQoNCjxkaXYgc3R5bGU9J21zby1lbGVtZW50OmVuZG5vdGUtc2VwYXJhdG9yJyBp
+ZD1lcz4NCg0KPHAgY2xhc3M9TXNvTm9ybWFsPjxzcGFuIGxhbmc9RU4tR0I+PHNwYW4gc3R5bGU9
+J21zby1zcGVjaWFsLWNoYXJhY3Rlcjpmb290bm90ZS1zZXBhcmF0b3InPjwhW2lmICFzdXBwb3J0
+Rm9vdG5vdGVzXT4NCg0KPGhyIGFsaWduPWxlZnQgc2l6ZT0xIHdpZHRoPSIzMyUiPg0KDQo8IVtl
+bmRpZl0+PC9zcGFuPjwvc3Bhbj48L3A+DQoNCjwvZGl2Pg0KDQo8ZGl2IHN0eWxlPSdtc28tZWxl
+bWVudDplbmRub3RlLWNvbnRpbnVhdGlvbi1zZXBhcmF0b3InIGlkPWVjcz4NCg0KPHAgY2xhc3M9
+TXNvTm9ybWFsPjxzcGFuIGxhbmc9RU4tR0I+PHNwYW4gc3R5bGU9J21zby1zcGVjaWFsLWNoYXJh
+Y3Rlcjpmb290bm90ZS1jb250aW51YXRpb24tc2VwYXJhdG9yJz48IVtpZiAhc3VwcG9ydEZvb3Ru
+b3Rlc10+DQoNCjxociBhbGlnbj1sZWZ0IHNpemU9MT4NCg0KPCFbZW5kaWZdPjwvc3Bhbj48L3Nw
+YW4+PC9wPg0KDQo8L2Rpdj4NCg0KPGRpdiBzdHlsZT0nbXNvLWVsZW1lbnQ6aGVhZGVyJyBpZD1l
+aGE+DQoNCjxwIGNsYXNzPU1zb0hlYWRlcj48c3BhbiBsYW5nPUVOLUdCPjxzcGFuIHN0eWxlPSdt
+c28tdGFiLWNvdW50OjEnPsKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDC
+oMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKg
+wqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqAgPC9zcGFuPuKAkw0K
+PC9zcGFuPjwhLS1baWYgc3VwcG9ydEZpZWxkc10+PHNwYW4gY2xhc3M9TXNvUGFnZU51bWJlcj48
+c3BhbiBsYW5nPUVOLUdCPjxzcGFuDQpzdHlsZT0nbXNvLWVsZW1lbnQ6ZmllbGQtYmVnaW4nPjwv
+c3Bhbj48c3Bhbg0Kc3R5bGU9J21zby1zcGFjZXJ1bjp5ZXMnPsKgPC9zcGFuPlBBR0UgPHNwYW4g
+c3R5bGU9J21zby1lbGVtZW50OmZpZWxkLXNlcGFyYXRvcic+PC9zcGFuPjwvc3Bhbj48L3NwYW4+
+PCFbZW5kaWZdLS0+PHNwYW4NCmNsYXNzPU1zb1BhZ2VOdW1iZXI+PHNwYW4gbGFuZz1FTi1HQj48
+c3BhbiBzdHlsZT0nbXNvLW5vLXByb29mOnllcyc+Mjwvc3Bhbj48L3NwYW4+PC9zcGFuPjwhLS1b
+aWYgc3VwcG9ydEZpZWxkc10+PHNwYW4NCmNsYXNzPU1zb1BhZ2VOdW1iZXI+PHNwYW4gbGFuZz1F
+Ti1HQj48c3BhbiBzdHlsZT0nbXNvLWVsZW1lbnQ6ZmllbGQtZW5kJz48L3NwYW4+PC9zcGFuPjwv
+c3Bhbj48IVtlbmRpZl0tLT48c3Bhbg0KbGFuZz1FTi1HQj4g4oCTPHNwYW4gc3R5bGU9J21zby10
+YWItY291bnQ6MSc+wqDCoMKgwqAgPC9zcGFuPiBJRUMgNjAwNTAtMTkyOjIwMTUgRUQgMiA8L3Nw
+YW4+IMKpIDxzcGFuDQpsYW5nPUVOLUdCPiBJRUM6MjAxNTwvc3Bhbj48L3A+DQoNCg0KPC9kaXY+
+DQoNCjxkaXYgc3R5bGU9J21zby1lbGVtZW50OmhlYWRlcicgaWQ9aGE+DQoNCjxwIGNsYXNzPU1z
+b0hlYWRlcj48c3BhbiBsYW5nPUVOLUdCPklFQyA2MDA1MC0xOTI6MjAxNSBFRCAyDQo8L3NwYW4+
+IMKpIDxzcGFuDQpsYW5nPUVOLUdCPiBJRUM6MjAxNTxzcGFuIHN0eWxlPSdtc28tdGFiLWNvdW50
+Og0KMSc+wqDCoMKgwqDCoCA8L3NwYW4+4oCTIDwvc3Bhbj48IS0tW2lmIHN1cHBvcnRGaWVsZHNd
+PjxzcGFuIGNsYXNzPU1zb1BhZ2VOdW1iZXI+PHNwYW4NCmxhbmc9RU4tR0I+PHNwYW4gc3R5bGU9
+J21zby1lbGVtZW50OmZpZWxkLWJlZ2luJz48L3NwYW4+PHNwYW4NCnN0eWxlPSdtc28tc3BhY2Vy
+dW46eWVzJz7CoDwvc3Bhbj5QQUdFIDxzcGFuIHN0eWxlPSdtc28tZWxlbWVudDpmaWVsZC1zZXBh
+cmF0b3InPjwvc3Bhbj48L3NwYW4+PC9zcGFuPjwhW2VuZGlmXS0tPjxzcGFuDQpjbGFzcz1Nc29Q
+YWdlTnVtYmVyPjxzcGFuIGxhbmc9RU4tR0I+PHNwYW4gc3R5bGU9J21zby1uby1wcm9vZjp5ZXMn
+PjE8L3NwYW4+PC9zcGFuPjwvc3Bhbj48IS0tW2lmIHN1cHBvcnRGaWVsZHNdPjxzcGFuDQpjbGFz
+cz1Nc29QYWdlTnVtYmVyPjxzcGFuIGxhbmc9RU4tR0I+PHNwYW4gc3R5bGU9J21zby1lbGVtZW50
+OmZpZWxkLWVuZCc+PC9zcGFuPjwvc3Bhbj48L3NwYW4+PCFbZW5kaWZdLS0+PHNwYW4NCmxhbmc9
+RU4tR0I+IOKAkzxzcGFuIHN0eWxlPSdtc28tdGFiLWNvdW50OjEnPsKgwqDCoMKgwqDCoMKgwqDC
+oMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKg
+wqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDC
+oMKgwqDCoMKgwqAgPC9zcGFuPjwvc3Bhbj48L3A+DQoNCjwvZGl2Pg0KDQo8ZGl2IHN0eWxlPSdt
+c28tZWxlbWVudDpmb290ZXInIGlkPWVmYT4NCg0KDQo8L2Rpdj4NCg0KPGRpdiBzdHlsZT0nbXNv
+LWVsZW1lbnQ6aGVhZGVyJyBpZD1laDI+DQo8cCBjbGFzcz1Nc29IZWFkZXI+PHNwYW4gbGFuZz1F
+Ti1HQj48c3BhbiBzdHlsZT0nbXNvLXRhYi1jb3VudDoxJz7CoMKgwqDCoMKgwqDCoMKgwqDCoMKg
+wqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDC
+oMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKg
+wqDCoMKgIDwvc3Bhbj7igJMNCjwvc3Bhbj48IS0tW2lmIHN1cHBvcnRGaWVsZHNdPjxzcGFuIGNs
+YXNzPU1zb1BhZ2VOdW1iZXI+PHNwYW4gbGFuZz1FTi1HQj48c3Bhbg0Kc3R5bGU9J21zby1lbGVt
+ZW50OmZpZWxkLWJlZ2luJz48L3NwYW4+PHNwYW4NCnN0eWxlPSdtc28tc3BhY2VydW46eWVzJz7C
+oDwvc3Bhbj5QQUdFIDxzcGFuIHN0eWxlPSdtc28tZWxlbWVudDpmaWVsZC1zZXBhcmF0b3InPjwv
+c3Bhbj48L3NwYW4+PC9zcGFuPjwhW2VuZGlmXS0tPjxzcGFuDQpjbGFzcz1Nc29QYWdlTnVtYmVy
+PjxzcGFuIGxhbmc9RU4tR0I+PHNwYW4gc3R5bGU9J21zby1uby1wcm9vZjp5ZXMnPjI8L3NwYW4+
+PC9zcGFuPjwvc3Bhbj48IS0tW2lmIHN1cHBvcnRGaWVsZHNdPjxzcGFuDQpjbGFzcz1Nc29QYWdl
+TnVtYmVyPjxzcGFuIGxhbmc9RU4tR0I+PHNwYW4gc3R5bGU9J21zby1lbGVtZW50OmZpZWxkLWVu
+ZCc+PC9zcGFuPjwvc3Bhbj48L3NwYW4+PCFbZW5kaWZdLS0+PHNwYW4NCmxhbmc9RU4tR0I+IOKA
+kzxzcGFuIHN0eWxlPSdtc28tdGFiLWNvdW50OjEnPsKgwqDCoMKgIDwvc3Bhbj4gSUVDIDYwMDUw
+LTE5MjoyMDE1IEVEIDIgPC9zcGFuPiDCqSA8c3Bhbg0KbGFuZz1FTi1HQj4gSUVDOjIwMTU8L3Nw
+YW4+PC9wPg0KPC9kaXY+DQoNCjxkaXYgc3R5bGU9J21zby1lbGVtZW50OmhlYWRlcicgaWQ9ZWgy
+bD4NCjxwIGNsYXNzPU1zb0hlYWRlckxhbmRzY2FwZT48c3BhbiBsYW5nPUVOLUdCPjxzcGFuIHN0
+eWxlPSdtc28tdGFiLWNvdW50OjEnPsKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDC
+oMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKg
+wqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqAgPC9zcGFu
+PuKAkw0KPC9zcGFuPjwhLS1baWYgc3VwcG9ydEZpZWxkc10+PHNwYW4gY2xhc3M9TXNvUGFnZU51
+bWJlcj48c3BhbiBsYW5nPUVOLUdCPjxzcGFuDQpzdHlsZT0nbXNvLWVsZW1lbnQ6ZmllbGQtYmVn
+aW4nPjwvc3Bhbj48c3Bhbg0Kc3R5bGU9J21zby1zcGFjZXJ1bjp5ZXMnPsKgPC9zcGFuPlBBR0Ug
+PHNwYW4gc3R5bGU9J21zby1lbGVtZW50OmZpZWxkLXNlcGFyYXRvcic+PC9zcGFuPjwvc3Bhbj48
+L3NwYW4+PCFbZW5kaWZdLS0+PHNwYW4NCmNsYXNzPU1zb1BhZ2VOdW1iZXI+PHNwYW4gbGFuZz1F
+Ti1HQj48c3BhbiBzdHlsZT0nbXNvLW5vLXByb29mOnllcyc+Mjwvc3Bhbj48L3NwYW4+PC9zcGFu
+PjwhLS1baWYgc3VwcG9ydEZpZWxkc10+PHNwYW4NCmNsYXNzPU1zb1BhZ2VOdW1iZXI+PHNwYW4g
+bGFuZz1FTi1HQj48c3BhbiBzdHlsZT0nbXNvLWVsZW1lbnQ6ZmllbGQtZW5kJz48L3NwYW4+PC9z
+cGFuPjwvc3Bhbj48IVtlbmRpZl0tLT48c3Bhbg0KbGFuZz1FTi1HQj4g4oCTPHNwYW4gc3R5bGU9
+J21zby10YWItY291bnQ6MSc+wqDCoMKgwqAgPC9zcGFuPiBJRUMgNjAwNTAtMTkyOjIwMTUgRUQg
+MiA8L3NwYW4+IMKpIDxzcGFuDQpsYW5nPUVOLUdCPiBJRUM6MjAxNTwvc3Bhbj48L3A+DQo8L2Rp
+dj4NCg0KPGRpdiBzdHlsZT0nbXNvLWVsZW1lbnQ6aGVhZGVyJyBpZD1oMj4NCjxwIGNsYXNzPU1z
+b0hlYWRlcj48c3BhbiBsYW5nPUVOLUdCPklFQyA2MDA1MC0xOTI6MjAxNSBFRCAyDQo8L3NwYW4+
+IMKpIDxzcGFuDQpsYW5nPUVOLUdCPiBJRUM6MjAxNTxzcGFuIHN0eWxlPSdtc28tdGFiLWNvdW50
+Og0KMSc+wqDCoMKgwqDCoCA8L3NwYW4+4oCTIDwvc3Bhbj48IS0tW2lmIHN1cHBvcnRGaWVsZHNd
+PjxzcGFuIGNsYXNzPU1zb1BhZ2VOdW1iZXI+PHNwYW4NCmxhbmc9RU4tR0I+PHNwYW4gc3R5bGU9
+J21zby1lbGVtZW50OmZpZWxkLWJlZ2luJz48L3NwYW4+PHNwYW4NCnN0eWxlPSdtc28tc3BhY2Vy
+dW46eWVzJz7CoDwvc3Bhbj5QQUdFIDxzcGFuIHN0eWxlPSdtc28tZWxlbWVudDpmaWVsZC1zZXBh
+cmF0b3InPjwvc3Bhbj48L3NwYW4+PC9zcGFuPjwhW2VuZGlmXS0tPjxzcGFuDQpjbGFzcz1Nc29Q
+YWdlTnVtYmVyPjxzcGFuIGxhbmc9RU4tR0I+PHNwYW4gc3R5bGU9J21zby1uby1wcm9vZjp5ZXMn
+PjE8L3NwYW4+PC9zcGFuPjwvc3Bhbj48IS0tW2lmIHN1cHBvcnRGaWVsZHNdPjxzcGFuDQpjbGFz
+cz1Nc29QYWdlTnVtYmVyPjxzcGFuIGxhbmc9RU4tR0I+PHNwYW4gc3R5bGU9J21zby1lbGVtZW50
+OmZpZWxkLWVuZCc+PC9zcGFuPjwvc3Bhbj48L3NwYW4+PCFbZW5kaWZdLS0+PHNwYW4NCmxhbmc9
+RU4tR0I+IOKAkzxzcGFuIHN0eWxlPSdtc28tdGFiLWNvdW50OjEnPsKgwqDCoMKgwqDCoMKgwqDC
+oMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKg
+wqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDC
+oMKgwqDCoMKgwqAgPC9zcGFuPjwvc3Bhbj48L3A+DQo8L2Rpdj4NCg0KPGRpdiBzdHlsZT0nbXNv
+LWVsZW1lbnQ6aGVhZGVyJyBpZD1oMmw+DQo8cCBjbGFzcz1Nc29IZWFkZXJMYW5kc2NhcGU+PHNw
+YW4gbGFuZz1FTi1HQj5JRUMgNjAwNTAtMTkyOjIwMTUgRUQgMg0KPC9zcGFuPiDCqSA8c3Bhbg0K
+bGFuZz1FTi1HQj4gSUVDOjIwMTU8c3BhbiBzdHlsZT0nbXNvLXRhYi1jb3VudDoNCjEnPsKgwqDC
+oMKgwqAgPC9zcGFuPuKAkyA8L3NwYW4+PCEtLVtpZiBzdXBwb3J0RmllbGRzXT48c3BhbiBjbGFz
+cz1Nc29QYWdlTnVtYmVyPjxzcGFuDQpsYW5nPUVOLUdCPjxzcGFuIHN0eWxlPSdtc28tZWxlbWVu
+dDpmaWVsZC1iZWdpbic+PC9zcGFuPjxzcGFuDQpzdHlsZT0nbXNvLXNwYWNlcnVuOnllcyc+wqA8
+L3NwYW4+UEFHRSA8c3BhbiBzdHlsZT0nbXNvLWVsZW1lbnQ6ZmllbGQtc2VwYXJhdG9yJz48L3Nw
+YW4+PC9zcGFuPjwvc3Bhbj48IVtlbmRpZl0tLT48c3Bhbg0KY2xhc3M9TXNvUGFnZU51bWJlcj48
+c3BhbiBsYW5nPUVOLUdCPjxzcGFuIHN0eWxlPSdtc28tbm8tcHJvb2Y6eWVzJz4xPC9zcGFuPjwv
+c3Bhbj48L3NwYW4+PCEtLVtpZiBzdXBwb3J0RmllbGRzXT48c3Bhbg0KY2xhc3M9TXNvUGFnZU51
+bWJlcj48c3BhbiBsYW5nPUVOLUdCPjxzcGFuIHN0eWxlPSdtc28tZWxlbWVudDpmaWVsZC1lbmQn
+Pjwvc3Bhbj48L3NwYW4+PC9zcGFuPjwhW2VuZGlmXS0tPjxzcGFuDQpsYW5nPUVOLUdCPiDigJM8
+c3BhbiBzdHlsZT0nbXNvLXRhYi1jb3VudDoxJz7CoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKg
+wqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDC
+oMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKg
+IDwvc3Bhbj48L3NwYW4+PC9wPg0KPC9kaXY+DQoNCjxkaXYgc3R5bGU9J21zby1lbGVtZW50OmZv
+b3RlcicgaWQ9ZWYyPg0KPHAgY2xhc3M9TXNvRm9vdGVyPjxzcGFuIGxhbmc9RU4tR0I+PG86cD4m
+bmJzcDs8L286cD48L3NwYW4+PC9wPg0KPC9kaXY+DQoNCjxkaXYgc3R5bGU9J21zby1lbGVtZW50
+OmZvb3RlcicgaWQ9ZWYybD4NCjxwIGNsYXNzPU1zb0Zvb3RlckxhbmRzY2FwZT48c3BhbiBsYW5n
+PUVOLUdCPjxvOnA+Jm5ic3A7PC9vOnA+PC9zcGFuPjwvcD4NCjwvZGl2Pg0KDQo8ZGl2IHN0eWxl
+PSdtc28tZWxlbWVudDpmb290ZXInIGlkPWYyPg0KPHAgY2xhc3M9TXNvRm9vdGVyPjxzcGFuIGxh
+bmc9RU4tR0I+PG86cD4mbmJzcDs8L286cD48L3NwYW4+PC9wPg0KPC9kaXY+DQoNCjxkaXYgc3R5
+bGU9J21zby1lbGVtZW50OmZvb3RlcicgaWQ9ZjJsPg0KPHAgY2xhc3M9TXNvRm9vdGVyTGFuZHNj
+YXBlPjxzcGFuIGxhbmc9RU4tR0I+PG86cD4mbmJzcDs8L286cD48L3NwYW4+PC9wPg0KPC9kaXY+
+DQoNCjxkaXYgc3R5bGU9J21zby1lbGVtZW50OmZvb3RlcicgaWQ9ZWYzPg0KPHAgY2xhc3M9TXNv
+Rm9vdGVyPjxzcGFuIGxhbmc9RU4tR0I+PG86cD4mbmJzcDs8L286cD48L3NwYW4+PC9wPg0KPC9k
+aXY+DQoNCjxkaXYgc3R5bGU9J21zby1lbGVtZW50OmZvb3RlcicgaWQ9ZWYzbD4NCjxwIGNsYXNz
+PU1zb0Zvb3RlckxhbmRzY2FwZT48c3BhbiBsYW5nPUVOLUdCPjxvOnA+Jm5ic3A7PC9vOnA+PC9z
+cGFuPjwvcD4NCjwvZGl2Pg0KDQo8ZGl2IHN0eWxlPSdtc28tZWxlbWVudDpmb290ZXInIGlkPWYz
+Pg0KPHAgY2xhc3M9TXNvRm9vdGVyPjxzcGFuIGxhbmc9RU4tR0I+PG86cD4mbmJzcDs8L286cD48
+L3NwYW4+PC9wPg0KPC9kaXY+DQoNCjxkaXYgc3R5bGU9J21zby1lbGVtZW50OmZvb3RlcicgaWQ9
+ZjNsPg0KPHAgY2xhc3M9TXNvRm9vdGVyTGFuZHNjYXBlPjxzcGFuIGxhbmc9RU4tR0I+PG86cD4m
+bmJzcDs8L286cD48L3NwYW4+PC9wPg0KPC9kaXY+DQoNCjxkaXYgc3R5bGU9J21zby1lbGVtZW50
+OmZvb3RlcicgaWQ9ZjQ+DQoNCjxwIGNsYXNzPU1zb0Zvb3Rlcj48c3BhbiBsYW5nPUVOLUdCPjxv
+OnA+Jm5ic3A7PC9vOnA+PC9zcGFuPjwvcD4NCg0KPC9kaXY+DQoNCg0KDQo8L2JvZHk+DQoNCjwv
+aHRtbD4NCg==
+
+------=_NextPart_72b454c4.456d.498b--

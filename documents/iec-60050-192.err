@@ -1,0 +1,52 @@
+/__w/iev-document/iev-document/site/documents/iec-60050-192.err errors
+
+
+== Style
+
+(XML Line 000087): Table should have title
+	<table id="_94c801c4-809c-b4e2-51eb-b0cc236911dd" unnumbered="true">
+	<thead>
+	<tr>
+	<th valign="top" align="left">FDIS</th>
+	<th valign="top" align="left">Report on voting</th>
+(XML Line 000242): Scope may contain requirement: In producing this document, several sections of IEC 60050-191:1990 (formerly
+Chapter 191) concerning quality of service, have been omitted:
+
+
+sections 19 and 20: Quality of service in telecommunications, has been adopted
+and developed by the International Telecommunication Union, as publication ITU-T
+E.800, Definitions of terms related to quality of service; and
+
+
+sections 21 to 30, inclusive: Quality of service in electric power systems is
+to be developed as a new document, IEC 60050-6921
+	<clause id="_scope" type="scope" inline-header="false" obligation="normative"><title>Scope</title><p id="_5fa9659d-2975-a0e0-bbfe-e6ce98849cce">This part of IEC 60050 gives the general terminology used in the field of
+	dependability.</p>
+	<p id="_e90f9314-1128-39b0-e5de-64e5b19aaea3">The terms are generic and are applicable to all fields of dependability
+	methodology, including electrotechnical applications.</p>
+	<p id="_b5e67b57-6706-c6c3-8794-d139ae573d20">The document is not an exhaustive vocabulary for all IEC standards in the
+(XML Line 000242): Scope may contain permission: The document is not an exhaustive vocabulary for all IEC standards in the
+dependability field: definitions for some specialized terms may only be found in
+the relevant standards
+	<clause id="_scope" type="scope" inline-header="false" obligation="normative"><title>Scope</title><p id="_5fa9659d-2975-a0e0-bbfe-e6ce98849cce">This part of IEC 60050 gives the general terminology used in the field of
+	dependability.</p>
+	<p id="_e90f9314-1128-39b0-e5de-64e5b19aaea3">The terms are generic and are applicable to all fields of dependability
+	methodology, including electrotechnical applications.</p>
+	<p id="_b5e67b57-6706-c6c3-8794-d139ae573d20">The document is not an exhaustive vocabulary for all IEC standards in the
+
+
+== Metanorma XML Syntax
+
+(XML Line 000372:8): element "term" incomplete; missing required element "definition"
+(XML Line 000379:8): element "term" incomplete; missing required element "definition"
+(XML Line 000386:8): element "term" incomplete; missing required element "definition"
+(XML Line 000393:8): element "term" incomplete; missing required element "definition"
+(XML Line 000400:8): element "term" incomplete; missing required element "definition"
+(XML Line 000407:8): element "term" incomplete; missing required element "definition"
+(XML Line 000414:8): element "term" incomplete; missing required element "definition"
+(XML Line 000421:8): element "term" incomplete; missing required element "definition"
+(XML Line 000428:8): element "term" incomplete; missing required element "definition"
+(XML Line 000435:8): element "term" incomplete; missing required element "definition"
+(XML Line 000442:8): element "term" incomplete; missing required element "definition"
+(XML Line 000449:8): element "term" incomplete; missing required element "definition"
+(XML Line 000456:8): element "term" incomplete; missing required element "definition"

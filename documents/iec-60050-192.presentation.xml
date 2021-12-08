@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<iec-standard xmlns="https://www.metanorma.org/ns/iec" type="presentation" version="1.4.3">
+<bibdata type="standard">
+<title language="en" format="text/plain" type="main">International Electrotechnical Vocabulary&#8201;&#8212;&#8201;Dependability</title>
+<title language="en" format="text/plain" type="title-main">International Electrotechnical Vocabulary</title>
+<title language="en" format="text/plain" type="title-part">Dependability</title>
+<title language="fr" format="text/plain" type="main">Vocabulaire &#201;lectrotechnique International&#8201;&#8212;&#8201;Su&#770;rete&#769; de fonctionnement</title>
+<title language="fr" format="text/plain" type="title-main">Vocabulaire &#201;lectrotechnique International</title>
+<title language="fr" format="text/plain" type="title-part">Su&#770;rete&#769; de fonctionnement</title>
+<docidentifier type="ISO">IEC 60050-192:2015 ED 2</docidentifier>
+<docnumber>60050</docnumber>
+<contributor>
+<role type="author"/>
+<organization>
+<name>International Electrotechnical Commission</name>
+<abbreviation>IEC</abbreviation>
+</organization>
+</contributor>
+<contributor>
+<role type="publisher"/>
+<organization>
+<name>International Electrotechnical Commission</name>
+<abbreviation>IEC</abbreviation>
+</organization>
+</contributor>
+<edition>2</edition>
+<version>
+<revision-date>2015-02-26</revision-date>
+</version>
+<language current="true">en</language>
+<script current="true">Latn</script>
+<status>
+<stage abbreviation="PPUB" language="">60</stage>
+<substage abbreviation="PPUB" language="">60</substage>
+</status>
+<copyright>
+<from>2015</from>
+<owner>
+<organization>
+<name>International Electrotechnical Commission</name>
+<abbreviation>IEC</abbreviation>
+</organization>
+</owner>
+</copyright>
+<ext>
+<doctype language="">international-standard</doctype><doctype language="fr">Norme international</doctype><doctype language="en">International Standard</doctype>
+<subdoctype>vocabulary</subdoctype>
+<editorialgroup>
+<technical-committee number="1" type="TC">Terminology</technical-committee>
+<subcommittee/>
+<workgroup/>
+</editorialgroup>
+<ics>
+<code>01.040.11</code>
+</ics>
+<ics>
+<code>01.040.29</code>
+</ics>
+<ics>
+<code>11.020.10</code>
+</ics>
+<structuredidentifier>
+<project-number part="192">IEC 60050</project-number>
+</structuredidentifier>
+<stagename>International standard</stagename>
+</ext>
+</bibdata><localized-strings><localized-string key="term_def_boilerplate" language="en"><p>ISO and IEC maintain terminological databases for use in
+standardization at the following addresses:</p>
+
+<ul>
+<li> <p>IEC Electropedia: available at
+<link target="http://www.electropedia.org"/>
+</p> </li>
+<li> <p>ISO Online browsing platform: available at
+  <link target="http://www.iso.org/obp"/></p> </li>
+</ul>
+</localized-string><localized-string key="scope" language="en">Scope</localized-string><localized-string key="symbolsabbrev" language="en">Symbols and abbreviated terms</localized-string><localized-string key="abbrev" language="en">Abbreviated terms</localized-string><localized-string key="symbols" language="en">Symbols</localized-string><localized-string key="table_of_contents" language="en">Contents</localized-string><localized-string key="introduction" language="en">INTRODUCTION</localized-string><localized-string key="foreword" language="en">FOREWORD</localized-string><localized-string key="abstract" language="en">Abstract</localized-string><localized-string key="acknowledgements" language="en">Acknowledgements</localized-string><localized-string key="termsdef" language="en">Terms and definitions</localized-string><localized-string key="termsdefsymbolsabbrev" language="en">Terms, definitions, symbols and abbreviated terms</localized-string><localized-string key="termsdefsymbols" language="en">Terms, definitions and symbols</localized-string><localized-string key="termsdefabbrev" language="en">Terms, definitions and abbreviated terms</localized-string><localized-string key="normref" language="en">Normative references</localized-string><localized-string key="bibliography" language="en">Bibliography</localized-string><localized-string key="preface" language="en">Preface</localized-string><localized-string key="clause" language="en">Clause</localized-string><localized-string key="annex" language="en">Annex</localized-string><localized-string key="appendix" language="en">Appendix</localized-string><localized-string key="no_terms_boilerplate" language="en"><p>No terms and definitions are listed in this document.</p>
+</localized-string><localized-string key="internal_terms_boilerplate" language="en"><p>For the purposes of this document, 
+    the following terms and definitions apply.</p>
+</localized-string><localized-string key="norm_with_refs_pref" language="en">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</localized-string><localized-string key="norm_empty_pref" language="en">There are no normative references in this document.</localized-string><localized-string key="external_terms_boilerplate" language="en"><p>For the purposes of this document, 
+  the terms and definitions given in % apply.</p>
+</localized-string><localized-string key="internal_external_terms_boilerplate" language="en"><p>For the purposes of this document, the terms and definitions 
+  given in % and the following apply.</p>
+</localized-string><localized-string key="term_defined_in" language="en">[term defined in %]</localized-string><localized-string key="note" language="en">NOTE</localized-string><localized-string key="note_xref" language="en">Note</localized-string><localized-string key="termnote" language="en">Note % to entry</localized-string><localized-string key="list" language="en">List</localized-string><localized-string key="deflist" language="en">Definition List</localized-string><localized-string key="figure" language="en">Figure</localized-string><localized-string key="formula" language="en">Equation</localized-string><localized-string key="inequality" language="en">Inequality</localized-string><localized-string key="table" language="en">Table</localized-string><localized-string key="requirement" language="en">Requirement</localized-string><localized-string key="recommendation" language="en">Recommendation</localized-string><localized-string key="permission" language="en">Permission</localized-string><localized-string key="key" language="en">Key</localized-string><localized-string key="example" language="en">EXAMPLE</localized-string><localized-string key="example_xref" language="en">Example</localized-string><localized-string key="where" language="en">where</localized-string><localized-string key="wholeoftext" language="en">Whole of text</localized-string><localized-string key="draft_label" language="en">draft</localized-string><localized-string key="inform_annex" language="en">informative</localized-string><localized-string key="norm_annex" language="en">normative</localized-string><localized-string key="modified" language="en">modified</localized-string><localized-string key="deprecated" language="en">DEPRECATED</localized-string><localized-string key="source" language="en">SOURCE</localized-string><localized-string key="and" language="en">and</localized-string><localized-string key="all_parts" language="en">All Parts</localized-string><localized-string key="month_january" language="en">January</localized-string><localized-string key="month_february" language="en">February</localized-string><localized-string key="month_march" language="en">March</localized-string><localized-string key="month_april" language="en">April</localized-string><localized-string key="month_may" language="en">May</localized-string><localized-string key="month_june" language="en">June</localized-string><localized-string key="month_july" language="en">July</localized-string><localized-string key="month_august" language="en">August</localized-string><localized-string key="month_september" language="en">September</localized-string><localized-string key="month_october" language="en">October</localized-string><localized-string key="month_november" language="en">November</localized-string><localized-string key="month_december" language="en">December</localized-string><localized-string key="obligation" language="en">Obligation</localized-string><localized-string key="subject" language="en">Subject</localized-string><localized-string key="inherits" language="en">Inherits</localized-string><localized-string key="admonition.danger" language="en">Danger</localized-string><localized-string key="admonition.warning" language="en">Warning</localized-string><localized-string key="admonition.caution" language="en">Caution</localized-string><localized-string key="admonition.important" language="en">Important</localized-string><localized-string key="admonition.safety_precautions" language="en">Safety Precautions</localized-string><localized-string key="locality.section" language="en">Section</localized-string><localized-string key="locality.clause" language="en">Clause</localized-string><localized-string key="locality.part" language="en">Part</localized-string><localized-string key="locality.paragraph" language="en">Paragraph</localized-string><localized-string key="locality.chapter" language="en">Chapter</localized-string><localized-string key="locality.page" language="en">Page</localized-string><localized-string key="locality.table" language="en">Table</localized-string><localized-string key="locality.annex" language="en">Annex</localized-string><localized-string key="locality.figure" language="en">Figure</localized-string><localized-string key="locality.example" language="en">Example</localized-string><localized-string key="locality.note" language="en">Note</localized-string><localized-string key="locality.formula" language="en">Formula</localized-string><localized-string key="grammar_abbrevs.masculine" language="en">m</localized-string><localized-string key="grammar_abbrevs.feminine" language="en">f</localized-string><localized-string key="grammar_abbrevs.neuter" language="en">n</localized-string><localized-string key="grammar_abbrevs.common" language="en">common</localized-string><localized-string key="grammar_abbrevs.singular" language="en">sg</localized-string><localized-string key="grammar_abbrevs.dual" language="en">dual</localized-string><localized-string key="grammar_abbrevs.pl" language="en">pl</localized-string><localized-string key="grammar_abbrevs.isPreposition" language="en">prep</localized-string><localized-string key="grammar_abbrevs.isParticiple" language="en">part</localized-string><localized-string key="grammar_abbrevs.isAdjective" language="en">adj</localized-string><localized-string key="grammar_abbrevs.isAdverb" language="en">adv</localized-string><localized-string key="grammar_abbrevs.isNoun" language="en">noun</localized-string><localized-string key="grammar_abbrevs.isVerb" language="en">verb</localized-string><localized-string key="relatedterms.deprecates" language="en">deprecates</localized-string><localized-string key="relatedterms.supersedes" language="en">supersedes</localized-string><localized-string key="relatedterms.narrower" language="en">narrower</localized-string><localized-string key="relatedterms.broader" language="en">broader</localized-string><localized-string key="relatedterms.equivalent" language="en">equivalent</localized-string><localized-string key="relatedterms.compare" language="en">compare</localized-string><localized-string key="relatedterms.contrast" language="en">contrast</localized-string><localized-string key="relatedterms.see" language="en">see</localized-string><localized-string key="Clause.sg" language="en">Clause</localized-string><localized-string key="Clause.pl" language="en">Clauses</localized-string><localized-string key="Annex.sg" language="en">Annex</localized-string><localized-string key="Annex.pl" language="en">Annexes</localized-string><localized-string key="Appendix.sg" language="en">Appendix</localized-string><localized-string key="Appendix.pl" language="en">Appendixes</localized-string><localized-string key="Note.sg" language="en">Note</localized-string><localized-string key="Note.pl" language="en">Notes</localized-string><localized-string key="Note_%_to_entry.sg" language="en">Note % to entry</localized-string><localized-string key="Note_%_to_entry.pl" language="en">Notes % to entry</localized-string><localized-string key="List.sg" language="en">List</localized-string><localized-string key="List.pl" language="en">Lists</localized-string><localized-string key="Figure.sg" language="en">Figure</localized-string><localized-string key="Figure.pl" language="en">Figures</localized-string><localized-string key="Formula.sg" language="en">Formula</localized-string><localized-string key="Formula.pl" language="en">Formulas</localized-string><localized-string key="Table.sg" language="en">Table</localized-string><localized-string key="Table.pl" language="en">Tables</localized-string><localized-string key="Requirement.sg" language="en">Requirement</localized-string><localized-string key="Requirement.pl" language="en">Requirements</localized-string><localized-string key="Recommendation.sg" language="en">Recommendation</localized-string><localized-string key="Recommendation.pl" language="en">Recommendations</localized-string><localized-string key="Permission.sg" language="en">Permission</localized-string><localized-string key="Permission.pl" language="en">Permissions</localized-string><localized-string key="Example.sg" language="en">Example</localized-string><localized-string key="Example.pl" language="en">Examples</localized-string><localized-string key="Part.sg" language="en">Part</localized-string><localized-string key="Part.pl" language="en">Parts</localized-string><localized-string key="Section.sg" language="en">Section</localized-string><localized-string key="Section.pl" language="en">Sections</localized-string><localized-string key="Paragraph.sg" language="en">Paragraph</localized-string><localized-string key="Paragraph.pl" language="en">Paragraphs</localized-string><localized-string key="Chapter.sg" language="en">Chapter</localized-string><localized-string key="Chapter.pl" language="en">Chapters</localized-string><localized-string key="Page.sg" language="en">Page</localized-string><localized-string key="Page.pl" language="en">Pages</localized-string><localized-string key="all_rights_reserved" language="en">All rights reserved</localized-string><localized-string key="reference_number" language="en">Reference Number</localized-string><localized-string key="price_based_on" language="en">Price based on % pages</localized-string><localized-string key="under_preparation" language="en">Under preparation. (Stage at the time of publication %).</localized-string><localized-string key="date" language="en">Date</localized-string><localized-string key="index" language="en">Index</localized-string><localized-string key="see" language="en">see</localized-string><localized-string key="see_also" language="en">see also</localized-string><localized-string key="introduction_iev" language="en">INTRODUCTION<br/>Principles and rules followed</localized-string><localized-string key="IEC" language="en">INTERNATIONAL ELECTROTECHNICAL COMMISSION</localized-string><localized-string key="section_iev" language="en">Section</localized-string><localized-string key="price-code" language="en">Price Code</localized-string><localized-string key="doctype_dict.international-standard" language="en">International Standard</localized-string><localized-string key="doctype_dict.technical-specification" language="en">Technical Specification</localized-string><localized-string key="doctype_dict.technical-report" language="en">Technical Report</localized-string><localized-string key="doctype_dict.publicly-available-specification" language="en">Publicly Available Specification</localized-string><localized-string key="doctype_dict.international-workshop-agreement" language="en">International Workshop Agreement</localized-string><localized-string key="doctype_dict.guide" language="en">Guide</localized-string><localized-string key="doctype_dict.interpretation-sheet" language="en">Interpretation Sheet</localized-string><localized-string key="function_dict.emc" language="en">Basic EMC Publication</localized-string><localized-string key="function_dict.safety" language="en">Basic Safety Publication</localized-string><localized-string key="function_dict.environment" language="en">Basic Environment Publication</localized-string><localized-string key="function_dict.quality-assurance" language="en">Basic Quality Assurance Publication</localized-string><localized-string key="horizontal_dict.true" language="en">Horizontal Standard</localized-string><localized-string key="language" language="en">en</localized-string><localized-string key="script" language="en">Latn</localized-string></localized-strings>
+<boilerplate>
+  <copyright-statement>
+    <clause>  
+      
+      <p id="boilerplate-year">
+        &#169; IEC 2015, Published in Switzerland
+      </p>
+      <p id="boilerplate-message">
+        All rights
+        reserved. Unless otherwise specified, no part of this publication may be
+        reproduced or utilized otherwise in any form or by any means, electronic or
+        mechanical, including photocopying, or posting on the internet or an intranet,
+        without prior written permission. Permission can be requested from either IEC
+        at the address below or IEC&#8217;s member body in the country of the requester.
+      </p>
+      <p id="boilerplate-name">IEC Central Office</p>
+      <p id="boilerplate-address" align="left">
+        3, rue de Varemb&#233;<br/>
+        CH-1211 Geneva 20, Switzerland<br/>
+        Tel.&#160;&#160;+ 41 22 919 02 11<br/>
+        Fax&#160;&#160;+ 41 22 919 03 00<br/>
+        info@iec.ch<br/>
+        www.iec.ch
+      
+      </p>
+    </clause>
+  </copyright-statement>
+  <legal-statement>
+    <clause>
+      <ol id="_4ba7e7cf-8b86-0df4-6dfa-755dcb1cb123">
+        <li><p id="_ad491f01-2526-0f1b-b11d-1f2ffa352917">The International Electrotechnical Commission (IEC) is a worldwide organization for standardization comprising all national electrotechnical committees (IEC National Committees). The object of IEC is to promote international co-operation on all questions concerning standardization in the electrical and electronic fields. To this end and in addition to other activities, IEC publishes International Standards, Technical Specifications, Technical Reports, Publicly Available Specifications (PAS) and Guides (hereafter referred to as &#8220;IEC Publication(s)&#8221;). Their preparation is entrusted to technical committees; any IEC National Committee interested in the subject dealt with may participate in this preparatory work. International, governmental and non-governmental organizations liaising with the IEC also participate in this preparation. IEC collaborates closely with the International Organization for Standardization (ISO) in accordance with conditions determined by agreement between the two organizations.</p></li>
+        <li><p id="_b16ed204-1b78-1bd2-8b72-60beb8ccb220">The formal decisions or agreements of IEC on technical matters express, as nearly as possible, an international consensus of opinion on the relevant subjects since each technical committee has representation from all interested IEC National Committees.</p></li>
+        <li><p id="_8b994313-fcb6-0f5d-50f3-db94af96dae9">IEC Publications have the form of recommendations for international use and are accepted by IEC National Committees in that sense. While all reasonable efforts are made to ensure that the technical content of IEC Publications is accurate, IEC cannot be held responsible for the way in which they are used or for any misinterpretation by any end user.</p></li>
+        <li><p id="_d46eb1d5-8cd5-3c31-6271-7356e3b7dfff">In order to promote international uniformity, IEC National Committees undertake to apply IEC Publications transparently to the maximum extent possible in their national and regional publications. Any divergence between any IEC Publication and the corresponding national or regional publication shall be clearly indicated in the latter.</p></li>
+        <li><p id="_d66a677d-2d82-e999-bf54-ee5ceea14964">IEC itself does not provide any attestation of conformity. Independent certification bodies provide conformity assessment services and, in some areas, access to IEC marks of conformity. IEC is not responsible for any services carried out by independent certification bodies.</p></li>
+        <li><p id="_691724f8-7ee0-0e6f-0e65-19afb61ef7ce">All users should ensure that they have the latest edition of this publication.</p></li>
+        <li><p id="_cfe6821e-e717-48ec-41b9-8986bbdb68d8">No liability shall attach to IEC or its directors, employees, servants or agents including individual experts and members of its technical committees and IEC National Committees for any personal injury, property damage or other damage of any nature whatsoever, whether direct or indirect, or for costs (including legal fees) and expenses arising out of the publication, use of, or reliance upon, this IEC Publication or any other IEC Publications.</p></li>
+        <li><p id="_8e749e73-7f72-3c20-ea01-a0eb73f916ec">Attention is drawn to the Normative references cited in this publication. Use of the referenced publications is indispensable for the correct application of this publication.</p></li>
+        <li><p id="_a83ab363-ac62-5e7a-65b3-4edb1bc1aed7">Attention is drawn to the possibility that some of the elements of this IEC Publication may be the subject of patent rights. IEC shall not be held responsible for identifying any or all such patent rights.</p></li>
+      </ol>
+    </clause>
+  </legal-statement>
+  
+  <feedback-statement>
+    
+    <clause>
+      <title depth="1">About the IEC</title>
+      <p id="_d6fd6550-5995-01ae-7164-371aa81df42d">The International Electrotechnical Commission (IEC) is the leading global organization that prepares and publishes International Standards for all electrical, electronic and related technologies.</p>
+    </clause>
+    <clause>
+      <title depth="1">About IEC publications</title>
+      <p id="_e19e6288-d9d6-d802-12cb-a417b5963ec4">The technical content of IEC publications is kept under constant review by the IEC. Please make sure that you have the latest edition, a corrigenda or an amendment might have been published.</p>
+    </clause>
+    <clause>
+      <clause>
+        <title depth="1">IEC Catalogue&#8201;&#8212;&#8201;<link target="https://webstore.iec.ch/catalogue">webstore.iec.ch/catalogue</link></title>
+        <p id="_38f470cf-8d02-1eeb-0bba-99b59d13d81e">The stand-alone application for consulting the entire bibliographical information on IEC International Standards, Technical Specifications, Technical Reports and other documents. Available for PC, Mac OS, Android Tablets and iPad.</p>
+      </clause>
+      <clause><title depth="1">IEC publications search&#8201;&#8212;&#8201;<link target="https://www.iec.ch/searchpub">www.iec.ch/searchpub</link></title>
+        <p id="_91aeda46-e326-f24d-5cb2-b3cf136b40d7">The advanced search enables to find IEC publications by a variety of criteria (reference number, text, technical committee,&#8230;). It also gives information on projects, replaced and withdrawn publications.</p>
+      </clause>
+      <clause><title depth="1">IEC Just Published&#8201;&#8212;&#8201;<link target="https://webstore.iec.ch/justpublished">webstore.iec.ch/justpublished</link></title>
+        <p id="_5471f888-5223-4903-2537-d08d936718f0">Stay up to date on all new IEC publications. Just Published details all new publications released. Available online and also once a month by email.</p>
+      </clause>
+      <clause><title depth="1">Electropedia&#8201;&#8212;&#8201;<link target="http://www.electropedia.org">www.electropedia.org</link></title>
+        <p id="_9f9fe89c-0ad1-be3a-a4d4-d36f9592b4d1">The world&#8217;s leading online dictionary of electronic and electrical terms containing more than 30 000 terms and definitions in English and French, with equivalent terms in 14 additional languages. Also known as the International Electrotechnical Vocabulary (IEV) online.</p>
+      </clause>
+      <clause><title depth="1">IEC Glossary&#8201;&#8212;&#8201;<link target="http://std.iec.ch/glossary">std.iec.ch/glossary</link></title>
+        <p id="_0e73e85d-fdc6-a20c-be2f-1a31301028db">More than 55 000 electrotechnical terminology entries in English and French extracted from the Terms and Definitions clause of IEC publications issued since 2002. Some entries have been collected from earlier publications of IEC TC 37, 77, 86 and CISPR.</p>
+      </clause>
+      <clause><title depth="1">IEC Customer Service Centre&#8201;&#8212;&#8201;<link target="https://webstore.iec.ch/csc">webstore.iec.ch/csc</link></title>
+        <p id="_d7245fe6-6a5b-f568-4e6a-91350b401c96">If you wish to give us your feedback on this publication or need further assistance, please contact the Customer Service Centre: <link target="mailto://csc@iec.ch">csc@iec.ch</link>.</p>
+      </clause>
+    </clause>
+    
+  </feedback-statement>
+</boilerplate>
+
+<preface><foreword id="_ee8776b9-c686-d320-d5a0-8204db975430" obligation="informative" displayorder="1"><title>FOREWORD</title><p id="_94292e45-2f28-c9a4-d839-6754e704941d">International Standard IEC 60050-192 has been prepared by IEC
+technical committee 56: Dependability, of
+IEC technical committee 1: Terminology.</p>
+<p id="_ff21de6d-60da-c312-ce00-76bd283ccd7f">This first edition cancels and replaces the first edition of IEC 60050-191:1990,
+sections 191-01 to 191-20, IEC 60050-191:1990/AMD1:1999, entries in sections
+191-01 to 191-20 and IEC 60050-191:1990/AMD2:2002. It constitutes a technical
+revision. It has the status of a horizontal standard in accordance with IEC
+Guide 108.</p>
+<p id="_879d1899-340f-1e34-fc1d-1d98cb594528">This part of IEC 60050 includes the following significant technical changes with
+respect to the IEC 60050-191:</p>
+<ul id="_ec76ada7-83c9-c131-cd6f-778ce2e9c75c">
+<li>
+<p id="_f1cf5e20-77cd-36c0-1ada-196380905d99">inclusion of terms more commonly used by practitioners;</p>
+</li>
+<li>
+<p id="_4cc986a5-f66d-bb30-79c0-4a1f54382fd9">provision of figures to help explain definitions of time-related concepts.</p>
+</li>
+</ul>
+<p id="_57f96e25-9638-6ee6-baa1-1e4188f0792b">The text of this standard is based on the following documents:</p>
+<table id="_94c801c4-809c-b4e2-51eb-b0cc236911dd" unnumbered="true">
+<thead>
+<tr>
+<th valign="top" align="left">FDIS</th>
+<th valign="top" align="left">Report on voting</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top" align="left">1/2254/FDIS</td>
+<td valign="top" align="left">1/2256/RVD</td>
+</tr>
+</tbody>
+</table>
+<p id="_6555c708-e7b6-27cd-95d8-2efa1a89dfad">Full information on the voting for the approval of this standard can be found in
+the report on voting indicated in the above table.</p>
+<p id="_06e9e5c0-0ee9-bb0d-3d81-12eb898542b2">This document has been drafted in accordance with the ISO/IEC Directives, Part
+2.</p>
+<p id="_f4d73267-c4ee-d2de-487d-91d5ae490d65">In this part of the IEV, the terms and definitions are provided in French and
+English; in addition the terms are given in Arabic (ar), Czech (cs), German
+(de), Spanish (es), Finnish (fi), Italian (it), Japanese (ja), Norwegian [Bokm&#229;l
+(nb) and Nynorsk (nn)], Polish (pl), Portuguese (pt), Slovenian (sl), Serbian
+(sr), Swedish (sv) and Chinese (zh).</p>
+<p id="_e6b6b507-9701-cd8e-7b03-7e9e0025dd3d">A list of all parts of the IEC 60050 series, published under the general title
+International Electrotechnical Vocabulary, can be found on the IEC website and
+is available at <link target="http://www.electropedia.org">www.electropedia.org</link>.</p></foreword><introduction id="_introduction_principles_and_rules_followed" obligation="informative" displayorder="2"><title depth="1">INTRODUCTION<br/>Principles and rules followed</title><clause id="_general" inline-header="false" obligation="informative"><title depth="2">General</title><p id="_427e10b1-4fc9-2e47-1046-e10b32448f6d">The IEV (IEC 60050 series) is a general purpose multilingual vocabulary covering
+the field of electrotechnology, electronics and telecommunication (available at
+<link target="http://www.electropedia.org">www.electropedia.org</link>). It comprises about
+20 000 <em>terminological entries</em>, each corresponding to a concept. These entries
+are distributed among about 80 parts, each part corresponding to a given field.</p>
+<example id="_26797d91-302f-8b80-5b6d-d78d54ccad63"><name>EXAMPLE</name><p id="_397a5369-13e3-e697-4d44-73838df568e6"><strong>Part 161</strong> (IEC 60050-161): Electromagnetic compatibility</p>
+<p id="_0d136f9b-f074-5453-4df4-a1302a69d47f"><strong>Part 411</strong> (IEC 60050-411): Rotating machines</p></example>
+<p id="_bfcbc5d5-a723-8e97-951f-209eb3b8e3f7">The entries follow a hierarchical classification scheme Part/Section/Concept;
+within the sections, the concepts are organized in a systematic order.</p>
+<p id="_3d4b3f9e-17cb-84cf-15e6-70cee0f5b97d">The terms and definitions (and possibly non-verbal representations, examples,
+notes and sources) in the entries are given in two or more of the three IEC
+languages, that is French, English and Russian (<em>principal IEV languages</em>).</p>
+<p id="_539b4e89-3020-e2b4-c465-5b33eef5742c">In each entry, the terms alone are also given in several of the <em>additional IEV languages</em> [Arabic (ar), Czech (cs), German (de), Spanish (es), Finnish (fi),
+Italian (it), Japanese (ja), Norwegian [Bokm&#229;l (nb) and Nynorsk (nn)], Polish
+(pl), Portuguese (pt), Slovenian (sl), Serbian (sr), Swedish (sv) and Chinese
+(zh)].</p></clause>
+<clause id="_organization_of_a_terminological_entry" inline-header="false" obligation="informative"><title depth="2">Organization of a terminological entry</title><p id="_6c6a4a9d-d123-7634-bde3-94298727fd8f">Each of the entries corresponds to a concept, and comprises:</p>
+<ul id="_8ea8dd21-c86a-9346-7611-5aecbc79c785">
+<li>
+<p id="_30679b6e-cc53-bc08-6994-6b3c002f8b81">an <em>entry number</em>,</p>
+</li>
+<li>
+<p id="_59104cfe-963e-2ed3-eae7-3b7f61d301a4">possibly a <em>letter symbol for the quantity or unit</em>,</p>
+</li>
+</ul>
+<p id="_33f5714c-03ae-5fe4-ab0a-c824baa81950">then, for the principal IEV languages present in the part:</p>
+<ul id="_6dd37300-bb1e-f364-2356-f82c4b18f443">
+<li>
+<p id="_c2b2423d-7991-9bf3-4c91-170170647532">the term designating the concept, called <em>&#8220;preferred term&#8221;</em>, possibly
+accompanied by <em>synonyms</em> and <em>abbreviations</em>,</p>
+</li>
+<li>
+<p id="_43fc1641-e7c8-f462-310f-0d5f8785afa7">the <em>definition</em> of the concept,</p>
+</li>
+<li>
+<p id="_f64544b6-f413-4076-2e28-4ac3e486d349">possibly <em>non-verbal representations</em>, <em>examples</em> and <em>notes to entry</em>,</p>
+</li>
+<li>
+<p id="_11ed27d3-af4a-4c69-7b83-f884f923b122">possibly the <em>source</em>,</p>
+</li>
+</ul>
+<p id="_b19fe7c5-3b5a-a51c-ce6f-5957e2ab98a2">and finally, for the additional IEV languages, the terms alone.</p></clause>
+<clause id="_entry_number" inline-header="false" obligation="informative"><title depth="2">Entry number</title><p id="_85e6ce78-d8fa-c100-1d40-0543e57e5402">The entry number is comprised of three elements, separated by hyphens:</p>
+<dl id="_59613f70-b033-0d6c-a663-d16fd35f16a8">
+<dt>Part number</dt>
+<dd>
+<p id="_dee8e84a-1a32-7c6d-8321-b91bdeb48cf0">3 digits,</p>
+</dd>
+<dt>Section number</dt>
+<dd>
+<p id="_0220bed0-db6b-dfc6-5e7c-b1760aff7e4e">2 digits,</p>
+</dd>
+<dt>Concept number</dt>
+<dd>
+<p id="_8445087e-4698-ea1c-3d8e-072fb92bd896">2 digits (01 to 99).</p>
+</dd>
+</dl>
+<example id="_b2d9b274-08f9-0ddc-343d-eb48566767e3"><name>EXAMPLE</name>
+<p id="_f1c69676-b408-0dba-32ae-d05e4f982bb0">
+<strong>131-13-22</strong>
+</p>
+</example></clause>
+<clause id="_letter_symbols_for_quantities_and_units" inline-header="false" obligation="informative"><title depth="2">Letter symbols for quantities and units</title><p id="_e211e55f-9eaa-b97c-a986-79f717d4734b">These symbols, which are language independent, are given on a separate line
+following the entry number.</p>
+<example id="_3e3f30fa-49cd-281a-6c22-e177e113f1fd"><name>EXAMPLE</name><p id="_d14a6511-eb2a-1988-2272-1f09156fd36f">
+<strong>131-12-04</strong>
+</p>
+<p id="_9e1dbdb2-3707-c2e3-c525-86ef87b8b087">
+<em>R</em>
+</p>
+<p id="_ccfb9869-0c6e-3239-f35a-6dd9a30a5e88">
+<strong>resistance</strong>
+</p></example></clause>
+<clause id="_preferred_term_and_synonyms" inline-header="false" obligation="informative"><title depth="2">Preferred term and synonyms</title><p id="_7bd2dafc-34d3-494b-0541-c12e1c2d1068">The preferred term is the term that heads a terminological entry in a given
+language; it may be followed by synonyms. It is printed in boldface.</p>
+<p id="_a1486379-2dfc-3bbf-4c50-712269f2fe97">
+<em>Synonyms:</em>
+</p>
+<p id="_2ce4a301-e402-4a97-caa7-819e8dc7ecf5">The synonyms are printed on separate lines under the preferred term: preferred
+synonyms are printed in boldface, and deprecated synonyms are printed in
+lightface. Deprecated synonyms are prefixed by the text &#8220;DEPRECATED:&#8221;.</p>
+<p id="_0a5c0d48-bce8-070c-78c5-e492ccb7961f">
+<em>Absence of an appropriate term:</em>
+</p>
+<p id="_44c66ddb-855a-1ac1-8ed2-d3ae85f9afc4">When no appropriate term exists in a given language, the preferred term is
+replaced by five dots, as follows:</p>
+<quote id="_56899272-784c-79b9-d2f8-f09f7664c1f5">
+<p id="_c86b2f05-4979-f547-702d-9908b0e7c627">&#8220; &#8230;&#8203;.. &#8221; (and there are of course no synonyms).</p>
+</quote></clause>
+<clause id="_attributes" inline-header="false" obligation="informative"><title depth="2">Attributes</title><p id="_44445605-cd95-bb85-539d-3f719a509d76">Each term (or synonym) may be followed by attributes giving additional
+information, and printed in lightface on the same line as the corresponding
+term, following this term.</p>
+<example id="_2edea929-ed4a-9f0b-02e1-87bdcc19352f"><name>EXAMPLE</name>
+<dl id="_ab5c6e41-370b-d81e-ebc2-75ec325a0644">
+<dt>
+<em>specific use of the term</em>
+</dt>
+<dd>
+<p id="_61d631f7-2f14-9ab9-c696-97f13c092f12"><strong>transmission line</strong>, &#x3c;in electric power systems&#x3e;</p>
+</dd>
+<dt>
+<em>national variant</em>
+</dt>
+<dd>
+<p id="_5e73466b-bc63-01c6-116a-349a0df60a2f">lift, GB</p>
+</dd>
+<dt>
+<em>grammatical information</em>
+</dt>
+<dd><p id="_83376418-95f6-31e5-d961-bbb14f508c2f"><strong>quantize</strong>, verb</p>
+<p id="_e900b0ba-f560-595e-569f-3bb995d59cd4"><strong>transient</strong>, noun</p>
+<p id="_047d447a-3f08-4702-fca5-7b8e62795fce"><strong>AC</strong>, adj</p></dd>
+</dl>
+</example></clause>
+<clause id="_source" inline-header="false" obligation="informative"><title depth="2">Source</title><p id="_b9c08c2f-7df0-0fd9-2f19-f5e402b74343">In some cases, it has been necessary to include in an IEV part a concept taken
+from another IEV part, or from another authoritative terminology document
+(ISO/IEC Guide 99, ISO/IEC 2382, etc.), either with or without modification to
+the definition (and possibly to the term).</p>
+<p id="_5b1c4327-d4a0-1fac-d7d6-13f2b7d81167">This is indicated by the mention of this source, printed in lightface, and
+placed at the end of the entry in each of the principal IEV languages present.</p>
+<example id="_2a4f1ae0-a1c6-6af3-c141-c5efc458d5c2"><name>EXAMPLE</name>
+<p id="_003beff1-c147-8fb4-2cc5-706b15a0290e">SOURCE: IEC 60050-131:2002, 131-03-13, modified</p>
+</example></clause>
+<clause id="_terms_in_additional_iev_languages" inline-header="false" obligation="informative">
+<title depth="2">Terms in additional IEV languages</title>
+<p id="_be0c05ee-f47a-e445-8072-4328d3ecb1cf">These terms are placed following the entries in the principal IEV languages, on
+separate lines (a single line for each language), preceded by the alpha-2 code
+for the language defined in ISO 639-1, and in the alphabetic order of this code.</p>
+</clause></introduction></preface><sections>
+
+<clause id="_scope" type="scope" inline-header="false" obligation="normative" displayorder="3"><title depth="1">1<tab/>Scope</title><p id="_5fa9659d-2975-a0e0-bbfe-e6ce98849cce">This part of IEC 60050 gives the general terminology used in the field of
+dependability.</p>
+<p id="_e90f9314-1128-39b0-e5de-64e5b19aaea3">The terms are generic and are applicable to all fields of dependability
+methodology, including electrotechnical applications.</p>
+<p id="_b5e67b57-6706-c6c3-8794-d139ae573d20">The document is not an exhaustive vocabulary for all IEC standards in the
+dependability field: definitions for some specialized terms may only be found in
+the relevant standards.</p>
+<p id="_78e54d25-f3a9-879a-00af-b8fa69149f89">This document is based on IEC 60050-191:1990, which has been subjected to a
+systematic, in-depth review and revision, in order to:</p>
+<ul id="_bd5d5748-0453-3e01-b2c2-6f18092a9c54">
+<li>
+<p id="_de0ea428-cef8-7fa3-ec28-fdd12058c4b5">reflect the current usage of the terms in the dependability field;</p>
+</li>
+<li>
+<p id="_edfe4e93-5eb1-ee3b-248a-6524ec3cddb2">introduce new terms from new or revised standards, and other informed sources; and</p>
+</li>
+<li>
+<p id="_fdf21839-eb00-ed84-65f1-19f0e7988390">provide a grammatical form, and presentation to comply with the IEC directives.</p>
+</li>
+</ul>
+<p id="_65bc4763-f29f-c7e6-7419-1fed5bcaa933">In producing this document, several sections of IEC 60050-191:1990 (formerly
+Chapter 191) concerning quality of service, have been omitted:</p>
+<ul id="_9bd5e97c-7445-0589-07e0-d7a3e2f15111">
+<li>
+<p id="_7717f220-d3d3-3ada-b7ea-51d7964fa7b4">sections 19 and 20: Quality of service in telecommunications, has been adopted
+and developed by the International Telecommunication Union, as publication ITU-T
+E.800, Definitions of terms related to quality of service; and</p>
+</li>
+<li>
+<p id="_829938ba-fbac-c954-0425-45e54398bb96">sections 21 to 30, inclusive: Quality of service in electric power systems is
+to be developed as a new document, IEC 60050-6921.</p>
+</li>
+</ul>
+<p id="_f3427298-044c-c927-661f-caa7d403bbdb">It has the status of a horizontal standard in accordance with IEC Guide 108,
+Guidelines for ensuring the coherency of IEC publications * Application of
+horizontal standards.</p>
+<p id="_7150aa7f-9230-8ed6-be84-f8b7a26f8964">This terminology is consistent with the terminology developed in the other
+specialized parts of the IEV.</p>
+<p id="_9a449938-9d63-0d35-a7ba-45abd7e03ce8">This horizontal standard is primarily intended for use by technical committees
+in the preparation of standards in accordance with the principles laid down in
+IEC Guide 108.</p>
+<p id="_e3d22707-dd43-3c41-d50d-b403ce9835de">One of the responsibilities of a technical committee is, wherever applicable, to
+make use of horizontal standards in the preparation of its publications. The
+content of this horizontal standard will not apply unless specifically referred
+to or included in the relevant publications.</p></clause>
+
+<terms id="_terms_and_definitions" obligation="normative" displayorder="5"><title>3 Terms and definitions</title><term id="term-general"><name>3.1</name><preferred><strong>General</strong></preferred>
+
+</term>
+<term id="term-states-and-times"><name>3.2</name><preferred><strong>States and times</strong></preferred>
+
+</term>
+<term id="term-reliability-related-concepts_-failures"><name>3.3</name><preferred><strong>Reliability related concepts: failures</strong></preferred>
+
+</term>
+<term id="term-reliability-related-concepts_-faults"><name>3.4</name><preferred><strong>Reliability related concepts: faults</strong></preferred>
+
+</term>
+<term id="term-reliability-related-concepts_-measures"><name>3.5</name><preferred><strong>Reliability related concepts: measures</strong></preferred>
+
+</term>
+<term id="term-maintenance-and-maintenance-support-related-concepts"><name>3.6</name><preferred><strong>Maintenance and maintenance support related concepts</strong></preferred>
+
+</term>
+<term id="term-maintainability-and-maintenance-support_-measures"><name>3.7</name><preferred><strong>Maintainability and maintenance support: measures</strong></preferred>
+
+</term>
+<term id="term-availability-related-measures"><name>3.8</name><preferred><strong>Availability related measures</strong></preferred>
+
+</term>
+<term id="term-concepts-related-to-test_-demonstration-and-improvement"><name>3.9</name><preferred><strong>Concepts related to test, demonstration and improvement</strong></preferred>
+
+</term>
+<term id="term-design-related-dependability-concepts"><name>3.10</name><preferred><strong>Design-related dependability concepts</strong></preferred>
+
+</term>
+<term id="term-analysis-concepts"><name>3.11</name><preferred><strong>Analysis concepts</strong></preferred>
+
+</term>
+<term id="term-dependability-improvement-related-concepts"><name>3.12</name><preferred><strong>Dependability improvement related concepts</strong></preferred>
+
+</term>
+<term id="term-measurement-concepts-and-modifiers"><name>3.13</name><preferred><strong>Measurement concepts and modifiers</strong></preferred>
+
+</term></terms>
+</sections><bibliography><references id="_normative_references" normative="true" obligation="informative" displayorder="4"><title depth="1">2<tab/>Normative references</title><p id="_90543581-4f8a-6652-0a0f-9aa774abbbe2">There are no normative references in this document.</p> <bibitem id="ISO5127" type="standard">  <fetched>2021-12-08</fetched>  <title type="title-intro" format="text/plain" language="en" script="Latn">Information and documentation</title>  <title type="title-main" format="text/plain" language="en" script="Latn">Foundation and vocabulary</title>  <title type="main" format="text/plain" language="en" script="Latn">Information and documentation&#8201;&#8212;&#8201;Foundation and vocabulary</title>  <uri type="src">https://www.iso.org/standard/59743.html</uri>  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:59743:en</uri>  <uri type="rss">https://www.iso.org/contents/data/standard/05/97/59743.detail.rss</uri>  <docidentifier type="ISO">ISO 5127</docidentifier>  <docidentifier type="URN">URN urn:iso:std:iso:5127:stage-90.20:ed-2:en</docidentifier>  <docnumber>5127</docnumber>  <contributor>    <role type="publisher"/>    <organization>      <name>International Organization for Standardization</name>      <abbreviation>ISO</abbreviation>      <uri>www.iso.org</uri>    </organization>  </contributor>  <edition>2</edition>  <language>en</language>  <script>Latn</script>  <status>    <stage>90</stage>    <substage>20</substage>  </status>  <copyright>    <from>2017</from>    <owner>      <organization>        <name>ISO</name>      </organization>    </owner>  </copyright>  <relation type="obsoletes">    <bibitem type="standard">      <formattedref format="text/plain">ISO 5127:2001</formattedref>    </bibitem>  </relation>  <relation type="instance">    <bibitem type="standard">      <fetched>2021-12-08</fetched>      <title type="title-intro" format="text/plain" language="en" script="Latn">Information and documentation</title>      <title type="title-main" format="text/plain" language="en" script="Latn">Foundation and vocabulary</title>      <title type="main" format="text/plain" language="en" script="Latn">Information and documentation&#8201;&#8212;&#8201;Foundation and vocabulary</title>      <uri type="src">https://www.iso.org/standard/59743.html</uri>      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:59743:en</uri>      <uri type="rss">https://www.iso.org/contents/data/standard/05/97/59743.detail.rss</uri>      <docidentifier type="ISO">ISO 5127:2017</docidentifier>      <docidentifier type="URN">urn:iso:std:iso:5127:stage-90.20:ed-2:en</docidentifier>      <docnumber>5127</docnumber>      <date type="published">        <on>2017-05</on>      </date>      <contributor>        <role type="publisher"/>        <organization>          <name>International Organization for Standardization</name>          <abbreviation>ISO</abbreviation>          <uri>www.iso.org</uri>        </organization>      </contributor>      <edition>2</edition>      <language>en</language>      <script>Latn</script>      <abstract format="text/plain" language="en" script="Latn">ISO 5127:2017 provides a concept system and general vocabulary for the field of documentation within the whole information field. It has been created with a balanced representation of major work areas in mind: documentation, libraries, archives, media, museums, records management, conservation as well as legal aspects of documentation. The scope of the vocabulary provided in this document corresponds to that of ISO/TC 46: standardization of practices relating to libraries, documentation and information centres, publishing, archives, records management, museum documentation, indexing and abstracting services, and information science.</abstract>      <status>        <stage>90</stage>        <substage>20</substage>      </status>      <copyright>        <from>2017</from>        <owner>          <organization>            <name>ISO</name>          </organization>        </owner>      </copyright>      <relation type="obsoletes">        <bibitem type="standard">          <formattedref format="text/plain">ISO 5127:2001</formattedref>        </bibitem>      </relation>      <place>Geneva</place>    </bibitem>  </relation>  <place>Geneva</place></bibitem> <bibitem id="ISO9000" type="standard">  <fetched>2021-12-08</fetched>  <title type="title-intro" format="text/plain" language="en" script="Latn">Quality management systems</title>  <title type="title-main" format="text/plain" language="en" script="Latn">Fundamentals and vocabulary</title>  <title type="main" format="text/plain" language="en" script="Latn">Quality management systems&#8201;&#8212;&#8201;Fundamentals and vocabulary</title>  <uri type="src">https://www.iso.org/standard/42180.html</uri>  <uri type="rss">https://www.iso.org/contents/data/standard/04/21/42180.detail.rss</uri>  <docidentifier type="ISO">ISO 9000:2005</docidentifier>  <docidentifier type="URN">URN urn:iso:std:iso:9000:stage-95.99:ed-3:en</docidentifier>  <docnumber>9000</docnumber>  <date type="published">    <on>2005-09</on>  </date>  <contributor>    <role type="publisher"/>    <organization>      <name>International Organization for Standardization</name>      <abbreviation>ISO</abbreviation>      <uri>www.iso.org</uri>    </organization>  </contributor>  <edition>3</edition>  <language>en</language>  <script>Latn</script>  <abstract format="text/plain" language="en" script="Latn">ISO 9000:2005 describes fundamentals of quality management systems, which form the subject of the ISO 9000 family, and defines related terms. It is applicable to the following: a) organizations seeking advantage through the implementation of a quality management system; b) organizations seeking confidence from their suppliers that their product requirements will be satisfied; c) users of the products; d) those concerned with a mutual understanding of the terminology used in quality management (e.g. suppliers, customers, regulators); e) those internal or external to the organization who assess the quality management system or audit it for conformity with the requirements of ISO 9001 (e.g. auditors, regulators, certification/registration bodies); f) those internal or external to the organization who give advice or training on the quality management system appropriate to that organization; g) developers of related standards.</abstract>  <status>    <stage>95</stage>    <substage>99</substage>  </status>  <copyright>    <from>2005</from>    <owner>      <organization>        <name>ISO</name>      </organization>    </owner>  </copyright>  <relation type="obsoletes">    <bibitem type="standard">      <formattedref format="text/plain">ISO 9000:2000</formattedref>    </bibitem>  </relation>  <relation type="updates">    <bibitem type="standard">      <formattedref format="text/plain">ISO 9000:2015</formattedref>      <date type="circulated">        <on>2015-09-22</on>      </date>    </bibitem>  </relation>  <place>Geneva</place></bibitem> <bibitem id="ISOIEC2382-1" type="standard">  <fetched>2021-12-08</fetched>  <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>  <title type="title-main" format="text/plain" language="en" script="Latn">Vocabulary</title>  <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Fundamental terms</title>  <title type="main" format="text/plain" language="en" script="Latn">Information technology&#8201;&#8212;&#8201;Vocabulary&#8201;&#8212;&#8201;Part 1: Fundamental terms</title>  <uri type="src">https://www.iso.org/standard/7229.html</uri>  <uri type="rss">https://www.iso.org/contents/data/standard/00/72/7229.detail.rss</uri>  <docidentifier type="ISO">ISO/IEC 2382-1:1993</docidentifier>  <docidentifier type="URN">URN urn:iso:std:iso-iec:2382:-1:stage-95.99:ed-3:en</docidentifier>  <docnumber>2382</docnumber>  <date type="published">    <on>1993-11</on>  </date>  <contributor>    <role type="publisher"/>    <organization>      <name>International Organization for Standardization</name>      <abbreviation>ISO</abbreviation>      <uri>www.iso.org</uri>    </organization>  </contributor>  <contributor>    <role type="publisher"/>    <organization>      <name>International Electrotechnical Commission</name>      <abbreviation>IEC</abbreviation>      <uri>www.iec.ch</uri>    </organization>  </contributor>  <edition>3</edition>  <language>en</language>  <script>Latn</script>  <abstract format="text/plain" language="en" script="Latn">Presents, in English and French, 144 terms in the following fields: general terms, information representation, hardware, software, programming, applications and end user, computer security, data management. In order to facilitate their translation into other languages, the definitions are drafted so as to avoid, as far as possible, any peculiarity attached to the language.</abstract>  <status>    <stage>95</stage>    <substage>99</substage>  </status>  <copyright>    <from>1993</from>    <owner>      <organization>        <name>ISO/IEC</name>      </organization>    </owner>  </copyright>  <relation type="obsoletes">    <bibitem type="standard">      <formattedref format="text/plain">ISO 2382-1:1984</formattedref>    </bibitem>  </relation>  <relation type="updates">    <bibitem type="standard">      <formattedref format="text/plain">ISO/IEC 2382:2015</formattedref>      <date type="circulated">        <on>2015-04-29</on>      </date>    </bibitem>  </relation>  <place>Geneva</place></bibitem> <bibitem id="ISO24765" type="standard">  <fetched>2021-12-08</fetched>  <title type="title-intro" format="text/plain" language="en" script="Latn">Systems and software engineering</title>  <title type="title-main" format="text/plain" language="en" script="Latn">Vocabulary</title>  <title type="main" format="text/plain" language="en" script="Latn">Systems and software engineering&#8201;&#8212;&#8201;Vocabulary</title>  <uri type="src">https://www.iso.org/standard/50518.html</uri>  <uri type="rss">https://www.iso.org/contents/data/standard/05/05/50518.detail.rss</uri>  <docidentifier type="ISO">ISO/IEC/IEEE 24765:2010</docidentifier>  <docidentifier type="URN">URN urn:iso:std:iso-iec-ieee:24765:stage-95.99:ed-1:en</docidentifier>  <docnumber>24765</docnumber>  <date type="published">    <on>2010-12</on>  </date>  <contributor>    <role type="publisher"/>    <organization>      <name>International Organization for Standardization</name>      <abbreviation>ISO</abbreviation>      <uri>www.iso.org</uri>    </organization>  </contributor>  <contributor>    <role type="publisher"/>    <organization>      <name>International Electrotechnical Commission</name>      <abbreviation>IEC</abbreviation>      <uri>www.iec.ch</uri>    </organization>  </contributor>  <contributor>    <role type="publisher"/>    <organization>      <name>Institute of Electrical and Electronics Engineers</name>      <abbreviation>IEEE</abbreviation>      <uri>www.ieee.org</uri>    </organization>  </contributor>  <edition>1</edition>  <language>en</language>  <script>Latn</script>  <abstract format="text/plain" language="en" script="Latn">ISO/IEC/IEEE 24765:2010 provides a common vocabulary applicable to all systems and software engineering work. It was prepared to collect and standardize terminology. ISO/IEC/IEEE 24765:2010 is intended to serve as a useful reference for those in the information technology field, and to encourage the use of systems and software engineering standards prepared by ISO and liaison organizations IEEE Computer Society and Project Management Institute. ISO/IEC/IEEE 24765:2010 includes references to the active source standards for each definition so that the use of the term can be further explored.</abstract>  <status>    <stage>95</stage>    <substage>99</substage>  </status>  <copyright>    <from>2010</from>    <owner>      <organization>        <name>ISO/IEC/IEEE</name>      </organization>    </owner>  </copyright>  <relation type="updates">    <bibitem type="standard">      <formattedref format="text/plain">ISO/IEC/IEEE 24765:2017</formattedref>      <date type="circulated">        <on>2017-09-06</on>      </date>    </bibitem>  </relation>  <place>Geneva</place></bibitem> <bibitem id="IEV191_1990" type="standard">  <fetched>2021-12-08</fetched>  <title type="title-main" format="text/plain" language="en" script="Latn">International Electrotechnical Vocabulary (IEV)</title>  <title type="title-part" format="text/plain" language="en" script="Latn">Part 191: Dependability and quality of service</title>  <title type="main" format="text/plain" language="en" script="Latn">International Electrotechnical Vocabulary (IEV)&#8201;&#8212;&#8201;Part 191: Dependability and quality of service</title>  <uri type="src">https://webstore.iec.ch/publication/184</uri>  <uri type="obp">/p-preview/info_iec60050-191%7Bed1.0%7Dt.img.pdf</uri>  <docidentifier type="IEC">IEC 60050-191:1990</docidentifier>  <docidentifier type="URN">URN urn:iec:std:iec:60050-191:1990:::en</docidentifier>  <date type="published">    <on>1990-12-31</on>  </date>  <contributor>    <role type="publisher"/>    <organization>      <name>International Electrotechnical Commission</name>      <abbreviation>IEC</abbreviation>      <uri>www.iec.ch</uri>    </organization>  </contributor>  <edition>1.0</edition>  <language>en</language>  <script>Latn</script>  <abstract format="text/plain" language="en" script="Latn">Replaces 271 (A-C). It has the status of a horizontal standard in accordance with IEC Guide 108.</abstract>  <status>    <stage>60</stage>    <substage>60</substage>  </status>  <copyright>    <from>1990</from>    <owner>      <organization>        <name>International Electrotechnical Commission</name>        <abbreviation>IEC</abbreviation>        <uri>www.iec.ch</uri>      </organization>    </owner>  </copyright>  <relation type="updates">    <bibitem type="standard">      <formattedref format="text/plain">IEC 60050-191:1990/AMD2:2002</formattedref>    </bibitem>  </relation>  <relation type="updates">    <bibitem type="standard">      <formattedref format="text/plain">IEC 60050-191:1990/AMD1:1999</formattedref>    </bibitem>  </relation>  <place>Geneva</place></bibitem></references><references id="_bibliography" normative="false" obligation="informative" displayorder="6"><title depth="1">Bibliography</title><bibitem id="ISO639-1" type="standard">  <fetched>2021-12-08</fetched>  <title type="title-main" format="text/plain" language="en" script="Latn">Codes for the representation of names of languages</title>  <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Alpha-2 code</title>  <title type="main" format="text/plain" language="en" script="Latn">Codes for the representation of names of languages&#8201;&#8212;&#8201;Part 1: Alpha-2 code</title>  <uri type="src">https://www.iso.org/standard/22109.html</uri>  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:22109:en</uri>  <uri type="rss">https://www.iso.org/contents/data/standard/02/21/22109.detail.rss</uri>  <docidentifier type="ISO">ISO 639-1</docidentifier>  <docidentifier type="URN">URN urn:iso:std:iso:639:-1:stage-90.93:ed-1:en</docidentifier>  <docnumber>639</docnumber>  <contributor>    <role type="publisher"/>    <organization>      <name>International Organization for Standardization</name>      <abbreviation>ISO</abbreviation>      <uri>www.iso.org</uri>    </organization>  </contributor>  <edition>1</edition>  <language>en</language>  <script>Latn</script>  <status>    <stage>90</stage>    <substage>93</substage>  </status>  <copyright>    <from>2002</from>    <owner>      <organization>        <name>ISO</name>      </organization>    </owner>  </copyright>  <relation type="obsoletes">    <bibitem type="standard">      <formattedref format="text/plain">ISO 639:1988</formattedref>    </bibitem>  </relation>  <relation type="instance">    <bibitem type="standard">      <fetched>2021-12-08</fetched>      <title type="title-main" format="text/plain" language="en" script="Latn">Codes for the representation of names of languages</title>      <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Alpha-2 code</title>      <title type="main" format="text/plain" language="en" script="Latn">Codes for the representation of names of languages&#8201;&#8212;&#8201;Part 1: Alpha-2 code</title>      <uri type="src">https://www.iso.org/standard/22109.html</uri>      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:22109:en</uri>      <uri type="rss">https://www.iso.org/contents/data/standard/02/21/22109.detail.rss</uri>      <docidentifier type="ISO">ISO 639-1:2002</docidentifier>      <docidentifier type="URN">urn:iso:std:iso:639:-1:stage-90.93:ed-1:en</docidentifier>      <docnumber>639</docnumber>      <date type="published">        <on>2002-07</on>      </date>      <contributor>        <role type="publisher"/>        <organization>          <name>International Organization for Standardization</name>          <abbreviation>ISO</abbreviation>          <uri>www.iso.org</uri>        </organization>      </contributor>      <edition>1</edition>      <language>en</language>      <script>Latn</script>      <abstract format="text/plain" language="en" script="Latn">This part of ISO 639 provides a code consisting of language code elements comprising two-letter language identifiers for the representation of names of languages. The language identifiers according to this part of ISO 639 were devised originally for use in terminology, lexicography and linguistics, but may be adopted for any application requiring the expression of language in two-letter coded form, especially in computerized systems. The alpha-2 code was devised for practical use for most of the major languages of the world that are not only most frequently represented in the total body of the world&#8217;s literature, but which also comprise a considerable volume of specialized languages and terminologies. Additional language identifiers are created when it becomes apparent that a significant body of documentation written in specialized languages and terminologies exists. Languages designed exclusively for machine use, such as computer-programming languages, are not included in this code.</abstract>      <status>        <stage>90</stage>        <substage>93</substage>      </status>      <copyright>        <from>2002</from>        <owner>          <organization>            <name>ISO</name>          </organization>        </owner>      </copyright>      <relation type="obsoletes">        <bibitem type="standard">          <formattedref format="text/plain">ISO 639:1988</formattedref>        </bibitem>      </relation>      <place>Geneva</place>    </bibitem>  </relation>  <place>Geneva</place></bibitem>  </references></bibliography>
+</iec-standard>

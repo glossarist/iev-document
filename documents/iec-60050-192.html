@@ -1,0 +1,1533 @@
+
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style>
+  <!--
+/*
+    0 CSS RESET
+*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  font-size: 100%; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  vertical-align: baseline; }
+
+html, body, div, span, applet, object, iframe,
+p, blockquote,
+a, abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, q, s,
+small, strike, strong, sub, sup, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: "Arial",sans-serif; }
+
+code, pre, tt, kbd, samp {
+  font-family: "Courier New",monospace;
+  font-variant-ligatures: none; }
+
+code *, pre *, tt *, kbd *, samp * {
+  font-family: "Courier New",monospace !important;
+  font-variant-ligatures: none; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Arial",sans-serif; }
+
+blockquote, q {
+  quotes: none; }
+  blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none; }
+
+.h2Annex {
+  font-family: "Arial",sans-serif; }
+
+dl {
+  display: grid;
+  grid-template-columns: max-content auto; }
+  dl dt p, dl dd p {
+    margin-top: 0; }
+  dl dt {
+    grid-column-start: 1; }
+  dl dd {
+    grid-column-start: 2; }
+
+b, strong {
+  font-weight: bold; }
+
+div.document-stage-band, div.document-type-band {
+  background-color: #333333; }
+
+a.FootnoteRef + a.FootnoteRef:before {
+  content: ", ";
+  vertical-align: super; }
+
+.addition {
+  color: blue; }
+
+.deletion {
+  color: red;
+  text-decoration: line-through; }
+
+#standard-band {
+  background-color: #0AC442; }
+
+#standard {
+  border-bottom: solid 3px #0AC442; }
+
+#directive-band {
+  background-color: #540D6E; }
+
+#directive {
+  border-bottom: solid 3px #540D6E; }
+
+#guide-band {
+  background-color: #D183C9; }
+
+#guide {
+  border-bottom: solid 3px #D183C9; }
+
+#specification-band {
+  background-color: #65AFFF; }
+
+#specification {
+  border-bottom: solid 3px #65AFFF; }
+
+#report-band {
+  background-color: #3A405A; }
+
+#report {
+  border-bottom: solid 3px #3A405A; }
+
+#amendment-band {
+  background-color: #F26430; }
+
+#amendment {
+  border-bottom: solid 3px #F26430; }
+
+#corrigendum-band {
+  background-color: #C84630; }
+
+#corrigendum {
+  border-bottom: solid 3px #C84630; }
+
+#administrative-band {
+  background-color: #BFAE48; }
+
+#administrative {
+  border-bottom: solid 3px #BFAE48; }
+
+#advisory-band {
+  background-color: #BD9391; }
+
+#advisory {
+  border-bottom: solid 3px #BD9391; }
+
+#proposal-band {
+  background-color: #39A0ED; }
+
+#proposal {
+  border-bottom: solid 3px #39A0ED; }
+
+#working-draft-band {
+  background-color: #2D7393; }
+
+#working-draft {
+  border-bottom: solid 3px #2D7393; }
+
+#committee-draft-band {
+  background-color: #2A6B7C; }
+
+#committee-draft {
+  border-bottom: solid 3px #2A6B7C; }
+
+#draft-standard-band {
+  background-color: #1C7F7A; }
+
+#draft-standard {
+  border-bottom: solid 3px #1C7F7A; }
+
+#final-draft-band {
+  background-color: #53C170; }
+
+#final-draft {
+  border-bottom: solid 3px #53C170; }
+
+#published-band {
+  background-color: #069E2D; }
+
+#published {
+  border-bottom: solid 3px #069E2D; }
+
+#withdrawn-band {
+  background-color: #004E64; }
+
+#withdrawn {
+  border-bottom: solid 3px #004E64; }
+
+#cancelled-band {
+  background-color: #2E382E; }
+
+#cancelled {
+  border-bottom: solid 3px #2E382E; }
+
+body {
+  line-height: 1.3; }
+
+/* New CSS */
+body {
+  margin-left: 298px;
+  margin-right: 2em; }
+
+main {
+  padding-left: 4em;
+  padding-right: 2em; }
+
+.title-section, .prefatory-section {
+  padding-left: 4em;
+  padding-top: 2em; }
+
+.coverpage_docnumber, .coverpage_techcommittee {
+  text-align: right;
+  font-size: 0.9em;
+  line-height: 0.5em; }
+
+.doctitle-en, .doctitle-fr {
+  margin-top: 2em;
+  text-align: left; }
+
+.doctitle-en {
+  padding-left: 3em;
+  margin-left: -3em;
+  /*padding-top: 2em;*/
+  padding-bottom: 2em; }
+
+.doctitle-en span {
+  font-size: 2em;
+  line-height: 1.5em; }
+
+.doctitle-fr span {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  font-style: italic; }
+
+.doctitle-part {
+  margin-top: 1em; }
+
+/*
+span.title {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 800;
+}
+*/
+span.title, span.subtitle, span.part {
+  font-weight: 800; }
+
+span.partlabel {
+  display: block; }
+
+.coverpage_docstage {
+  margin-top: 2em;
+  margin-bottom: 2em; }
+
+.coverpage_warning {
+  font-size: 0.9em;
+  font-style: italic;
+  padding-bottom: 1em; }
+
+.boilerplate-copyright p {
+  margin-top: 1em;
+  display: block; }
+
+#boilerplate-message, #boilerplate-name,
+#boilerplate-address {
+  font-size: 0.9em; }
+
+/* TYPOGRAPHY */
+h1 {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-top: 2em;
+  margin-bottom: 1em; }
+
+h2 {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 1em; }
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2; }
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+p.zzSTDTitle1 {
+  font-weight: 700;
+  font-size: 1.5em;
+  text-transform: uppercase; }
+
+p.zzSTDTitle2 {
+  font-weight: 700;
+  font-size: 1.5em; }
+
+span.obligation {
+  font-weight: 400; }
+
+a {
+  color: black;
+  text-decoration-color: black; }
+
+nav a {
+  text-decoration: none;
+  color: black; }
+
+h2 p {
+  display: inline; }
+
+ul > li {
+  list-style: none; }
+
+ul > li > p:first-child:before {
+  content: "\2014";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.5em;
+  margin-right: 0.5em; }
+
+li p {
+  /* display: inline-block; */
+  margin-bottom: 0.6em;
+  line-height: 1.2; }
+
+#toc li:before {
+  content: " ";
+  display: none; }
+
+p.AltTerms {
+  margin-bottom: 0;
+  font-style: italic;
+  margin-left: 2em; }
+
+p.Terms {
+  margin-top: 0em; }
+
+p.TermNum {
+  font-weight: bold; }
+
+/* Navigation*/
+@media screen and (min-width: 768px) {
+  nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 278px;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0 0 0 20px;
+    background-color: #f5faff; } }
+
+@media print {
+  nav {
+    position: relative;
+    width: auto;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0;
+    margin-right: 0;
+    background-color: white; } }
+
+@media screen and (min-width: 768px) {
+  #toggle {
+    position: fixed;
+    height: 100%;
+    width: 30px;
+    background-color: #f5faff;
+    color: black !important;
+    cursor: pointer;
+    z-index: 100; }
+    #toggle span {
+      text-align: center;
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%); } }
+
+@media screen and (max-width: 768px) {
+  #toggle {
+    display: none; } }
+
+@media print {
+  #toggle {
+    display: none; } }
+
+#toc {
+  font-family: "Arial",sans-serif;
+  font-weight: 400; }
+  #toc ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    #toc ul li a {
+      padding: 5px 10px; }
+    #toc ul a {
+      color: black;
+      text-decoration: none;
+      display: block; }
+      #toc ul a:hover {
+        box-shadow: none;
+        color: black; }
+  #toc .h2 {
+    padding-left: 30px; }
+  #toc .h3 {
+    padding-left: 50px; }
+  #toc .toc-active, #toc li:hover {
+    background: black;
+    box-shadow: inset -5px 0px 10px -5px black !important; }
+    #toc .toc-active a, #toc li:hover a {
+      color: black; }
+  @media print {
+    #toc .toc-active, #toc li:hover {
+      background: white;
+      box-shadow: none !important; }
+    #toc .toc-active a {
+      color: black; }
+    #toc li:hover a {
+      color: black; } }
+  @media screen and (max-width: 768px) {
+    #toc {
+      padding: 0 1.5em;
+      overflow: visible; } }
+  #toc .toc-active,
+  #toc li:hover {
+    box-shadow: 0px 1px 0px 0px black !important;
+    color: black;
+    background: none; }
+  #toc ul a:hover {
+    box-shadow: none;
+    color: black; }
+
+@media screen and (min-width: 768px) {
+  nav {
+    line-height: 1.2em; }
+  #toggle {
+    border-right: solid black 1px;
+    margin-left: -4em;
+    margin-top: -2em; }
+  .container {
+    padding-left: 360px; }
+  .rule.toc {
+    display: none; }
+  h1.toc-contents {
+    margin-top: 1em; }
+  ul#toc-list {
+    padding: 0;
+    margin: 0; } }
+
+@media screen and (max-width: 768px) {
+  #toggle {
+    display: none;
+    margin-left: -4em;
+    margin-top: -2em; }
+  body {
+    margin-left: 2em; }
+  main {
+    padding: 0; }
+  .title-section, .prefatory-section {
+    padding-left: 0;
+    padding-top: 0;
+    width: 100%; } }
+
+div.figure > img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+/*
+    Document types + stages
+*/
+.document-type-band {
+  left: 0;
+  top: 180px;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 102; }
+  .document-type-band > :first-child {
+    position: relative;
+    width: 25px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin: 0;
+    margin-left: 6px;
+    writing-mode: tb-rl;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    white-space: nowrap;
+    display: block;
+    bottom: 0; }
+  @media print {
+    .document-type-band {
+      display: none; } }
+  .document-type-band .document-type {
+    top: 20px; }
+
+.document-stage-band {
+  left: 0;
+  top: 0;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 101;
+  box-shadow: -5px 0px 10px #1d1d1d; }
+  .document-stage-band > :first-child {
+    position: relative;
+    width: 25px;
+    font-weight: 400;
+    height: 210px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin: 0;
+    margin-left: 6px;
+    writing-mode: tb-rl;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    white-space: nowrap;
+    display: block;
+    bottom: 0; }
+  @media print {
+    .document-stage-band {
+      display: none; } }
+p.document-stage {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  height: 210px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0; }
+
+#governance-band p.document-type {
+  font-weight: 400;
+  height: 230px !important; }
+
+p.document-stage {
+  font-weight: 300;
+  height: 160px; }
+
+#standard-band {
+  background-color: #0ac442; }
+
+#standard {
+  border-bottom: solid 3px #0ac442; }
+
+#governance {
+  border-bottom: solid 3px #750697; }
+
+#governance-band {
+  background-color: #750697; }
+
+#guide {
+  border-bottom: solid 3px #48a0e7; }
+
+#guide-band {
+  background-color: #48a0e7; }
+
+.coverpage-maturity {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0 0 2em 0;
+  text-transform: uppercase; }
+
+#working-draft {
+  border-bottom: solid 3px #fda706; }
+
+#working-draft-band {
+  background-color: #fda706; }
+
+#committee-draft {
+  border-bottom: solid 3px #fd06fd; }
+
+#committee-draft-band {
+  background-color: #fd06fd; }
+
+#draft-standard {
+  border-bottom: solid 3px #fdf906; }
+
+#draft-standard {
+  border-bottom: solid 3px #fdf906; }
+
+#standard {
+  border-bottom: solid 3px #0ac442; }
+
+#standard-band {
+  background-color: #0ac442; }
+
+#obsolete {
+  border-bottom: solid 3px #7e0d13; }
+
+#obsolete-band {
+  background-color: #7e0d13; }
+
+/* 3 Other styles */
+/*
+    3.3 Lists
+*/
+ul, ol {
+  margin-left: 2em; }
+
+#toc-list ul {
+  margin-bottom: 0.25em; }
+
+#toc-list ol li {
+  list-style-type: none; }
+
+/* https://github.com/metanorma/metanorma-iso/issues/319 : ordered list rendering */
+ol[type="alphabet"] {
+  counter-reset: alphabet; }
+
+ol[type="arabic"] {
+  counter-reset: arabic; }
+
+ol[type="roman"] {
+  counter-reset: roman; }
+
+ol[type="alphabet_upper"] {
+  counter-reset: alphabet_upper; }
+
+ol[type="roman_upper"] {
+  counter-reset: roman_upper; }
+
+ol[type="alphabet"] ol[type="alphabet"] {
+  counter-reset: alphabet2; }
+
+ol[type="arabic"] ol[type="arabic"] {
+  counter-reset: arabic2; }
+
+ol[type="roman"] ol[type="roman"] {
+  counter-reset: roman2; }
+
+ol[type="alphabet_upper"] ol[type="alphabet_upper"] {
+  counter-reset: alphabet_upper2; }
+
+ol[type="roman_upper"] ol[type="roman_upper"] {
+  counter-reset: roman_upper2; }
+
+ol {
+  counter-reset: alphabet; }
+
+ol > li {
+  list-style: none;
+  position: relative; }
+
+ol > li:before {
+  position: absolute;
+  left: -1.4em; }
+
+ol[type="roman"] > li:before {
+  left: -2.0em; }
+
+ol[type="roman_upper"] > li:before {
+  left: -2.3em; }
+
+ol[type="alphabet"] > li:before {
+  counter-increment: alphabet;
+  content: counter(alphabet, lower-alpha) ") "; }
+
+ol[type="arabic"] > li:before {
+  counter-increment: arabic;
+  content: counter(arabic, decimal) ") "; }
+
+ol[type="roman"] > li:before {
+  counter-increment: roman;
+  content: counter(roman, lower-roman) ") "; }
+
+ol[type="alphabet_upper"] > li:before {
+  counter-increment: alphabet_upper;
+  content: counter(alphabet_upper, upper-alpha) ") "; }
+
+ol[type="roman_upper"] > li:before {
+  counter-increment: roman_upper;
+  content: counter(roman_upper, upper-roman) ") "; }
+
+ol > li:before {
+  counter-increment: alphabet;
+  content: counter(alphabet, lower-alpha) ") "; }
+
+ol[type="alphabet"] ol[type="alphabet"] > li:before {
+  counter-increment: alphabet2;
+  content: counter(alphabet2, lower-alpha) ") "; }
+
+ol[type="arabic"] ol[type="arabic"] > li:before {
+  counter-increment: arabic2;
+  content: counter(arabic2, decimal) ") "; }
+
+ol[type="roman"] ol[type="roman"] > li:before {
+  counter-increment: roman2;
+  content: counter(roman2, lower-roman) ") "; }
+
+ol[type="alphabet_upper"] ol[type="alphabet_upper"] > li:before {
+  counter-increment: alphabet_upper2;
+  content: counter(alphabet_upper2, upper-alpha) ") "; }
+
+ol[type="roman_upper"] ol[type="roman_upper"] > li:before {
+  counter-increment: roman_upper2;
+  content: counter(roman_upper2, upper-roman) ") "; }
+
+/*
+3.4 Rules
+*/
+.rule {
+  width: 100%;
+  height: 1px;
+  background-color: #0e1a85;
+  margin: 2em 0; }
+
+/*
+    3.5 Bibliograhy
+*/
+p.Biblio,
+p.NormRef {
+  margin-top: 1em;
+  margin-left: 2em; }
+
+/*
+3.6 Source Code + figures
+*/
+.figure,
+pre,
+.pseudocode {
+  background-color: #f5faff;
+  font-size: 1.0em;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+  font-size: 1.0em; }
+  .figure .SourceTitle,
+  pre .SourceTitle,
+  .pseudocode .SourceTitle {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center; }
+
+pre {
+  font-family: "Courier New",monospace;
+  font-variant-ligatures: none; }
+
+.AdmonitionTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+.RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+.FigureTitle,
+.SourceTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+/*
+3.7 Notes
+*/
+.Note, .note {
+  background-color: #fff495;
+  color: #47430c;
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left; }
+
+.Note p, .note p {
+  margin: 0; }
+
+.Admonition {
+  background-color: #ffcccc;
+  color: #47430c;
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left; }
+
+.Admonition p {
+  margin: 0; }
+
+/*
+3.8 Examples
+*/
+.example {
+  background-color: #e1eef1;
+  padding: 0.5em;
+  margin: 2em 0 1em 0;
+  text-align: left;
+  color: #424242;
+  padding-left: 2em;
+  text-align: left; }
+  .example p {
+    margin: 0; }
+  .example .example-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: -1.5em; }
+  .example .example-title {
+    margin-top: 0; }
+  .example pre,
+  .example .pseudocode {
+    background: none; }
+
+/*
+3.9 Tables
+*/
+/*
+    3.9 Tables
+*/
+table {
+  width: 100%;
+  font-weight: 300;
+  margin: 1em 0 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2em;
+  text-align: center; }
+  table, table th, table td {
+    border: 1px solid black;
+    font-size: 0.95em; }
+  table th, table td {
+    padding: 1em; }
+  table td.header {
+    font-weigth: 400; }
+  table td,
+  table th {
+    font-size: 0.95em;
+    padding: 1em !important; }
+
+p.TableTitle {
+  text-align: center;
+  margin-top: 2.5em;
+  font-weight: 800;
+  font-size: 1.1em; }
+
+.TableFootnote {
+  text-align: left !important; }
+
+/*
+3.10 Footnotes
+*/
+a.footnote-number, a.TableFootnoteRef, span.TableFootnoteRef {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+.footnote {
+  font-size: 0.9em; }
+
+sup a {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+#footnote_box {
+  font-size: 0.9em;
+  background: white;
+  padding: 0 10px;
+  margin: 10px;
+  border: 1px solid #888;
+  -moz-box-shadow: 0px 0px 5px #888;
+  -webkit-box-shadow: 0px 0px 5px #888;
+  box-shadow: 0px 0px 5px #888; }
+
+ol.footnotes-list, aside.footnote {
+  margin-left: 1em; }
+
+ol.footnotes-list li, aside.footnote {
+  font-size: 0.9em;
+  vertical-align: top;
+  list-style: decimal;
+  margin-bottom: 1em; }
+
+ol.footnotes-list:first-child {
+  margin-top: 2em; }
+
+ol.footnotes-list p, aside.footnote p {
+  display: inline; }
+
+ol > li > p:before {
+  content: "";
+  display: none; }
+
+/*
+3.11 Blockquotes
+*/
+.Quote {
+  background-color: #f5faff;
+  font-style: italic;
+  width: 80%;
+  padding: 1.5em;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*
+3.12 Formulas
+*/
+.formula {
+  background-color: #f5faff;
+  padding: 1.5em;
+  margin-top: 2em;
+  text-align: center; }
+
+dl.formula_dl {
+  background-color: #f5faff; }
+
+/*
+Keywords
+*/
+span.keyword {
+  font-weight: 600; }
+
+.Admonition, .admonition {
+  background-color: #ffb3b3;
+  /* color: #47430c;*/
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left; }
+
+.Admonition p, .admonition p {
+  margin: 0; }
+
+-->
+</style><title>International Electrotechnical Vocabulary&#xA0;&#x2014; Part&#xA0;192: Dependability</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--TOC script import-->
+<script type="text/javascript" src="https://cdn.rawgit.com/jgallen23/toc/0.3.2/dist/toc.min.js"></script>
+<script type="text/javascript">function toclevel() { return "h1:not(:empty):not(.TermNum):not(.noTOC),h2:not(:empty):not(.TermNum):not(.noTOC)";}
+</script>
+
+<!--Google fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com" /> 
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i&amp;display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet" />
+
+<!--Font awesome import for the link icon-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous" />
+<style class="anchorjs"></style>
+</head>
+  <body lang="en" xml:lang="en">
+    <div class="title-section">    <div id="toggle"> <span>&#x2022;</span> </div>
+    
+<p class="coverpage_docnumber"></p>
+    
+
+
+<p class="coverpage_docnumber">Date: 2015-02-26</p>
+
+
+
+<p class="coverpage_docnumber">IEC 60050-192:2015 ED 2(E) </p>
+
+
+<p class="coverpage_techcommittee">IEC/TC 1</p>
+
+<p class="coverpage_techcommittee"><a name="CVP_Secretariat_Loca" id="CVP_Secretariat_Loca">Secretariat</a>: XXX</p>
+
+<div class="doctitle-en">
+  <div><span class="title"></span><span class="subtitle">International Electrotechnical Vocabulary &#x2014;</span>
+  
+</div>
+  <div class="doctitle-part">
+  <span class="partlabel">Part&#xA0;192: </span>
+  <span class="part">Dependability</span>
+  
+</div>
+</div>
+
+<div class="doctitle-fr">
+  <div><span class="title"></span><span class="subtitle">Vocabulaire &#xC9;lectrotechnique International &#x2014;</span>
+  
+  </div>
+  <div>
+  <span class="partlabel">Partie&#xA0;192: </span>
+  <span class="part">Su&#x302;rete&#x301; de fonctionnement</span>
+  
+</div>
+</div>
+
+<div class="coverpage_docstage">
+  
+</div>
+
+<div class="coverpage_warning">
+  <div id="boilerplate-license-destination"></div>
+</div>
+
+
+      
+    </div>
+    <br />
+    <div class="prefatory-section"><div id="boilerplate-copyright-destination"></div>
+
+<nav>
+
+  <h1 id="content">Contents</h1>
+  <div id="toc"><ul><li class="h1"><a href="#toc0">      FOREWORD</a></li><li class="h1"><a href="#toc1">      INTRODUCTION Principles and rules followed</a></li><li class="h2"><a href="#toc2">      General</a></li><li class="h2"><a href="#toc3">      Organization of a terminological entry</a></li><li class="h2"><a href="#toc4">      Entry number</a></li><li class="h2"><a href="#toc5">      Letter symbols for quantities and units</a></li><li class="h2"><a href="#toc6">      Preferred term and synonyms</a></li><li class="h2"><a href="#toc7">      Attributes</a></li><li class="h2"><a href="#toc8">      Source</a></li><li class="h2"><a href="#toc9">      Terms in additional IEV languages</a></li><li class="h1"><a href="#toc10">      1&#xA0; Scope</a></li><li class="h1"><a href="#toc11">      2&#xA0; Normative references</a></li><li class="h1"><a href="#toc12">      3 Terms and definitions</a></li></ul></div>
+
+</nav>
+
+      
+    </div>
+    <br />
+    <main class="main-section"><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <br />
+      <p class="zzSTDTitle1">INTERNATIONAL ELECTROTECHNICAL COMMISSION</p>
+      <p class="zzSTDTitle1">____________</p>
+      <p class="zzSTDTitle1">&#xA0;</p>
+      <p class="zzSTDTitle1">
+        <b>International Electrotechnical Vocabulary &#x2014;</b>
+      </p>
+      <p class="zzSTDTitle1">&#xA0;</p>
+      <p class="zzSTDTitle2">
+        <b>Part&#xA0;192: Dependability</b>
+      </p>
+      <p class="zzSTDTitle1">&#xA0;</p>
+      <div id="_ee8776b9-c686-d320-d5a0-8204db975430">
+        <h1 class="ForewordTitle" id="toc0">FOREWORD</h1>
+        <div class="boilerplate_legal">
+          <div>
+      <ol type="a" id="_4ba7e7cf-8b86-0df4-6dfa-755dcb1cb123">
+        <li><p id="_ad491f01-2526-0f1b-b11d-1f2ffa352917">The International Electrotechnical Commission (IEC) is a worldwide organization for standardization comprising all national electrotechnical committees (IEC National Committees). The object of IEC is to promote international co-operation on all questions concerning standardization in the electrical and electronic fields. To this end and in addition to other activities, IEC publishes International Standards, Technical Specifications, Technical Reports, Publicly Available Specifications (PAS) and Guides (hereafter referred to as &#x201C;IEC Publication(s)&#x201D;). Their preparation is entrusted to technical committees; any IEC National Committee interested in the subject dealt with may participate in this preparatory work. International, governmental and non-governmental organizations liaising with the IEC also participate in this preparation. IEC collaborates closely with the International Organization for Standardization (ISO) in accordance with conditions determined by agreement between the two organizations.</p></li>
+        <li><p id="_b16ed204-1b78-1bd2-8b72-60beb8ccb220">The formal decisions or agreements of IEC on technical matters express, as nearly as possible, an international consensus of opinion on the relevant subjects since each technical committee has representation from all interested IEC National Committees.</p></li>
+        <li><p id="_8b994313-fcb6-0f5d-50f3-db94af96dae9">IEC Publications have the form of recommendations for international use and are accepted by IEC National Committees in that sense. While all reasonable efforts are made to ensure that the technical content of IEC Publications is accurate, IEC cannot be held responsible for the way in which they are used or for any misinterpretation by any end user.</p></li>
+        <li><p id="_d46eb1d5-8cd5-3c31-6271-7356e3b7dfff">In order to promote international uniformity, IEC National Committees undertake to apply IEC Publications transparently to the maximum extent possible in their national and regional publications. Any divergence between any IEC Publication and the corresponding national or regional publication shall be clearly indicated in the latter.</p></li>
+        <li><p id="_d66a677d-2d82-e999-bf54-ee5ceea14964">IEC itself does not provide any attestation of conformity. Independent certification bodies provide conformity assessment services and, in some areas, access to IEC marks of conformity. IEC is not responsible for any services carried out by independent certification bodies.</p></li>
+        <li><p id="_691724f8-7ee0-0e6f-0e65-19afb61ef7ce">All users should ensure that they have the latest edition of this publication.</p></li>
+        <li><p id="_cfe6821e-e717-48ec-41b9-8986bbdb68d8">No liability shall attach to IEC or its directors, employees, servants or agents including individual experts and members of its technical committees and IEC National Committees for any personal injury, property damage or other damage of any nature whatsoever, whether direct or indirect, or for costs (including legal fees) and expenses arising out of the publication, use of, or reliance upon, this IEC Publication or any other IEC Publications.</p></li>
+        <li><p id="_8e749e73-7f72-3c20-ea01-a0eb73f916ec">Attention is drawn to the Normative references cited in this publication. Use of the referenced publications is indispensable for the correct application of this publication.</p></li>
+        <li><p id="_a83ab363-ac62-5e7a-65b3-4edb1bc1aed7">Attention is drawn to the possibility that some of the elements of this IEC Publication may be the subject of patent rights. IEC shall not be held responsible for identifying any or all such patent rights.</p></li>
+      </ol>
+    </div>
+        </div>
+        <p id="_94292e45-2f28-c9a4-d839-6754e704941d">International Standard IEC 60050-192 has been prepared by IEC
+technical committee 56: Dependability, of
+IEC technical committee 1: Terminology.</p>
+        <p id="_ff21de6d-60da-c312-ce00-76bd283ccd7f">This first edition cancels and replaces the first edition of IEC 60050-191:1990,
+sections 191-01 to 191-20, IEC 60050-191:1990/AMD1:1999, entries in sections
+191-01 to 191-20 and IEC 60050-191:1990/AMD2:2002. It constitutes a technical
+revision. It has the status of a horizontal standard in accordance with IEC
+Guide 108.</p>
+        <p id="_879d1899-340f-1e34-fc1d-1d98cb594528">This part of IEC 60050 includes the following significant technical changes with
+respect to the IEC 60050-191:</p>
+        <ul id="_ec76ada7-83c9-c131-cd6f-778ce2e9c75c">
+<li>
+<p id="_f1cf5e20-77cd-36c0-1ada-196380905d99">inclusion of terms more commonly used by practitioners;</p>
+</li>
+<li>
+<p id="_4cc986a5-f66d-bb30-79c0-4a1f54382fd9">provision of figures to help explain definitions of time-related concepts.</p>
+</li>
+</ul>
+        <p id="_57f96e25-9638-6ee6-baa1-1e4188f0792b">The text of this standard is based on the following documents:</p>
+        <table id="_94c801c4-809c-b4e2-51eb-b0cc236911dd" class="MsoISOTable" style="border-width:1px;border-spacing:0;">
+          <thead>
+            <tr>
+              <th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;;text-align:center;vertical-align:middle;" scope="col">FDIS</th>
+              <th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;;text-align:center;vertical-align:middle;" scope="col">Report on voting</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">1/2254/FDIS</td>
+              <td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">1/2256/RVD</td>
+            </tr>
+          </tbody>
+        </table>
+        <p id="_6555c708-e7b6-27cd-95d8-2efa1a89dfad">Full information on the voting for the approval of this standard can be found in
+the report on voting indicated in the above table.</p>
+        <p id="_06e9e5c0-0ee9-bb0d-3d81-12eb898542b2">This document has been drafted in accordance with the ISO/IEC Directives, Part
+2.</p>
+        <p id="_f4d73267-c4ee-d2de-487d-91d5ae490d65">In this part of the IEV, the terms and definitions are provided in French and
+English; in addition the terms are given in Arabic (ar), Czech (cs), German
+(de), Spanish (es), Finnish (fi), Italian (it), Japanese (ja), Norwegian [Bokm&#xE5;l
+(nb) and Nynorsk (nn)], Polish (pl), Portuguese (pt), Slovenian (sl), Serbian
+(sr), Swedish (sv) and Chinese (zh).</p>
+        <p id="_e6b6b507-9701-cd8e-7b03-7e9e0025dd3d">A list of all parts of the IEC 60050 series, published under the general title
+International Electrotechnical Vocabulary, can be found on the IEC website and
+is available at <a href="http://www.electropedia.org">www.electropedia.org</a>.</p>
+      </div>
+      <br />
+      <div class="Section3" id="_introduction_principles_and_rules_followed">
+        <h1 class="IntroTitle" id="toc1">INTRODUCTION<br />Principles and rules followed</h1>
+        <div id="_general"><h2 id="toc2">General</h2><p id="_427e10b1-4fc9-2e47-1046-e10b32448f6d">The IEV (IEC 60050 series) is a general purpose multilingual vocabulary covering
+the field of electrotechnology, electronics and telecommunication (available at
+<a href="http://www.electropedia.org">www.electropedia.org</a>). It comprises about
+20 000 <i>terminological entries</i>, each corresponding to a concept. These entries
+are distributed among about 80 parts, each part corresponding to a given field.</p>
+<div id="_26797d91-302f-8b80-5b6d-d78d54ccad63" class="example"><p><span class="example_label">EXAMPLE</span>&#xA0; <b>Part 161</b> (IEC 60050-161): Electromagnetic compatibility</p><p id="_0d136f9b-f074-5453-4df4-a1302a69d47f"><b>Part 411</b> (IEC 60050-411): Rotating machines</p></div>
+<p id="_bfcbc5d5-a723-8e97-951f-209eb3b8e3f7">The entries follow a hierarchical classification scheme Part/Section/Concept;
+within the sections, the concepts are organized in a systematic order.</p>
+<p id="_3d4b3f9e-17cb-84cf-15e6-70cee0f5b97d">The terms and definitions (and possibly non-verbal representations, examples,
+notes and sources) in the entries are given in two or more of the three IEC
+languages, that is French, English and Russian (<i>principal IEV languages</i>).</p>
+<p id="_539b4e89-3020-e2b4-c465-5b33eef5742c">In each entry, the terms alone are also given in several of the <i>additional IEV languages</i> [Arabic (ar), Czech (cs), German (de), Spanish (es), Finnish (fi),
+Italian (it), Japanese (ja), Norwegian [Bokm&#xE5;l (nb) and Nynorsk (nn)], Polish
+(pl), Portuguese (pt), Slovenian (sl), Serbian (sr), Swedish (sv) and Chinese
+(zh)].</p></div>
+        <div id="_organization_of_a_terminological_entry"><h2 id="toc3">Organization of a terminological entry</h2><p id="_6c6a4a9d-d123-7634-bde3-94298727fd8f">Each of the entries corresponds to a concept, and comprises:</p>
+<ul id="_8ea8dd21-c86a-9346-7611-5aecbc79c785">
+<li>
+<p id="_30679b6e-cc53-bc08-6994-6b3c002f8b81">an <i>entry number</i>,</p>
+</li>
+<li>
+<p id="_59104cfe-963e-2ed3-eae7-3b7f61d301a4">possibly a <i>letter symbol for the quantity or unit</i>,</p>
+</li>
+</ul>
+<p id="_33f5714c-03ae-5fe4-ab0a-c824baa81950">then, for the principal IEV languages present in the part:</p>
+<ul id="_6dd37300-bb1e-f364-2356-f82c4b18f443">
+<li>
+<p id="_c2b2423d-7991-9bf3-4c91-170170647532">the term designating the concept, called <i>&#x201C;preferred term&#x201D;</i>, possibly
+accompanied by <i>synonyms</i> and <i>abbreviations</i>,</p>
+</li>
+<li>
+<p id="_43fc1641-e7c8-f462-310f-0d5f8785afa7">the <i>definition</i> of the concept,</p>
+</li>
+<li>
+<p id="_f64544b6-f413-4076-2e28-4ac3e486d349">possibly <i>non-verbal representations</i>, <i>examples</i> and <i>notes to entry</i>,</p>
+</li>
+<li>
+<p id="_11ed27d3-af4a-4c69-7b83-f884f923b122">possibly the <i>source</i>,</p>
+</li>
+</ul>
+<p id="_b19fe7c5-3b5a-a51c-ce6f-5957e2ab98a2">and finally, for the additional IEV languages, the terms alone.</p></div>
+        <div id="_entry_number"><h2 id="toc4">Entry number</h2><p id="_85e6ce78-d8fa-c100-1d40-0543e57e5402">The entry number is comprised of three elements, separated by hyphens:</p>
+<dl id="_59613f70-b033-0d6c-a663-d16fd35f16a8"><dt><p>Part number</p></dt><dd>
+<p id="_dee8e84a-1a32-7c6d-8321-b91bdeb48cf0">3 digits,</p>
+</dd><dt><p>Section number</p></dt><dd>
+<p id="_0220bed0-db6b-dfc6-5e7c-b1760aff7e4e">2 digits,</p>
+</dd><dt><p>Concept number</p></dt><dd>
+<p id="_8445087e-4698-ea1c-3d8e-072fb92bd896">2 digits (01 to 99).</p>
+</dd></dl>
+<div id="_b2d9b274-08f9-0ddc-343d-eb48566767e3" class="example"><p><span class="example_label">EXAMPLE</span>&#xA0;
+<b>131-13-22</b>
+</p></div></div>
+        <div id="_letter_symbols_for_quantities_and_units"><h2 id="toc5">Letter symbols for quantities and units</h2><p id="_e211e55f-9eaa-b97c-a986-79f717d4734b">These symbols, which are language independent, are given on a separate line
+following the entry number.</p>
+<div id="_3e3f30fa-49cd-281a-6c22-e177e113f1fd" class="example"><p><span class="example_label">EXAMPLE</span>&#xA0;
+<b>131-12-04</b>
+</p><p id="_9e1dbdb2-3707-c2e3-c525-86ef87b8b087">
+<i>R</i>
+</p><p id="_ccfb9869-0c6e-3239-f35a-6dd9a30a5e88">
+<b>resistance</b>
+</p></div></div>
+        <div id="_preferred_term_and_synonyms"><h2 id="toc6">Preferred term and synonyms</h2><p id="_7bd2dafc-34d3-494b-0541-c12e1c2d1068">The preferred term is the term that heads a terminological entry in a given
+language; it may be followed by synonyms. It is printed in boldface.</p>
+<p id="_a1486379-2dfc-3bbf-4c50-712269f2fe97">
+<i>Synonyms:</i>
+</p>
+<p id="_2ce4a301-e402-4a97-caa7-819e8dc7ecf5">The synonyms are printed on separate lines under the preferred term: preferred
+synonyms are printed in boldface, and deprecated synonyms are printed in
+lightface. Deprecated synonyms are prefixed by the text &#x201C;DEPRECATED:&#x201D;.</p>
+<p id="_0a5c0d48-bce8-070c-78c5-e492ccb7961f">
+<i>Absence of an appropriate term:</i>
+</p>
+<p id="_44c66ddb-855a-1ac1-8ed2-d3ae85f9afc4">When no appropriate term exists in a given language, the preferred term is
+replaced by five dots, as follows:</p>
+<div class="Quote" id="_56899272-784c-79b9-d2f8-f09f7664c1f5">
+<p id="_c86b2f05-4979-f547-702d-9908b0e7c627">&#x201C; &#x2026;&#x200B;.. &#x201D; (and there are of course no synonyms).</p>
+</div></div>
+        <div id="_attributes"><h2 id="toc7">Attributes</h2><p id="_44445605-cd95-bb85-539d-3f719a509d76">Each term (or synonym) may be followed by attributes giving additional
+information, and printed in lightface on the same line as the corresponding
+term, following this term.</p>
+<div id="_2edea929-ed4a-9f0b-02e1-87bdcc19352f" class="example"><p><span class="example_label">EXAMPLE</span>&#xA0; </p>
+<dl id="_ab5c6e41-370b-d81e-ebc2-75ec325a0644"><dt>
+<i>specific use of the term</i>
+</dt><dd>
+<p id="_61d631f7-2f14-9ab9-c696-97f13c092f12"><b>transmission line</b>, &lt;in electric power systems&gt;</p>
+</dd><dt>
+<i>national variant</i>
+</dt><dd>
+<p id="_5e73466b-bc63-01c6-116a-349a0df60a2f">lift, GB</p>
+</dd><dt>
+<i>grammatical information</i>
+</dt><dd><p id="_83376418-95f6-31e5-d961-bbb14f508c2f"><b>quantize</b>, verb</p>
+<p id="_e900b0ba-f560-595e-569f-3bb995d59cd4"><b>transient</b>, noun</p>
+<p id="_047d447a-3f08-4702-fca5-7b8e62795fce"><b>AC</b>, adj</p></dd></dl>
+</div></div>
+        <div id="_source"><h2 id="toc8">Source</h2><p id="_b9c08c2f-7df0-0fd9-2f19-f5e402b74343">In some cases, it has been necessary to include in an IEV part a concept taken
+from another IEV part, or from another authoritative terminology document
+(ISO/IEC Guide 99, ISO/IEC 2382, etc.), either with or without modification to
+the definition (and possibly to the term).</p>
+<p id="_5b1c4327-d4a0-1fac-d7d6-13f2b7d81167">This is indicated by the mention of this source, printed in lightface, and
+placed at the end of the entry in each of the principal IEV languages present.</p>
+<div id="_2a4f1ae0-a1c6-6af3-c141-c5efc458d5c2" class="example"><p><span class="example_label">EXAMPLE</span>&#xA0; SOURCE: IEC 60050-131:2002, 131-03-13, modified</p></div></div>
+        <div id="_terms_in_additional_iev_languages"><h2 id="toc9">Terms in additional IEV languages</h2>
+
+<p id="_be0c05ee-f47a-e445-8072-4328d3ecb1cf">These terms are placed following the entries in the principal IEV languages, on
+separate lines (a single line for each language), preceded by the alpha-2 code
+for the language defined in ISO 639-1, and in the alphabetic order of this code.</p>
+</div>
+      </div>
+      <p class="zzSTDTitle1">
+        <b>International Electrotechnical Vocabulary &#x2014;</b>
+      </p>
+      <p class="zzSTDTitle1">&#xA0;</p>
+      <p class="zzSTDTitle2">
+        <b>Part&#xA0;192: Dependability</b>
+      </p>
+      <p class="zzSTDTitle1">&#xA0;</p>
+      <div id="_scope">
+        <h1 id="toc10">1&#xA0; Scope</h1>
+        <p id="_5fa9659d-2975-a0e0-bbfe-e6ce98849cce">This part of IEC 60050 gives the general terminology used in the field of
+dependability.</p>
+        <p id="_e90f9314-1128-39b0-e5de-64e5b19aaea3">The terms are generic and are applicable to all fields of dependability
+methodology, including electrotechnical applications.</p>
+        <p id="_b5e67b57-6706-c6c3-8794-d139ae573d20">The document is not an exhaustive vocabulary for all IEC standards in the
+dependability field: definitions for some specialized terms may only be found in
+the relevant standards.</p>
+        <p id="_78e54d25-f3a9-879a-00af-b8fa69149f89">This document is based on IEC 60050-191:1990, which has been subjected to a
+systematic, in-depth review and revision, in order to:</p>
+        <ul id="_bd5d5748-0453-3e01-b2c2-6f18092a9c54">
+<li>
+<p id="_de0ea428-cef8-7fa3-ec28-fdd12058c4b5">reflect the current usage of the terms in the dependability field;</p>
+</li>
+<li>
+<p id="_edfe4e93-5eb1-ee3b-248a-6524ec3cddb2">introduce new terms from new or revised standards, and other informed sources; and</p>
+</li>
+<li>
+<p id="_fdf21839-eb00-ed84-65f1-19f0e7988390">provide a grammatical form, and presentation to comply with the IEC directives.</p>
+</li>
+</ul>
+        <p id="_65bc4763-f29f-c7e6-7419-1fed5bcaa933">In producing this document, several sections of IEC 60050-191:1990 (formerly
+Chapter 191) concerning quality of service, have been omitted:</p>
+        <ul id="_9bd5e97c-7445-0589-07e0-d7a3e2f15111">
+<li>
+<p id="_7717f220-d3d3-3ada-b7ea-51d7964fa7b4">sections 19 and 20: Quality of service in telecommunications, has been adopted
+and developed by the International Telecommunication Union, as publication ITU-T
+E.800, Definitions of terms related to quality of service; and</p>
+</li>
+<li>
+<p id="_829938ba-fbac-c954-0425-45e54398bb96">sections 21 to 30, inclusive: Quality of service in electric power systems is
+to be developed as a new document, IEC 60050-6921.</p>
+</li>
+</ul>
+        <p id="_f3427298-044c-c927-661f-caa7d403bbdb">It has the status of a horizontal standard in accordance with IEC Guide 108,
+Guidelines for ensuring the coherency of IEC publications * Application of
+horizontal standards.</p>
+        <p id="_7150aa7f-9230-8ed6-be84-f8b7a26f8964">This terminology is consistent with the terminology developed in the other
+specialized parts of the IEV.</p>
+        <p id="_9a449938-9d63-0d35-a7ba-45abd7e03ce8">This horizontal standard is primarily intended for use by technical committees
+in the preparation of standards in accordance with the principles laid down in
+IEC Guide 108.</p>
+        <p id="_e3d22707-dd43-3c41-d50d-b403ce9835de">One of the responsibilities of a technical committee is, wherever applicable, to
+make use of horizontal standards in the preparation of its publications. The
+content of this horizontal standard will not apply unless specifically referred
+to or included in the relevant publications.</p>
+      </div>
+      <div><h1 id="toc11">2&#xA0; Normative references</h1><p id="_90543581-4f8a-6652-0a0f-9aa774abbbe2">There are no normative references in this document.</p>     </div>
+      <div id="_terms_and_definitions"><h1 id="toc12">3 Terms and definitions</h1><h2 class="TermNum" id="term-general">3.1</h2><p class="Terms" style="text-align:left;"><b>General</b></p>
+
+<h2 class="TermNum" id="term-states-and-times">3.2</h2><p class="Terms" style="text-align:left;"><b>States and times</b></p>
+
+<h2 class="TermNum" id="term-reliability-related-concepts_-failures">3.3</h2><p class="Terms" style="text-align:left;"><b>Reliability related concepts: failures</b></p>
+
+<h2 class="TermNum" id="term-reliability-related-concepts_-faults">3.4</h2><p class="Terms" style="text-align:left;"><b>Reliability related concepts: faults</b></p>
+
+<h2 class="TermNum" id="term-reliability-related-concepts_-measures">3.5</h2><p class="Terms" style="text-align:left;"><b>Reliability related concepts: measures</b></p>
+
+<h2 class="TermNum" id="term-maintenance-and-maintenance-support-related-concepts">3.6</h2><p class="Terms" style="text-align:left;"><b>Maintenance and maintenance support related concepts</b></p>
+
+<h2 class="TermNum" id="term-maintainability-and-maintenance-support_-measures">3.7</h2><p class="Terms" style="text-align:left;"><b>Maintainability and maintenance support: measures</b></p>
+
+<h2 class="TermNum" id="term-availability-related-measures">3.8</h2><p class="Terms" style="text-align:left;"><b>Availability related measures</b></p>
+
+<h2 class="TermNum" id="term-concepts-related-to-test_-demonstration-and-improvement">3.9</h2><p class="Terms" style="text-align:left;"><b>Concepts related to test, demonstration and improvement</b></p>
+
+<h2 class="TermNum" id="term-design-related-dependability-concepts">3.10</h2><p class="Terms" style="text-align:left;"><b>Design-related dependability concepts</b></p>
+
+<h2 class="TermNum" id="term-analysis-concepts">3.11</h2><p class="Terms" style="text-align:left;"><b>Analysis concepts</b></p>
+
+<h2 class="TermNum" id="term-dependability-improvement-related-concepts">3.12</h2><p class="Terms" style="text-align:left;"><b>Dependability improvement related concepts</b></p>
+
+<h2 class="TermNum" id="term-measurement-concepts-and-modifiers">3.13</h2><p class="Terms" style="text-align:left;"><b>Measurement concepts and modifiers</b></p>
+
+</div>
+    </main>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "HTML-CSS": { preferredFont: "STIX" },
+    asciimath2jax: { delimiters: [['(#(', ')#)']] }
+ });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=MML_HTMLorMML-full" async="async"></script>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>  <script>
+    $("#toc").on('click', 'li', function(e) {
+    $(this).parent().find('li.toc-active').removeClass('toc-active');
+    $(this).addClass('toc-active');
+});
+  </script>
+
+  <script>
+  //TOC toggle animation
+$('#toggle').on('click', function(){
+    if( $('nav').is(':visible') ) {
+        $('nav').animate({ 'left': '-353px' }, 'slow', function(){
+            $('nav').hide();
+        });
+        $('body').animate({ 'margin-left': '0' }, 'slow');
+    }
+    else {
+        $('nav').show();
+        $('nav').animate({ 'left': '0px' }, 'slow');
+        $('body').animate({ 'margin-left': '298px' }, 'slow');
+    }
+});
+</script>
+
+<script>
+    // Scroll to top button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+<script>
+/*
+  $(document).ready(function() {
+	  $('[id^=toc]').each(function ()
+	  {
+	     var currentToc = $(this);
+       var url = window.location.href;
+            currentToc.wrap("<a href='" + url + "#" + currentToc.attr("id") + "'></a>");
+	  });
+});
+*/
+</script>
+
+  <script>
+    document.querySelectorAll('*|svg a').forEach(function(item) {
+      var loc = item.getAttribute('href');
+      if (loc !== null && loc.startsWith('#')) {
+  item.setAttribute('href', location.pathname + loc);
+      }
+});
+  </script>
+
+
+<script>
+
+// jQuery Inline Footnotes v1.0.3
+// Copyright (c) 2011 Vesa Vänskä, released under the MIT License.
+
+// Generated by CoffeeScript 1.6.1
+(function() {
+
+  (function($) {
+    $.inlineFootnote = function(el, options) {
+      var _this = this;
+      this.el = $(el);
+      this.el.data("inlineFootnote", this);
+      this.initialize = function() {
+        this.options = $.extend({}, $.inlineFootnote.defaultOptions, options);
+        this.footnoteId = this.el.attr("href").match(/#(.*)/)[1];
+        if (this.footnoteId) {
+          this.el.mouseenter(this.openBox);
+          return $("body").mousemove(this.closeBox);
+        }
+      };
+      this.openBox = function(event) {
+        var footnoteContent, linkOffset;
+        if (!_this.box) {
+          footnoteContent = $("[id='" + _this.footnoteId + "']").children().filter(":not('" + _this.options.hideFromContent + "')");
+          linkOffset = _this.el.offset();
+          _this.box = $("<div />", {
+            id: _this.options.boxId,
+            html: footnoteContent.clone().find(_this.options.hideFromContent).remove().end(),
+            css: {
+              position: "absolute",
+              top: linkOffset.top,
+              left: linkOffset.left + _this.el.outerWidth()
+            }
+          }).appendTo("body");
+          return _this.positionBox();
+        }
+      };
+      this.closeBox = function(event) {
+        if (_this.box) {
+          if (_this.isHoveringFootnote(event)) {
+            clearTimeout(_this.closeTimeout);
+            return _this.closeTimeout = null;
+          } else {
+            if (!_this.closeTimeout) {
+              return _this.closeTimeout = setTimeout((function() {
+                _this.box.remove();
+                return _this.box = null;
+              }), _this.options.hideDelay);
+            }
+          }
+        }
+      };
+      this.isHoveringFootnote = function(event) {
+        return this.box.is(event.target) || $(event.target).closest(this.box).length > 0 || event.target === this.el[0];
+      };
+      this.positionBox = function() {
+        var boxHorizontalPadding, boxLeft, boxWidth, linkLeftOffset, windowWidth;
+        boxHorizontalPadding = parseInt(this.box.css("padding-left")) + parseInt(this.box.css("padding-right"));
+        linkLeftOffset = this.el.offset().left;
+        windowWidth = $(window).width();
+        if ((windowWidth / 2) > linkLeftOffset) {
+          boxLeft = linkLeftOffset + 20;
+          boxWidth = windowWidth - boxLeft - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+        } else {
+          boxWidth = linkLeftOffset - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+          boxLeft = linkLeftOffset - boxWidth - this.options.boxMargin * 2;
+        }
+        return this.box.css({
+          width: boxWidth,
+          left: boxLeft
+        });
+      };
+      return this.initialize();
+    };
+    $.inlineFootnote.defaultOptions = {
+      boxMargin: 20,
+      hideDelay: 200,
+      hideFromContent: "[rel=footnote]",
+      maximumBoxWidth: 500,
+      boxId: "footnote_box"
+    };
+    return $.fn.inlineFootnote = function(options) {
+      return this.each(function() {
+        return new $.inlineFootnote(this, options);
+      });
+    };
+  })(jQuery);
+
+}).call(this);
+</script>
+
+<script>
+      $(function() {
+        $("[rel=footnote]").inlineFootnote();
+        });
+</script>
+  <script>
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+//
+// AnchorJS - v4.2.2 - 2020-04-20
+// https://www.bryanbraun.com/anchorjs/
+// Copyright (c) 2020 Bryan Braun; Licensed MIT
+//
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+!function(A,e){"use strict";"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&module.exports?module.exports=e():(A.AnchorJS=e(),A.anchors=new A.AnchorJS)}(this,function(){"use strict";return function(A){function f(A){A.icon=A.hasOwnProperty("icon")?A.icon:"",A.visible=A.hasOwnProperty("visible")?A.visible:"hover",A.placement=A.hasOwnProperty("placement")?A.placement:"right",A.ariaLabel=A.hasOwnProperty("ariaLabel")?A.ariaLabel:"Anchor",A.class=A.hasOwnProperty("class")?A.class:"",A.base=A.hasOwnProperty("base")?A.base:"",A.truncate=A.hasOwnProperty("truncate")?Math.floor(A.truncate):64,A.titleText=A.hasOwnProperty("titleText")?A.titleText:""}function p(A){var e;if("string"==typeof A||A instanceof String)e=[].slice.call(document.querySelectorAll(A));else{if(!(Array.isArray(A)||A instanceof NodeList))throw new Error("The selector provided to AnchorJS was invalid.");e=[].slice.call(A)}return e}this.options=A||{},this.elements=[],f(this.options),this.isTouchDevice=function(){return!!("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch)},this.add=function(A){var e,t,i,n,o,s,a,r,c,h,l,u,d=[];if(f(this.options),"touch"===(l=this.options.visible)&&(l=this.isTouchDevice()?"always":"hover"),0===(e=p(A=A||"h2, h3, h4, h5, h6")).length)return this;for(!function(){if(null!==document.head.querySelector("style.anchorjs"))return;var A,e=document.createElement("style");e.className="anchorjs",e.appendChild(document.createTextNode("")),void 0===(A=document.head.querySelector('[rel="stylesheet"],style'))?document.head.appendChild(e):document.head.insertBefore(e,A);e.sheet.insertRule(".anchorjs-link{opacity:0;text-decoration:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}",e.sheet.cssRules.length),e.sheet.insertRule(":hover>.anchorjs-link,.anchorjs-link:focus{opacity:1}",e.sheet.cssRules.length),e.sheet.insertRule("[data-anchorjs-icon]::after{content:attr(data-anchorjs-icon)}",e.sheet.cssRules.length),e.sheet.insertRule('@font-face{font-family:anchorjs-icons;src:url(data:n/a;base64,AAEAAAALAIAAAwAwT1MvMg8yG2cAAAE4AAAAYGNtYXDp3gC3AAABpAAAAExnYXNwAAAAEAAAA9wAAAAIZ2x5ZlQCcfwAAAH4AAABCGhlYWQHFvHyAAAAvAAAADZoaGVhBnACFwAAAPQAAAAkaG10eASAADEAAAGYAAAADGxvY2EACACEAAAB8AAAAAhtYXhwAAYAVwAAARgAAAAgbmFtZQGOH9cAAAMAAAAAunBvc3QAAwAAAAADvAAAACAAAQAAAAEAAHzE2p9fDzz1AAkEAAAAAADRecUWAAAAANQA6R8AAAAAAoACwAAAAAgAAgAAAAAAAAABAAADwP/AAAACgAAA/9MCrQABAAAAAAAAAAAAAAAAAAAAAwABAAAAAwBVAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAMCQAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAg//0DwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAIAAAACgAAxAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADAAAAAIAAgAAgAAACDpy//9//8AAAAg6cv//f///+EWNwADAAEAAAAAAAAAAAAAAAAACACEAAEAAAAAAAAAAAAAAAAxAAACAAQARAKAAsAAKwBUAAABIiYnJjQ3NzY2MzIWFxYUBwcGIicmNDc3NjQnJiYjIgYHBwYUFxYUBwYGIwciJicmNDc3NjIXFhQHBwYUFxYWMzI2Nzc2NCcmNDc2MhcWFAcHBgYjARQGDAUtLXoWOR8fORYtLTgKGwoKCjgaGg0gEhIgDXoaGgkJBQwHdR85Fi0tOAobCgoKOBoaDSASEiANehoaCQkKGwotLXoWOR8BMwUFLYEuehYXFxYugC44CQkKGwo4GkoaDQ0NDXoaShoKGwoFBe8XFi6ALjgJCQobCjgaShoNDQ0NehpKGgobCgoKLYEuehYXAAAADACWAAEAAAAAAAEACAAAAAEAAAAAAAIAAwAIAAEAAAAAAAMACAAAAAEAAAAAAAQACAAAAAEAAAAAAAUAAQALAAEAAAAAAAYACAAAAAMAAQQJAAEAEAAMAAMAAQQJAAIABgAcAAMAAQQJAAMAEAAMAAMAAQQJAAQAEAAMAAMAAQQJAAUAAgAiAAMAAQQJAAYAEAAMYW5jaG9yanM0MDBAAGEAbgBjAGgAbwByAGoAcwA0ADAAMABAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAH//wAP) format("truetype")}',e.sheet.cssRules.length)}(),t=document.querySelectorAll("[id]"),i=[].map.call(t,function(A){return A.id}),o=0;o<e.length;o++)if(this.hasAnchorJSLink(e[o]))d.push(o);else{if(e[o].hasAttribute("id"))n=e[o].getAttribute("id");else if(e[o].hasAttribute("data-anchor-id"))n=e[o].getAttribute("data-anchor-id");else{for(c=r=this.urlify(e[o].textContent),a=0;void 0!==s&&(c=r+"-"+a),a+=1,-1!==(s=i.indexOf(c)););s=void 0,i.push(c),e[o].setAttribute("id",c),n=c}(h=document.createElement("a")).className="anchorjs-link "+this.options.class,h.setAttribute("aria-label",this.options.ariaLabel),h.setAttribute("data-anchorjs-icon",this.options.icon),this.options.titleText&&(h.title=this.options.titleText),u=document.querySelector("base")?window.location.pathname+window.location.search:"",u=this.options.base||u,h.href=u+"#"+n,"always"===l&&(h.style.opacity="1"),""===this.options.icon&&(h.style.font="1em/1 anchorjs-icons","left"===this.options.placement&&(h.style.lineHeight="inherit")),"left"===this.options.placement?(h.style.position="absolute",h.style.marginLeft="-1em",h.style.paddingRight="0.5em",e[o].insertBefore(h,e[o].firstChild)):(h.style.paddingLeft="0.375em",e[o].appendChild(h))}for(o=0;o<d.length;o++)e.splice(d[o]-o,1);return this.elements=this.elements.concat(e),this},this.remove=function(A){for(var e,t,i=p(A),n=0;n<i.length;n++)(t=i[n].querySelector(".anchorjs-link"))&&(-1!==(e=this.elements.indexOf(i[n]))&&this.elements.splice(e,1),i[n].removeChild(t));return this},this.removeAll=function(){this.remove(this.elements)},this.urlify=function(A){return this.options.truncate||f(this.options),A.trim().replace(/\'/gi,"").replace(/[& +$,:;=?@"#{}|^~[`%!'<>\]\.\/\(\)\*\\\n\t\b\v]/g,"-").replace(/-{2,}/g,"-").substring(0,this.options.truncate).replace(/^-+|-+$/gm,"").toLowerCase()},this.hasAnchorJSLink=function(A){var e=A.firstChild&&-1<(" "+A.firstChild.className+" ").indexOf(" anchorjs-link "),t=A.lastChild&&-1<(" "+A.lastChild.className+" ").indexOf(" anchorjs-link ");return e||t||!1}}});
+// @license-end
+  </script>
+    <script>
+  anchors.options = {
+  placement: 'left'
+};
+anchors.add('h1, h2, h3, h4');
+</script>
+
+</body>
+</html>

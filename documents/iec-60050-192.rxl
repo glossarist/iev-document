@@ -1,0 +1,65 @@
+<bibdata type="standard">
+<title language="en" format="text/plain" type="main">International Electrotechnical Vocabulary&#8201;&#8212;&#8201;Dependability</title>
+<title language="en" format="text/plain" type="title-main">International Electrotechnical Vocabulary</title>
+<title language="en" format="text/plain" type="title-part">Dependability</title>
+<title language="fr" format="text/plain" type="main">Vocabulaire &#201;lectrotechnique International&#8201;&#8212;&#8201;Su&#770;rete&#769; de fonctionnement</title>
+<title language="fr" format="text/plain" type="title-main">Vocabulaire &#201;lectrotechnique International</title>
+<title language="fr" format="text/plain" type="title-part">Su&#770;rete&#769; de fonctionnement</title>
+<docidentifier type="ISO">IEC 60050-192:2015 ED 2</docidentifier>
+<docnumber>60050</docnumber>
+<contributor>
+<role type="author"/>
+<organization>
+<name>International Electrotechnical Commission</name>
+<abbreviation>IEC</abbreviation>
+</organization>
+</contributor>
+<contributor>
+<role type="publisher"/>
+<organization>
+<name>International Electrotechnical Commission</name>
+<abbreviation>IEC</abbreviation>
+</organization>
+</contributor>
+<edition>2</edition>
+<version>
+<revision-date>2015-02-26</revision-date>
+</version>
+<language>en</language>
+<script>Latn</script>
+<status>
+<stage abbreviation="PPUB">60</stage>
+<substage abbreviation="PPUB">60</substage>
+</status>
+<copyright>
+<from>2015</from>
+<owner>
+<organization>
+<name>International Electrotechnical Commission</name>
+<abbreviation>IEC</abbreviation>
+</organization>
+</owner>
+</copyright>
+<ext>
+<doctype>international-standard</doctype>
+<subdoctype>vocabulary</subdoctype>
+<editorialgroup>
+<technical-committee number="1" type="TC">Terminology</technical-committee>
+<subcommittee/>
+<workgroup/>
+</editorialgroup>
+<ics>
+<code>01.040.11</code>
+</ics>
+<ics>
+<code>01.040.29</code>
+</ics>
+<ics>
+<code>11.020.10</code>
+</ics>
+<structuredidentifier>
+<project-number part="192">IEC 60050</project-number>
+</structuredidentifier>
+<stagename>International standard</stagename>
+</ext>
+</bibdata>
