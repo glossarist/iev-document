@@ -21,7 +21,7 @@ class SplitCodes
     def swap_term_refs(string)
       # string.gsub(/\{\{\s*([^}]+)\s*,\s*([^}]+)\s*\}\}/, '{{<<\2>>,\1}}')
       string.gsub(/\{\{\s*([^}]+)\s*,\s*([^}]+)\s*\}\}/, '{{<<\2>>}}')
-            .gsub(/\{\{\{([^}]+)\}\}\}/, '{{\1}}')
+            .gsub(/\(\{\{([^}]+)\}\}\)/, '{{\1}}')
       # we want this to be {{<<\2>>,term}}, once the term is identified in the source YAML: https://github.com/glossarist/iev-document/issues/10
     end
 
@@ -75,30 +75,89 @@ class SplitCodes
     end
 
     def designation_metadata(term)
-      return '' unless term['usage_info']
+      ret = {}
+      a = term['usage_info'] and ret['field-of-application'] = a
+      a = term['language_code'] and ret['language'] = iso3_to_iso2(a)
+      if a = term['gender']
+        ret['grammar'] = {} unless ret['grammar']
+        ret['grammar']['gender'] = gender(a)
+      end
+      if (a = term['plurality']) && a != 'singular'
+        ret['grammar'] = {} unless ret['grammar']
+        ret['grammar']['number'] = a
+      end
 
-      <<~EOF
+      return if ret.empty?
 
-        [%metadata]
-        field-of-application:: #{term['usage_info']}
-      EOF
+      out = "\n\n[%metadata]\n"
+      out += ret.keys.reject { |k| k == 'grammar' }.map { |k| "#{k}:: #{ret[k]}" }.join("\n")
+      out += "\ngrammar::\n" if ret['grammar']
+      out += ret['grammar']&.keys&.map { |k| "#{k}::: #{ret['grammar'][k]}" }&.join("\n") || ''
+      out
+    end
+
+    def gender(code)
+      case code
+      when 'm' then 'masculine'
+      when 'f' then 'feminine'
+      when 'n' then 'neuter'
+      end
+    end
+
+    def iso3_to_iso2(code)
+      case code
+      when 'ara' then 'ar'
+      when 'ces' then 'cs'
+      when 'ger', 'deu' then 'de'
+      when 'eng' then 'en'
+      when 'fra' then 'fr'
+      when 'jpn' then 'jp'
+      when 'kor' then 'ko'
+      when 'pol' then 'pl'
+      when 'por' then 'pt'
+      when 'chi', 'zho' then 'zh'
+      when 'spa' then 'es'
+      else
+        "XXX#{code}"
+      end
     end
 
     def process_codes(yaml)
       english = yaml['eng']
+      french = yaml['fra']
+      otherlangs = []
+      yaml.each do |term, val|
+        next if %w[termid term eng fra].include? term
+        next unless val.is_a?(Hash) && val['terms']
 
-      definition = fix_github_issues(english['definition'])
-      source = get_source_string(english['authoritative_source'])
-      md = designation_metadata(english['terms'][0])
+        val['terms'].each do |t|
+          next unless t['normative_status'] == 'preferred'
+          next unless t['type'] == 'expression'
 
-      # puts english.inspect
+          t['language_code'] = term
+          otherlangs << "preferred:[#{t['designation']}]#{designation_metadata(t)}"
+        end
+      end
+      process_codes1(yaml, english, otherlangs.join("\n\n")) +
+        process_codes1(yaml, french, nil)
+    end
+
+    def process_codes1(yaml, languageterm, otherlangs)
+      return '' if languageterm.nil?
+
+      definition = fix_github_issues(languageterm['definition'])
+      source = get_source_string(languageterm['authoritative_source'])
+      md = designation_metadata(languageterm['terms'][0])
+
+      # puts languageterm.inspect
       <<~EOF
 
-        ==== #{english['terms'][0]['designation']}#{md}
+        [language="#{iso3_to_iso2(languageterm['language_code'])}",tag=#{yaml['termid']}]
+        ==== #{languageterm['terms'][0]['designation']}#{md}
 
         #{
-          if english['terms'][1]
-            english['terms'][1..-1].map do |term|
+          if languageterm['terms'][1]
+            languageterm['terms'][1..-1].map do |term|
               des = term['designation']
               case term['type']
               when 'symbol'
@@ -116,16 +175,18 @@ class SplitCodes
           end
         }
 
+        #{otherlangs}
+
         #{definition}
 
         #{
-          english['notes'].map do |note|
+          languageterm['notes'].map do |note|
             "NOTE: #{fix_github_issues(note)}\n"
           end.join("\n")
         }
 
         #{
-          english['examples'].map do |example|
+          languageterm['examples'].map do |example|
             "[example]\n--\n#{fix_github_issues(example)}\n--\n"
           end.join("\n")
         }
