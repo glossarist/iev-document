@@ -32,7 +32,14 @@ class SplitCodes
     end
 
     def fix_github_issues(string)
-      refs_patch(swap_term_refs(fix_image_paths(string)))
+      related_term(refs_patch(swap_term_refs(fix_image_paths(string))))
+    end
+
+    def related_term(string)
+      string.split(/\n/).map do |l|
+        l.sub(/^(SEE|VOIR): ([^{]+) \{\{(<<[^>]+>>)\}\}\./,
+              "related:see[\\3, \\2]")
+      end.join("\n")
     end
 
     def refs_patch(string)
